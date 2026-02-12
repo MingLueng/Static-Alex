@@ -1,0 +1,1 @@
+!function(){"use strict";var t=document.getElementById("footerYear");t&&(t.textContent=String((new Date).getFullYear()))}();

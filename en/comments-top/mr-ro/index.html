@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+
+        <!-- CSP: đặt sớm -->
+        <meta http-equiv="Content-Security-Policy" content="
+          default-src 'self';
+          base-uri 'self';
+          object-src 'none';
+          form-action 'self';
+          upgrade-insecure-requests;
+
+          script-src 'self' https://code.jquery.com https://www.googletagmanager.com;
+          style-src  'self' https://fonts.googleapis.com;
+          font-src   'self' https://fonts.gstatic.com data:;
+          img-src    'self' data: blob:;
+          connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com;
+          frame-src https://www.googletagmanager.com;
+        ">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>会社案内</title>
+        
+        <!-- ✅ GTM: dùng file local để không bị CSP chặn inline -->
+        <script src="../../../js/gtm.js"></script>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="../../../css/site-CmZlzcU5.css">
+        <link rel="stylesheet" href="../../../css/fonts.css">
+        <link rel="stylesheet" href="../../../assets/fontawesome/css/all.min.css">
+        <link rel="stylesheet" href="../../../css/bootstrap.css">
+        <link rel="stylesheet" href="../../../css/site.css">    
+        <link rel="stylesheet" href="../../../css/voices-page.css">
+      
+    </head>
+
+  <body class="bg-slate-100 dark:bg-gray-800 font-sans leading-normal text-slate-800 dark:text-gray-400">
+    <div id="page" class="site">
+            <nav id="mobilenav">
+  <div class="mobilenav__inner">
+    <div class="toplg">
+      <div class="logo">
+
+  <a class="logo-link"
+     href="../../index.html
+     ">
+
+
+         <img src="../../../image/_01__01_alex.webp" width="194" height="68" alt="Logo">
+
+
+  </a>
+
+      </div>
+    </div>
+
+    <div class="menu-primary-menu-ja-container">
+      <ul id="menu-main" class="mobile-menu">
+           <li class="menu-item">
+          <a class="rd-nav-link" href="../../index.html">HOME</a>
+        </li>
+            <li class="menu-item menu-item-has-children"><a class="rd-nav-link " href="../../about/index.html" >
+              ABOUT</a>
+                <ul class="sub-menu">
+                  <li><a href="../../about/index.html#message">CEO Message</a></li>
+                  <li><a href="../../about/index.html#company">Company Overview</a></li>
+                  <li><a href="../../about/index.html#history">History</a></li>
+                  <li><a href="../../about/index.html#org">Organization Chart</a></li>
+                  <li><a href="../../about/index.html#clients">Key Clients</a></li>
+                </ul>
+            </li>
+
+            <li class="menu-item menu-item-has-children"><a class="rd-nav-link " href="../../service/index.html" >
+                      SERVICE</a>
+                        <ul class="sub-menu">
+                          <li><a href="../../service/index.html#movie">Video Production</a></li>
+                          <li><a href="../../service/index.html#dev">Implementation & Programming</a></li>
+                          <li><a href="../../service/index.html#system">System & Tool<br> Development</a></li>
+                          <li><a href="../../service/index.html#plan">Planning</a></li>
+                      </ul>
+                    </li>
+
+        <li class="menu-item"><a class="rd-nav-link " href="../../works/index.html" >
+            WORKS</a></li>
+
+        <li class="menu-item menu-item-has-children"><a class="rd-nav-link " href="../../recruit/index.html" >
+                      RECRUIT</a>
+                      <ul class="sub-menu">
+                          <li><a href="../../recruit/index.html">Open Positions</a></li>
+                          <li><a href="../../comments-top/index.html">Staff voices</a></li>
+                      </ul>
+                    </li>
+
+        <li class="menu-item"><a class="rd-nav-link " href="../../access/index.html" >
+            ACCESS</a></li>
+
+        <li class="menu-item"><a class="rd-nav-link " href="../../contact/index.html" >
+            CONTACT</a></li>
+
+
+      </ul>
+    </div>
+
+    <a class="menu_close"><i class="fas fa-angle-left"></i></a>
+  </div>
+</nav>
+
+<header id="masthead" role="banner" itemscope itemtype="http://schema.org/WPHeader">
+  <div class="header-main">
+    <div class="container">
+      <div class="header-content">
+        <a id="showmenu" class="d-dropdown">
+          <span class="hamburger hamburger--collapse">
+            <span class="hamburger-box"><span class="hamburger-inner"></span></span>
+          </span>
+        </a>
+
+        <div class="row align-items-center">
+          <div class="col-xl-2 col-lg-2 col-4">
+            <div class="logo">
+
+                <a class="logo-link"
+                    href="../../index.html">
+
+
+                            <img src="../../../image/_01__01_alex.webp" width="194" height="68" alt="Logo">
+
+
+                </a>
+
+            </div>
+          </div>
+
+          <div class="col-xl-10 col-lg-9 col-7">
+            <div class="top-menu">
+              <div class="top-language">
+                <section id="polylang-2" class="widget widget_polylang">
+                 <ul>
+                      <li class="lang-item lang-item-ja">
+                        <a class="lang-btn" data-lang="ja" href="./index.html">
+                          <img src="../../../image/jp-image.webp" alt="日本語" width="16" height="11">
+                        </a>
+                      </li>
+
+                      <li class="lang-item lang-item-vi">
+                        <a class="lang-btn" data-lang="vi" href="../../vi/comments-top/mr-ro/index.html">
+                          <img src="../../../image/vn-image.webp" alt="Tiếng Việt" width="16" height="11">
+                        </a>
+                      </li>
+
+                      <li class="lang-item lang-item-en">
+                        <a class="lang-btn" data-lang="en" href="../../en/comments-top/mr-ro/index.html">
+                          <img src="../../../image/en-image.webp" alt="English" width="16" height="11">
+                        </a>
+                      </li>
+                </ul>
+                </section>
+              </div>
+
+              <nav id="site-navigation" class="main-navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
+                <div class="menu-primary-menu-ja-container">
+                  <ul id="primary-menu" class="menu clearfix">
+
+   <li class="menu-item">
+          <a class="rd-nav-link" href="../../index.html">HOME</a>
+        </li>
+                    <li class="menu-item menu-item-has-children"><a class="rd-nav-link " href="../../about/index.html" >
+                      ABOUT</a>
+                        <ul class="sub-menu">
+                          <li><a href="../../about/index.html#message">CEO Message</a></li>
+                          <li><a href="../../about/index.html#company">Company Overview</a></li>
+                          <li><a href="../../about/index.html#history">History</a></li>
+                          <li><a href="../../about/index.html#org">Organization Chart</a></li>
+                          <li><a href="../../about/index.html#clients">Key Clients</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="menu-item menu-item-has-children"><a class="rd-nav-link " href="../../service/index.html" >
+                      SERVICE</a>
+                        <ul class="sub-menu">
+                          <li><a href="../../service/index.html#movie">Video Production</a></li>
+                          <li><a href="../../service/index.html#dev">Implementation & Programming</a></li>
+                          <li><a href="../../service/index.html#system">System & Tool<br> Development</a></li>
+                          <li><a href="../../service/index.html#plan">Planning</a></li>
+                      </ul>
+                    </li>
+
+                    <li class="menu-item"><a class="rd-nav-link " href="../../works/index.html" >
+                      WORKS</a></li>
+
+                    <li class="menu-item menu-item-has-children"><a class="rd-nav-link " href="../../recruit/index.html" >
+                      RECRUIT</a>
+                      <ul class="sub-menu">
+                          <li><a href="../../recruit/index.html">Open Positions</a></li>
+                          <li><a href="../../comments-top/index.html">Staff voices</a></li>
+                      </ul>
+                    </li>
+
+                    <li class="menu-item"><a class="rd-nav-link " href="../../access/index.html" >
+                      ACCESS</a></li>
+
+                    <li class="menu-item"><a class="rd-nav-link " href="../../contact/index.html" >
+                      CONTACT</a></li>
+
+
+                  </ul>
+                </div>
+              </nav>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</header>
+
+
+      <div class="submenu-tabs-3">
+  <div class="container-2">
+          <span class="main-title-staff">INTERVIEW</span>
+
+          <span class="subtitle-staff">Staff voices / Voices of the staff</span>
+      </div>
+</div>
+<nav class="submenu-tabs-1">
+  <div class="container">
+    <ul>
+
+
+        <li>
+            <a href="../../recruit/index.html
+                     ">
+
+                Open Positions
+
+            </a>
+          </li>
+
+
+
+
+
+          <li>
+            <a href="../../comments-top/index.html
+                     ">
+
+                Staff voices
+
+            </a>
+          </li>
+
+
+    </ul>
+  </div>
+</nav>
+
+<section class="recruit-heading" data-voice="">
+      <video class="recruit-bg-video" autoplay muted loop playsinline preload="auto">
+    <source src="../../../assets/共通_00_最下層レイヤー_背景動画.mp4" type="video/mp4">
+  </video>
+  <div class="container">
+            <div class="staff-comment-detail">
+                 <div class="sf-header">
+          <img class="sf-bg" src="../../../image/グループ 293.webp" width="2895" height="816"  alt="Green Diagonal BG">
+        </div>
+          <div class="staff-block">
+            <div class="staff-image">
+              <div class="staff-frame">
+                                  <img src="../../../image/-103.webp"  width="289" height="423" class="staff-frame-bg" alt="Green BG">
+                                <img src="../../../image/長方形 455.webp" width="467" height="895" class="staff-frame-middle" alt="Middle Frame">
+                <img src="../../../image/べた塗り 4.webp" width="346" height="654" class="staff-frame-top" alt="Top Frame">
+              </div>
+
+              <div class="staff-name-box">
+                <img src="../../../image/長方形 478.webp" width="351" height="172" class="name-bg-white" alt="">
+                <img src="../../../image/長方形 629.webp" width="351" height="171" class="name-bg-green" alt="">
+                <div class="name-text">
+                    <p class="staff-department">Video Production<br>Department</p>
+                    <p class="staff-name">Mr R.O</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="staff-text">
+              <div class="staff-section-box">
+                <img src="../../../image/長方形 1200.webp" width="999" height="447"alt="" class="staff-avatar-bg">
+                 <span class="staff-subtile">What is the appeal of ALEX?</span>                  <div class="staff-desc"><p>The greatest appeal of ALEX is its open and friendly corporate culture.</p>
+<p>We fully support each employee's challenges and growth, and while valuing teamwork, I feel it is a workplace that offers a high degree of freedom and respects individual discretion.</p>
+<p>When I first joined the company, I struggled to express my opinions, but thanks to an environment where opinions can be shared regardless of position or age, I gained confidence, and now I am entrusted with important work and even mentoring junior employees.</p>
+<p>My superiors and seniors listen to my opinions and work with me to think about how we can improve. I feel very rewarded and grateful to be able to continue learning while being supported by such an environment.</p>
+<p>It is also an extremely stimulating workplace for people who enjoy change.</p>
+<p>There are many opportunities to quickly put your ideas into practice, and the more you take on challenges, the more you will reap the rewards.</p>
+<p>The ability to constantly take on new challenges and grow together with the company is another unique attraction of ALEX.</p>
+</div>               </div>
+
+              <div class="staff-section-box">
+                <img src="../../../image/長方形 1200.webp" width="999" height="447"alt="" class="staff-avatar-bg">
+                 <span class="staff-subtile">What are your future goals and challenges?</span>                   <div class="staff-desc"><p>My goal is to further deepen the experience and skills I've cultivated so far, while also becoming a creator who can flexibly adapt to the ever-changing visual expression needs of the amusement industry.</p>
+<p>To achieve this, I first want to gain experience and hone my skills as a designer, while also working on improving my communication skills, which has been an issue for me. In the past, I was unable to effectively convey my ideas and expressions to others, which affected the quality of the video, and I felt very frustrated. I would like to use this experience to strengthen my communication skills and create even better works.</p>
+<p>In the future, I aim to become a &quot;standard&quot; that supports ALEX's video quality.</p>
+<p>To that end, my current major goal is to first focus on the work in front of me, continue to produce reliable results, and build trust.</p>
+</div>               </div>
+            </div>
+          </div>
+
+      </div>
+
+
+
+        <div class="staff-comment-detail">
+
+
+          <div class="sf-header">
+          <img class="sf-bg" src="../../../image/グループ 293.webp" width="2895" height="816" alt="Green Diagonal BG">
+        </div>
+          <div class="staff-block reverse">
+            <div class="staff-image-reverse">
+              <div class="staff-frame">
+                                  <img src="../../../image/-120.webp" width="428" height="626" class="staff-frame-brigde" alt="Green BG">
+                                <img src="../../../image/長方形 455.webp" width="467" height="895" class="staff-frame-braved" alt="Middle Frame">
+                <img src="../../../image/べた塗り 4.webp" width="346" height="654" class="staff-frame-bottom" alt="Top Frame">
+              </div>
+            </div>
+
+            <div class="staff-text">
+              <div class="staff-section-box">
+                <img src="../../../image/長方形 1200.webp" width="999" height="447" alt="" class="staff-avatar-bg">
+                 <span class="staff-subtile">Please tell us about your current job.</span>                  <div class="staff-desc"><p>As a CG designer, I'm in charge of compositing in video production.</p>
+<p>I mainly use After Effects to create the effects used in pachinko and pachislot images, as well as compositing to make the overall look more appealing.</p>
+<p>Specifically, I use After Effects to create shock waves, background effects, logo animations, motion graphics, and more, and combine them to produce flashy, impactful performances and stylish, sophisticated expressions.</p>
+<p>I also add aura and flame effects to character illustrations and text provided by 2D and 3D designers, and combine live-action flames and ambient lighting with filming data, aiming to create visual expressions that a wide range of people can immerse themselves in.</p>
+</div>               </div>
+
+              <div class="staff-section-box">
+                <img src="../../../image/長方形 1200.webp" width="999" height="447" alt="" class="staff-avatar-bg">
+                 <span class="staff-subtile">What is rewarding and attractive about your job?</span>                   <div class="staff-desc"><p>What I find most rewarding is the sense of accomplishment and fulfillment I get from working with the entire team to create each video and design, turning interesting ideas that no one else could have come up with into reality, and then having them reflected in the world and enjoyed by many people. It's an experience that's priceless.</p>
+<p>In the amusement industry in particular, the way videos are presented is constantly evolving, requiring both expressive and technical ability. This means there's always something to learn, and the opportunity to continue growing is another huge attraction and reward of this job.</p>
+<p>I also find joy in passing on the skills, ideas, and sensibilities I've cultivated to my juniors, which not only helps me grow as an individual but also raises the level of the entire team, and this accumulated experience strengthens ALEX as a whole.</p>
+</div>               </div>
+            </div>
+          </div>
+
+      </div>
+
+
+
+           <div class="staff-comment-detail">
+
+          <div class="staff-block reverse-bg">
+            <div class="staff-image-reverse-bg">
+              <div class="staff-frame">
+                                  <img src="../../../image/-01.webp" width="1507" height="563" class="staff-frame-wrapper" alt="Green BG">
+                                <img src="../../../image/長方形 479.webp" width="1398" height="735" class="staff-frame-scrapper" alt="Middle Frame">
+                <img src="../../../image/長方形 999.webp" width="1394" height="733" class="staff-frame-underground" alt="Top Frame">
+              </div>
+            </div>
+            <div class="staff-text-bg">
+              <div class="staff-section-box">
+                <img src="../../../image/長方形 1200.webp" width="999" height="447" alt="" class="staff-avatar-bg">
+                 <span class="staff-subtile">A message to those currently job-hunting and those about to join the company</span>                  <div class="staff-desc"><p>&quot;I love creating.&quot; &quot;I love looking at designs.&quot; These feelings are the greatest driving force for a designer.</p>
+<p>My unique ideas and sensibilities are my one-of-a-kind weapons, so I feel that the real joy of being a creator lies in figuring out how to utilize them.</p>
+<p>The amusement industry uses a variety of expression methods, including 2D, 3D, and compositing, and requires constant questioning of &quot;how can we make things better?&quot; and &quot;what is design that truly moves the heart.&quot; I believe this industry is a challenging environment.</p>
+<p>Let's work together to infuse your passion for design into video and produce better, more moving creative work.</p>
+</div>               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        </section>
+
+
+      <div class="footer-main">
+<footer class="site-footer" role="contentinfo">
+<div class="site-footer__inner">
+<small class="site-footer__copy">
+  Copyright © <span id="footerYear"></span> ALEX CO., LTD. All Rights Reserved
+</small>
+</div>
+</footer>
+</div>
+    </div>
+
+     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="../../../js/script.js"></script>
+        <script src="../../../js/lang.js"></script>
+        <script src="../../../js/background-intro.js"></script>
+        <script src="../../../js/footer-year.js" defer></script>
+  </body>
+</html>
+

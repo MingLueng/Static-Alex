@@ -1,0 +1,521 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+                <meta charset="utf-8">
+
+        <!-- CSP: đặt sớm -->
+        <meta http-equiv="Content-Security-Policy" content="
+          default-src 'self';
+          base-uri 'self';
+          object-src 'none';
+          form-action 'self';
+          upgrade-insecure-requests;
+
+          script-src 'self' https://code.jquery.com https://www.googletagmanager.com;
+          style-src  'self' https://fonts.googleapis.com;
+          font-src   'self' https://fonts.gstatic.com data:;
+          img-src    'self' data: blob:;
+          connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com;
+
+          frame-src https://www.googletagmanager.com;
+        ">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>LIÊN HỆ</title>
+               <!-- ✅ GTM: dùng file local để không bị CSP chặn inline -->
+        <script src="../../js/gtm.js"></script>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="../../css/site-CmZlzcU5.css">
+        <link rel="stylesheet" href="../../css/fonts.css">
+        <link rel="stylesheet" href="../../assets/fontawesome/css/all.min.css">
+        <link rel="stylesheet" href="../../css/bootstrap.css">
+        <link rel="stylesheet" href="../../css/site.css">    
+        <link rel="stylesheet" href="../../css/contact-page.css">
+
+
+    </head>
+    <body class="bg-slate-100 dark:bg-gray-800 font-sans leading-normal text-slate-800 dark:text-gray-400">
+        <div id="page" class="site">
+<nav id="mobilenav">
+  <div class="mobilenav__inner">
+    <div class="toplg">
+      <div class="logo">
+        <a class="logo-link" href="../index.html">
+          <img src="../../image/_01__01_alex.webp" width="194" height="68" alt="Logo">
+        </a>
+      </div>
+    </div>
+
+    <div class="menu-primary-menu-ja-container">
+      <ul id="menu-main" class="mobile-menu">
+
+        <li class="menu-item">
+          <a class="rd-nav-link" href="../index.html">TRANG CHỦ</a>
+        </li>
+
+        <li class="menu-item menu-item-has-children">
+          <a class="rd-nav-link" href="../about/index.html">GIỚI THIỆU</a>
+          <ul class="sub-menu">
+            <li><a href="../about/index.html#message">Thông điệp CEO</a></li>
+            <li><a href="../about/index.html#company">Giới thiệu công ty</a></li>
+            <li><a href="../about/index.html#history">Lịch sử</a></li>
+            <li><a href="../about/index.html#org">Sơ đồ tổ chức</a></li>
+            <li><a href="../about/index.html#clients">Khách hàng tiêu biểu</a></li>
+          </ul>
+        </li>
+
+        <li class="menu-item menu-item-has-children">
+          <a class="rd-nav-link" href="../service/index.html">DỊCH VỤ</a>
+          <ul class="sub-menu">
+            <li><a href="../service/index.html#movie">Sản xuất video</a></li>
+            <li><a href="../service/index.html#dev">Lập trình &amp; triển khai</a></li>
+            <li><a href="../service/index.html#system">Phát triển hệ thống &amp; công cụ</a></li>
+            <li><a href="../service/index.html#plan">Lên ý tưởng</a></li>
+          </ul>
+        </li>
+
+        <li class="menu-item">
+          <a class="rd-nav-link" href="../works/index.html">SẢN PHẨM</a>
+        </li>
+
+        <li class="menu-item menu-item-has-children">
+          <a class="rd-nav-link" href="../recruit/index.html">TUYỂN DỤNG</a>
+          <ul class="sub-menu">
+            <li><a href="../recruit/index.html">Cơ hội việc làm</a></li>
+            <li><a href="../comments-top/index.html">Ý kiến đánh giá của nhân viên</a></li>
+          </ul>
+        </li>
+
+        <li class="menu-item">
+          <a class="rd-nav-link" href="../access/index.html">ĐỊA CHỈ</a>
+        </li>
+
+        <li class="menu-item">
+          <a class="rd-nav-link" href="./index.html">LIÊN HỆ</a>
+        </li>
+
+      </ul>
+    </div>
+
+    <a class="menu_close"><i class="fas fa-angle-left"></i></a>
+  </div>
+</nav>
+
+<header id="masthead" role="banner" itemscope itemtype="http://schema.org/WPHeader">
+  <div class="header-main">
+    <div class="container">
+      <div class="header-content">
+        <a id="showmenu" class="d-dropdown">
+          <span class="hamburger hamburger--collapse">
+            <span class="hamburger-box"><span class="hamburger-inner"></span></span>
+          </span>
+        </a>
+
+        <div class="row align-items-center">
+          <div class="col-xl-2 col-lg-2 col-4">
+            <div class="logo">
+              <a class="logo-link" href="../index.html">
+                <img src="../../image/_01__01_alex.webp" width="194" height="68" alt="Logo">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-xl-10 col-lg-9 col-7">
+            <div class="top-menu">
+              <div class="top-language">
+                <section id="polylang-2" class="widget widget_polylang">
+                  <ul>
+                    <!-- đang ở /vi/... -->
+                     <li class="lang-item lang-item-ja">
+  <a class="lang-btn" data-lang="ja" href="/contact_form.php?lang=ja">
+    <img src="../../image/jp-image.webp" alt="日本語">
+  </a>
+</li>
+
+<li class="lang-item lang-item-vi">
+  <a class="lang-btn" data-lang="vi" href="/contact_form.php?lang=vi">
+    <img src="../../image/vn-image.webp" alt="Tiếng Việt">
+  </a>
+</li>
+
+<li class="lang-item lang-item-en">
+  <a class="lang-btn" data-lang="en" href="/contact_form.php?lang=en">
+    <img src="../../image/en-image.webp" alt="English">
+  </a>
+</li>
+
+
+
+            
+                  </ul>
+                </section>
+              </div>
+
+              <nav id="site-navigation" class="main-navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
+                <div class="menu-primary-menu-ja-container">
+                  <ul id="primary-menu" class="menu clearfix">
+
+                    <li class="menu-item">
+                      <a class="rd-nav-link" href="../index.html">TRANG CHỦ</a>
+                    </li>
+
+                    <li class="menu-item menu-item-has-children">
+                      <a class="rd-nav-link" href="../about/index.html">GIỚI THIỆU</a>
+                        <ul class="sub-menu">
+                          <li><a href="../about/index.html#message">Thông điệp CEO</a></li>
+                          <li><a href="../about/index.html#company">Giới thiệu công ty</a></li>
+                          <li><a href="../about/index.html#history">Lịch sử</a></li>
+                          <li><a href="../about/index.html#org">Sơ đồ tổ chức</a></li>
+                          <li><a href="../about/index.html#clients">Khách hàng tiêu biểu</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="menu-item menu-item-has-children">
+                      <a class="rd-nav-link" href="../service/index.html">DỊCH VỤ</a>
+                      <ul class="sub-menu">
+                        <li><a href="../service/index.html#movie">Sản xuất video</a></li>
+                        <li><a href="../service/index.html#dev">Lập trình &amp; triển khai</a></li>
+                        <li><a href="../service/index.html#system">Phát triển hệ thống &amp; công cụ</a></li>
+                        <li><a href="../service/index.html#plan">Lên ý tưởng</a></li>
+                      </ul>
+                    </li>
+
+                    <li class="menu-item">
+                      <a class="rd-nav-link" href="../works/index.html">SẢN PHẨM</a>
+                    </li>
+
+                    <li class="menu-item menu-item-has-children">
+                      <a class="rd-nav-link" href="../recruit/index.html">TUYỂN DỤNG</a>
+                      <ul class="sub-menu">
+                        <li><a href="../recruit/index.html">Cơ hội việc làm</a></li>
+                        <li><a href="../comments-top/index.html">Ý kiến đánh giá của nhân viên</a></li>
+                      </ul>
+                    </li>
+
+                    <li class="menu-item">
+                      <a class="rd-nav-link" href="../access/index.html">ĐỊA CHỈ</a>
+                    </li>
+
+                    <li class="menu-item">
+                      <a class="rd-nav-link" href="./index.html">LIÊN HỆ</a>
+                    </li>
+
+                  </ul>
+                </div>
+              </nav>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</header>
+
+                <section class="work">
+
+
+  <div class="work-avatar">
+
+      <div class="about-bg bg1" ></div>
+
+      <div class="about-bg bg2" ></div>
+
+    <div class="overlay-work">
+
+          <!-- Bên trái: câu khẩu hiệu -->
+       <div class="container-work-text-vi">
+      <div class="about-left-text">
+
+        <!-- <h2>Sự phát triển không bao giờ kết thúc<br>Luôn hướng về phía trước<br>Luôn thay đổi<br></h2> -->
+
+      </div>
+
+      <!-- Bên phải: ABOUT + 会社情報 -->
+      <div class="about-right-text-vi">
+
+        <span class="company-info-vi">Liên hệ</span>
+        <h1 class="about-heading-vi">LIÊN HỆ</h1>
+
+      </div>
+      </div>
+    </div>
+  </div>
+
+
+</section>
+<nav class="submenu-tabs-4">
+</nav>
+
+<section class="recruit-heading">
+    <video class="recruit-bg-video" autoplay muted loop playsinline preload="auto">
+    <source src="../../assets/共通_00_最下層レイヤー_背景動画.mp4" type="video/mp4">
+  </video>
+  <div class="container video-inner">
+    <div class="contact-block-wrapper" id="main_contents">
+
+      <!-- intro -->
+      <p class="contact-intro">
+
+          Vui lòng điền nội dung liên hệ vào biểu mẫu bên dưới và gửi cho chúng tôi.
+
+      </p>
+
+      <!-- steps -->
+      <div id="position_box">
+        <ul>
+          <li class="active">
+            <span class="step-label-1">
+              BƯỚC 1 Nhập nội dung
+
+            </span> →
+          </li>
+          <li>
+            <span class="step-label-2">
+              BƯỚC 2 Xác nhận
+
+            </span> →
+          </li>
+          <li>
+            <span class="step-label-3">
+              BƯỚC 3 Hoàn tất
+
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <div id="form_box" class="line-contact">
+        <form action="/contact_form.php?lang=vi" method="post" name="applyform" id="applyform">
+          <table>
+            <tbody>
+              <!-- Name -->
+              <tr>
+                <th class="th-name">
+                  <span class="label-name">
+                    Họ và tên
+
+                  </span>
+                  <span class="required req-name">
+                    ※Bắt buộc
+
+                  </span>
+                </th>
+                <td>
+                  <input name="お名前" type="text" size="30"
+                         placeholder="Ví dụ: Nguyễn Văn A">
+                </td>
+              </tr>
+
+              <!-- Kana (optional) -->
+              <tr>
+                <th class="th-kana">
+                  <span class="label-kana">
+                    Furigana (nếu có)
+
+                  </span>
+                </th>
+                <td>
+                  <input name="フリガナ" type="text" size="30"
+                         placeholder="Ví dụ: ヤマダ タロウ">
+                </td>
+              </tr>
+
+              <!-- Phone -->
+              <tr>
+                <th class="th-phone">
+                  <span class="label-phone">
+                    Số điện thoại
+
+                  </span>
+                </th>
+                <td>
+                  <input name="電話番号" type="text"
+                         placeholder="Chỉ nhập số (9–11 chữ số)">
+                </td>
+              </tr>
+
+              <!-- Email -->
+              <tr>
+                <th class="th-email">
+                  <span class="label-email">
+                    Email
+
+                  </span>
+                  <span class="required req-email">
+                    ※Bắt buộc
+
+                  </span>
+                </th>
+                <td>
+                  <input name="email" type="text" size="40" title="info@example.com"
+                         placeholder="ví dụ: info@example.com">
+                        
+                  <div class="plus_txt email-note">
+
+                      Nếu bạn dùng chặn thư theo tên miền, hãy thêm “alex7.co.jp” vào danh sách cho phép.
+
+                  </div>
+                </td>
+              </tr>
+
+              <!-- Email confirm -->
+              <tr>
+                <th class="th-email2">
+                  <span class="label-email2">
+                    Xác nhận email
+
+                  </span>
+                  <span class="required req-email2">
+                    ※Bắt buộc
+
+                  </span>
+                </th>
+                <td>
+                  <input name="email2" type="text" size="40" title="info@example.com"
+                         placeholder="nhập lại email">
+                </td>
+              </tr>
+
+              <!-- Message -->
+              <tr>
+                <th class="th-body">
+                  <span class="label-message">
+                    Nội dung liên hệ
+
+                  </span>
+                  <span class="required req-body">
+                    ※Bắt buộc
+
+                  </span>
+                </th>
+                <td>
+                  <textarea name="お問い合わせ内容" id="comment"
+                            placeholder="Vui lòng nhập nội dung liên hệ của bạn..."></textarea>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p id="sub_btn">
+            <button type="submit" name="submit" class="contact-detail-btn submit" value="">
+              Xác nhận nội dung
+
+            </button>
+          </p>
+        </form>
+
+<!--     
+        <div class="errm">
+          <h4 class="err-title">
+            Có mục chưa nhập
+
+          </h4>
+          <div class="err-lines"></div>
+        </div>
+
+        <div id="confirm_btn">
+          <button type="button" class="h_back contact-detail-btn" value="">
+            Quay lại màn hình nhập
+
+          </button>
+        </div>
+
+     
+        <div class="submittable">
+          <p class="confirm-intro">
+
+              Nếu thông tin bên dưới chính xác, vui lòng bấm “Gửi”.
+
+          </p>
+          <form action="#" method="POST">
+            <table cellpadding="0" cellspacing="0" class="confirm_table">
+              <tbody>
+                <tr>
+                  <th class="label-name">
+                    Họ và tên
+
+                  </th>
+                  <td><input type="hidden" name="お名前" value=""></td>
+                </tr>
+                <tr>
+                  <th class="label-kana">
+                    Furigana
+
+                  </th>
+                  <td><input type="hidden" name="フリガナ" value=""></td>
+                </tr>
+                <tr>
+                  <th class="label-phone">
+                    Số điện thoại
+
+                  </th>
+                  <td><input type="hidden" name="電話番号" value=""></td>
+                </tr>
+                <tr>
+                  <th class="label-email">
+                    Email
+
+                  </th>
+                  <td><input type="hidden" name="email" value=""></td>
+                </tr>
+                <tr>
+                  <th class="label-message">
+                    Nội dung liên hệ
+
+                  </th>
+                  <td><input type="hidden" name="お問い合わせ内容" value=""></td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="hide"><input type="hidden" name="email2" value=""></div>
+
+            <div id="confirm_btn">
+              <input type="hidden" name="eweb_set" value="eweb_submit">
+              <button type="button" class="h_back contact-detail-btn" value="">
+                Quay lại màn hình nhập
+
+              </button>
+              <button type="submit" name="submit-a" class="submit-a confirm-detail-btn" value="">
+                Gửi đi
+
+              </button>
+            </div>
+          </form>
+        </div>
+
+      
+        <p class="thanks-text">
+
+            Cảm ơn bạn. Gửi thành công.
+
+        </p> -->
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+            <div class="footer-main">
+<footer class="site-footer" role="contentinfo">
+<div class="site-footer__inner">
+<small class="site-footer__copy">
+  Copyright © <span id="footerYear"></span> ALEX CO., LTD. All Rights Reserved
+</small>
+</div>
+</footer>
+</div>
+
+        </div>
+          <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="../../js/script.js"></script>
+        <script src="../../js/lang.js"></script>
+        <script src="../../js/background-intro.js"></script>
+       
+        <script src="../../js/footer-year.js" defer></script>
+    </body>
+</html>

@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self';
+    base-uri 'self';
+    object-src 'none';
+    form-action 'self';
+    upgrade-insecure-requests;
+
+    script-src 'self' https://code.jquery.com https://www.googletagmanager.com;
+    style-src  'self' https://fonts.googleapis.com;
+    font-src   'self' https://fonts.gstatic.com data:;
+    img-src    'self' data: blob:;
+    connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com;
+    frame-src https://www.googletagmanager.com;
+  ">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>リクルート</title>
+
+    <!-- ✅ GTM: dùng file local để không bị CSP chặn inline -->
+  <script src="../js/gtm.js"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../css/site-CmZlzcU5.css">
+  <link rel="stylesheet" href="../css/fonts.css">
+  <link rel="stylesheet" href="../assets/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <link rel="stylesheet" href="../css/site.css"> 
+  <link rel="stylesheet" href="../css/recruit-page.css">
+</head>
+
+<body class="bg-slate-100 dark:bg-gray-800 font-sans leading-normal text-slate-800 dark:text-gray-400">
+
+<div id="page" class="site">
+
+  <!-- MOBILE NAV -->
+  <nav id="mobilenav">
+    <div class="mobilenav__inner">
+      <div class="toplg">
+        <div class="logo">
+          <a class="logo-link" href="../index.html">
+            <img src="../image/_01__01_alex.webp" width="194" height="68" alt="Logo">
+          </a>
+        </div>
+      </div>
+
+      <div class="menu-primary-menu-ja-container">
+        <ul id="menu-main" class="mobile-menu">
+          <li class="menu-item"><a class="rd-nav-link" href="../index.html">TOP</a></li>
+
+          <li class="menu-item menu-item-has-children">
+            <a class="rd-nav-link" href="../about/index.html">ABOUT</a>
+            <ul class="sub-menu">
+              <li><a href="../about/index.html#message">代表メッセージ</a></li>
+              <li><a href="../about/index.html#company">会社概要</a></li>
+              <li><a href="../about/index.html#history">沿革</a></li>
+              <li><a href="../about/index.html#org">組織図</a></li>
+              <li><a href="../about/index.html#clients">主要取引先</a></li>
+            </ul>
+          </li>
+
+          <li class="menu-item menu-item-has-children">
+            <a class="rd-nav-link" href="../service/index.html">SERVICE</a>
+            <ul class="sub-menu">
+              <li><a href="../service/index.html#movie">映像制作</a></li>
+              <li><a href="../service/index.html#dev">実装・プログラミング</a></li>
+              <li><a href="../service/index.html#system">システム・ツール開発</a></li>
+              <li><a href="../service/index.html#plan">企画</a></li>
+            </ul>
+          </li>
+
+          <li class="menu-item"><a class="rd-nav-link" href="../works/index.html">WORKS</a></li>
+
+          <li class="menu-item menu-item-has-children">
+            <a class="rd-nav-link" href="../recruit/index.html">RECRUIT</a>
+            <ul class="sub-menu">
+              <li><a href="../recruit/index.html">募集職種</a></li>
+              <li><a href="../comments-top/index.html">スタッフの声</a></li>
+            </ul>
+          </li>
+
+          <li class="menu-item"><a class="rd-nav-link" href="../access/index.html">ACCESS</a></li>
+          <li class="menu-item"><a class="rd-nav-link" href="../contact/index.html">CONTACT</a></li>
+        </ul>
+      </div>
+
+      <a class="menu_close"><i class="fas fa-angle-left"></i></a>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <header id="masthead" role="banner" itemscope itemtype="http://schema.org/WPHeader">
+    <div class="header-main">
+      <div class="container">
+        <div class="header-content">
+
+          <a id="showmenu" class="d-dropdown">
+            <span class="hamburger hamburger--collapse">
+              <span class="hamburger-box"><span class="hamburger-inner"></span></span>
+            </span>
+          </a>
+
+          <div class="row align-items-center">
+            <div class="col-xl-2 col-lg-3 col-4">
+              <div class="logo">
+                <a class="logo-link" href="../index.html">
+                  <img src="../image/_01__01_alex.webp" width="194" height="68" alt="Logo">
+                </a>
+              </div>
+            </div>
+
+            <div class="col-xl-10 col-lg-9 col-8">
+              <div class="top-menu">
+
+                <!-- LANGUAGE -->
+                <div class="top-language">
+                  <section id="polylang-2" class="widget widget_polylang">
+                    <ul>
+                      <li class="lang-item lang-item-ja">
+                        <a class="lang-btn" data-lang="ja" href="../recruit/index.html">
+                          <img src="../image/jp-image.webp" alt="日本語" width="16" height="11">
+                        </a>
+                      </li>
+                      <li class="lang-item lang-item-vi">
+                        <a class="lang-btn" data-lang="vi" href="../vi/recruit/index.html">
+                          <img src="../image/vn-image.webp" alt="Tiếng Việt" width="16" height="11">
+                        </a>
+                      </li>
+                      <li class="lang-item lang-item-en">
+                        <a class="lang-btn" data-lang="en" href="../en/recruit/index.html">
+                          <img src="../image/en-image.webp" alt="English" width="16" height="11">
+                        </a>
+                      </li>
+                    </ul>
+                  </section>
+                </div>
+
+                <!-- DESKTOP MENU -->
+                <nav id="site-navigation" class="main-navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
+                  <div class="menu-primary-menu-ja-container">
+                    <ul id="primary-menu" class="menu clearfix">
+                      <li class="menu-item"><a class="rd-nav-link" href="../index.html">TOP</a></li>
+
+                      <li class="menu-item menu-item-has-children">
+                        <a class="rd-nav-link" href="../about/index.html">ABOUT</a>
+                        <ul class="sub-menu">
+                          <li><a href="../about/index.html#message">代表メッセージ</a></li>
+                          <li><a href="../about/index.html#company">会社概要</a></li>
+                          <li><a href="../about/index.html#history">沿革</a></li>
+                          <li><a href="../about/index.html#org">組織図</a></li>
+                          <li><a href="../about/index.html#clients">主要取引先</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="menu-item menu-item-has-children">
+                        <a class="rd-nav-link" href="../service/index.html">SERVICE</a>
+                        <ul class="sub-menu">
+                          <li><a href="../service/index.html#movie">映像制作</a></li>
+                          <li><a href="../service/index.html#dev">実装・プログラミング</a></li>
+                          <li><a href="../service/index.html#system">システム・ツール開発</a></li>
+                          <li><a href="../service/index.html#plan">企画</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="menu-item"><a class="rd-nav-link" href="../works/index.html">WORKS</a></li>
+
+                      <li class="menu-item menu-item-has-children">
+                        <a class="rd-nav-link" href="../recruit/index.html">RECRUIT</a>
+                        <ul class="sub-menu">
+                          <li><a href="../recruit/index.html">募集職種</a></li>
+                          <li><a href="../comments-top/index.html">スタッフの声</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="menu-item"><a class="rd-nav-link" href="../access/index.html">ACCESS</a></li>
+                      <li class="menu-item"><a class="rd-nav-link" href="../contact/index.html">CONTACT</a></li>
+                    </ul>
+                  </div>
+                </nav>
+
+              </div>
+            </div>
+
+          </div><!-- row -->
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="about">
+    <div class="about-avatar">
+      <div class="service-bg"></div>
+
+      <div class="overlay-recruit">
+        <div class="container-recruit-text">
+          <div class="recruit-left-text">
+            <h2 class="recruit-subtitle">
+              あなたの想像を超える未来を<br>私たちと共に創りませんか？<br>
+            </h2>
+          </div>
+
+          <div class="recruit-right-text">
+            <span class="recruit-company-subtitle">事業内容</span>
+            <h1 class="recruit-heading-subtitle">RECRUIT</h1>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SUBMENU -->
+  <nav class="submenu-tabs-1">
+    <div class="container">
+      <ul>
+        <li><a href="../recruit/index.html">募集職種</a></li>
+        <li><a href="../comments-top/index.html">スタッフの声TOP</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- CONTENT -->
+  <section class="recruit-heading" id="recruit-jobs">
+    <video class="recruit-bg-video" autoplay muted loop playsinline preload="auto">
+      <source src="../assets/共通_00_最下層レイヤー_背景動画.mp4" type="video/mp4">
+    </video>
+
+    <div class="container">
+      <div class="recruit-header">
+        <img class="recruit-bg" src="../image/グループ 19.webp" width="1558" height="663" alt="帯背景">
+      </div>
+
+      <div class="subtitle-frame-wrapper-recruit-headline">
+        <img class="subtitle-frame-recruit-headline" src="../image/グループ 27.webp" width="495" height="145" alt="Subtitle Frame">
+        <span class="subtitle-text-recruit-headline">募集職種</span>
+      </div>
+
+      <!-- CARD 1 -->
+      <div class="creation-recruit-box">
+        <div class="creation-recruit-left">
+          <div class="image-frame">
+            <img src="../image/-160.webp" width="550" height="494" alt="-160.webp">
+          </div>
+        </div>
+        <div class="creation-recruit-right">
+          <h4 class="creation-recruit-title">プロデューサー・映像ディレクター</h4>
+          <div class="creation-recruit-content">
+            <p><strong>プロデューサー</strong><br>
+              社外案件の予算・進行管理、社内外のリソース管理などプロデュース業務をお任せします。
+            </p>
+            <p><strong>映像ディレクター</strong><br>
+              ゲーム、CM、ぱちんこ・パチスロなどの映像企画・開発のディレクションをお任せします。
+            </p>
+            <ul>
+              <li>映像制作チームのまとめ、制作進行管理。</li>
+              <li>協力会社とのディレクション。</li>
+              <li>映像品質管理。</li>
+            </ul>
+          </div>
+          <a href="./producer-video-director/index.html" class="recruit-detail-btn">詳細はこちら</a>
+        </div>
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="creation-recruit-box">
+        <div class="creation-recruit-left">
+          <div class="image-frame">
+            <img src="../image/-301.webp" width="550" height="494" alt="-301.webp">
+          </div>
+        </div>
+        <div class="creation-recruit-right">
+          <h4 class="creation-recruit-title">エフェクトデザイナー・コンポジター</h4>
+          <div class="creation-recruit-content">
+            <p>
+              ゲーム、CM、ぱちんこ・パチスロなどの映像制作をお任せします。<br>
+              2Dデザイナーや3Dデザイナーとも連携し、映像をより良く見せるためのエフェクト制作～<br>
+              最終コンポジットまでの仕上げの部分をメインに担当いただきます。
+            </p>
+          </div>
+          <a href="./effect-designer-compositor/index.html" class="recruit-detail-btn">詳細はこちら</a>
+        </div>
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="creation-recruit-box">
+        <div class="creation-recruit-left">
+          <div class="image-frame">
+            <img src="../image/-205.webp" width="550" height="494" alt="-205.webp">
+          </div>
+        </div>
+        <div class="creation-recruit-right">
+          <h4 class="creation-recruit-title">2DCGデザイナー</h4>
+          <div class="creation-recruit-content">
+            <p>
+              ゲーム、CM、ぱちんこ・パチスロなどの映像制作をお任せします。<br>
+              背景、キャラ、インターフェイス、ロゴなど2D素材制作を担当いただきます。<br>
+              演出企画では絵コンテ制作や見せ方考案にも関わっていただく場合もあります。<br>
+              ※どれか1つでも得意分野があれば問題ありません。
+            </p>
+          </div>
+          <a href="./2d-cg-designer/index.html" class="recruit-detail-btn">詳細はこちら</a>
+        </div>
+      </div>
+
+      <!-- CARD 4 -->
+      <div class="creation-recruit-box">
+        <div class="creation-recruit-left">
+          <div class="image-frame">
+            <img src="../image/-501.webp" width="550" height="494" alt="-501.webp">
+          </div>
+        </div>
+        <div class="creation-recruit-right">
+          <h4 class="creation-recruit-title">3DCGデザイナー</h4>
+          <div class="creation-recruit-content">
+            <p>
+              ゲーム、CM、ぱちんこ・パチスロなどの映像制作をお任せします。<br>
+              小物、キャラ、背景、ロゴなど3Dモデリングからコンポジットまで担当いただきます。<br>
+              コンテからのシーン構築など演出企画にも関わっていただくこともあります。<br>
+              ※どれか1つでも得意分野があれば問題ありません。
+            </p>
+          </div>
+          <a href="./3d-cg-designer/index.html" class="recruit-detail-btn">詳細はこちら</a>
+        </div>
+      </div>
+
+      <!-- CARD 5 -->
+      <div class="creation-recruit-box">
+        <div class="creation-recruit-left">
+          <div class="image-frame">
+            <img src="../image/-220.webp" width="550" height="494" alt="-220.webp">
+          </div>
+        </div>
+        <div class="creation-recruit-right">
+          <h4 class="creation-recruit-title">プログラマー</h4>
+          <div class="creation-recruit-content">
+            <p>
+              大手メーカー様から直接ご依頼をいただき、<br>
+              演出企画、映像企画、出玉企画と連携しながら<br>
+              プログラム開発を担当していただきます。
+            </p>
+          </div>
+          <a href="./programmer/index.html" class="recruit-detail-btn">詳細はこちら</a>
+        </div>
+      </div>
+
+      <!-- CARD 6 -->
+      <div class="creation-recruit-box">
+        <div class="creation-recruit-left">
+          <div class="image-frame">
+            <img src="../image/-491.webp" width="550" height="494" alt="-491.webp">
+          </div>
+        </div>
+        <div class="creation-recruit-right">
+          <h4 class="creation-recruit-title">企画設計</h4>
+          <div class="creation-recruit-content">
+            <p>
+              メーカーからの受託によるぱちんこ・パチスロ開発・管理に携わります。<br>
+              新しいアイデアを出すだけでなく、完成まで司令塔として各担当と連携して開発を進めていきます。<br>
+              情熱が命の仕事です。
+            </p>
+          </div>
+          <a href="./planning-designer/index.html" class="recruit-detail-btn">詳細はこちら</a>
+        </div>
+      </div>
+
+      <!-- CARD 7 -->
+      <div class="creation-recruit-box">
+        <div class="creation-recruit-left">
+          <div class="image-frame">
+            <img src="../image/-500.webp" width="550" height="494" alt="-500.webp">
+          </div>
+        </div>
+        <div class="creation-recruit-right">
+          <h4 class="creation-recruit-title">出玉設計</h4>
+          <div class="creation-recruit-content">
+            <p>
+              パチスロ機の出玉数・機械割などの計算。<br>
+              数学的知識、統計学等の基礎知識のある方（数学に強い方）が最適です。
+            </p>
+          </div>
+          <a href="./payout-designer/index.html" class="recruit-detail-btn">詳細はこちら</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <div class="footer-main">
+    <footer class="site-footer" role="contentinfo">
+      <div class="site-footer__inner">
+        <small class="site-footer__copy">
+          Copyright © <span id="footerYear"></span> ALEX CO., LTD. All Rights Reserved
+        </small>
+      </div>
+    </footer>
+  </div>
+
+</div><!-- /#page -->
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="../js/script.js"></script>
+<script src="../js/lang.js"></script>
+<script src="../js/submenu-tabs-active.js"></script>
+<script src="../js/background-intro.js"></script>
+<script src="../js/recruit-page.js"></script>
+<script src="../js/footer-year.js" defer></script>
+</body>
+</html>

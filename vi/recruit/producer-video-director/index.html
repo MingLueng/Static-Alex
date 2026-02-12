@@ -1,0 +1,440 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+        <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self';
+    base-uri 'self';
+    object-src 'none';
+    form-action 'self';
+    upgrade-insecure-requests;
+
+    script-src 'self' https://code.jquery.com https://www.googletagmanager.com;
+    style-src  'self' https://fonts.googleapis.com;
+    font-src   'self' https://fonts.gstatic.com data:;
+    img-src    'self' data: blob:;
+    connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com;
+    frame-src https://www.googletagmanager.com;
+  ">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Statamic</title>
+        <!-- ✅ GTM: dùng file local để không bị CSP chặn inline -->
+    <script src="../../../js/gtm.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../../../css/site-CmZlzcU5.css">
+    <link rel="stylesheet" href="../../../index.html">
+    <link rel="stylesheet" href="../../../assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="../../../css/bootstrap.css">
+    <link rel="stylesheet" href="../../../css/site.css"> 
+    <link rel="stylesheet" href="../../../css/job-openings-page.css">
+
+
+  </head>
+
+  <body class="bg-slate-100 dark:bg-gray-800 font-sans leading-normal text-slate-800 dark:text-gray-400">
+    <div id="page" class="site">
+<nav id="mobilenav">
+  <div class="mobilenav__inner">
+    <div class="toplg">
+      <div class="logo">
+        <a class="logo-link" href="../../index.html">
+          <img src="../../../image/_01__01_alex.webp" width="194" height="68" alt="Logo">
+        </a>
+      </div>
+    </div>
+
+    <div class="menu-primary-menu-ja-container">
+      <ul id="menu-main" class="mobile-menu">
+
+        <li class="menu-item">
+          <a class="rd-nav-link" href="../../index.html">TRANG CHỦ</a>
+        </li>
+
+        <li class="menu-item menu-item-has-children">
+          <a class="rd-nav-link" href="../../about/index.html">GIỚI THIỆU</a>
+          <ul class="sub-menu">
+            <li><a href="../../about/index.html#message">Thông điệp CEO</a></li>
+            <li><a href="../../about/index.html#company">Giới thiệu công ty</a></li>
+            <li><a href="../../about/index.html#history">Lịch sử</a></li>
+            <li><a href="../../about/index.html#org">Sơ đồ tổ chức</a></li>
+            <li><a href="../../about/index.html#clients">Khách hàng tiêu biểu</a></li>
+          </ul>
+        </li>
+
+        <li class="menu-item menu-item-has-children">
+          <a class="rd-nav-link" href="../../service/index.html">DỊCH VỤ</a>
+          <ul class="sub-menu">
+            <li><a href="../../service/index.html#movie">Sản xuất video</a></li>
+            <li><a href="../../service/index.html#dev">Lập trình &amp; triển khai</a></li>
+            <li><a href="../../service/index.html#system">Phát triển hệ thống &amp; công cụ</a></li>
+            <li><a href="../../service/index.html#plan">Lên ý tưởng</a></li>
+          </ul>
+        </li>
+
+        <li class="menu-item">
+          <a class="rd-nav-link" href="../../work/index.html">SẢN PHẨM</a>
+        </li>
+
+        <li class="menu-item menu-item-has-children">
+          <a class="rd-nav-link" href="../../recruit/index.html">TUYỂN DỤNG</a>
+          <ul class="sub-menu">
+            <li><a href="../../recruit/index.html">Cơ hội việc làm</a></li>
+            <li><a href="../../comments-top/index.html">Ý kiến đánh giá của nhân viên</a></li>
+          </ul>
+        </li>
+
+        <li class="menu-item">
+          <a class="rd-nav-link" href="../../access/index.html">ĐỊA CHỈ</a>
+        </li>
+
+        <li class="menu-item">
+          <a class="rd-nav-link" href="../../contact/index.html">LIÊN HỆ</a>
+        </li>
+
+      </ul>
+    </div>
+
+    <a class="menu_close"><i class="fas fa-angle-left"></i></a>
+  </div>
+</nav>
+
+<header id="masthead" role="banner" itemscope itemtype="http://schema.org/WPHeader">
+  <div class="header-main">
+    <div class="container">
+      <div class="header-content">
+        <a id="showmenu" class="d-dropdown">
+          <span class="hamburger hamburger--collapse">
+            <span class="hamburger-box"><span class="hamburger-inner"></span></span>
+          </span>
+        </a>
+
+        <div class="row align-items-center">
+          <div class="col-xl-2 col-lg-2 col-4">
+            <div class="logo">
+              <a class="logo-link" href="../../index.html">
+                <img src="../../../image/_01__01_alex.webp" width="194" height="68" alt="Logo">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-xl-10 col-lg-9 col-7">
+            <div class="top-menu">
+              <div class="top-language">
+                <section id="polylang-2" class="widget widget_polylang">
+                  <ul>
+                    <!-- đang ở /vi/... -->
+
+                      <li class="lang-item lang-item-ja">
+                        <a class="lang-btn" data-lang="ja" href="./index.html">
+                          <img src="../../../image/jp-image.webp" alt="日本語" width="16" height="11">
+                        </a>
+                      </li>
+
+                      <li class="lang-item lang-item-vi">
+                        <a class="lang-btn" data-lang="vi" href="../../vi/recruit/producer-video-director/index.html">
+                          <img src="../../../image/vn-image.webp" alt="Tiếng Việt" width="16" height="11">
+                        </a>
+                      </li>
+
+                      <li class="lang-item lang-item-en">
+                        <a class="lang-btn" data-lang="en" href="../../en/recruit/producer-video-director/index.html">
+                          <img src="../../../image/en-image.webp" alt="English" width="16" height="11">
+                        </a>
+                      </li>
+
+
+            
+                  </ul>
+                </section>
+              </div>
+
+              <nav id="site-navigation" class="main-navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
+                <div class="menu-primary-menu-ja-container">
+                  <ul id="primary-menu" class="menu clearfix">
+
+                    <li class="menu-item">
+                      <a class="rd-nav-link" href="../../index.html">TRANG CHỦ</a>
+                    </li>
+
+                    <li class="menu-item menu-item-has-children">
+                      <a class="rd-nav-link" href="../../about/index.html">GIỚI THIỆU</a>
+                      <ul class="sub-menu">
+                        <li><a href="../../about/index.html#message">Thông điệp CEO</a></li>
+                        <li><a href="../../about/index.html#company">Giới thiệu công ty</a></li>
+                        <li><a href="../../about/index.html#history">Lịch sử</a></li>
+                        <li><a href="../../about/index.html#org">Sơ đồ tổ chức</a></li>
+                        <li><a href="../../about/index.html#clients">Khách hàng tiêu biểu</a></li>
+                      </ul>
+                    </li>
+
+                    <li class="menu-item menu-item-has-children">
+                      <a class="rd-nav-link" href="../../service/index.html">DỊCH VỤ</a>
+                      <ul class="sub-menu">
+                        <li><a href="../../service/index.html#movie">Sản xuất video</a></li>
+                        <li><a href="../../service/index.html#dev">Lập trình &amp; triển khai</a></li>
+                        <li><a href="../../service/index.html#system">Phát triển hệ thống &amp; công cụ</a></li>
+                        <li><a href="../../service/index.html#plan">Lên ý tưởng</a></li>
+                      </ul>
+                    </li>
+
+                    <li class="menu-item">
+                      <a class="rd-nav-link" href="../../works/index.html">SẢN PHẨM</a>
+                    </li>
+
+                    <li class="menu-item menu-item-has-children">
+                      <a class="rd-nav-link" href="../../recruit/index.html">TUYỂN DỤNG</a>
+                      <ul class="sub-menu">
+                        <li><a href="../../recruit/index.html">Cơ hội việc làm</a></li>
+                        <li><a href="../../comments-top/index.html">Ý kiến đánh giá của nhân viên</a></li>
+                      </ul>
+                    </li>
+
+                    <li class="menu-item">
+                      <a class="rd-nav-link" href="../../access/index.html">ĐỊA CHỈ</a>
+                    </li>
+
+                    <li class="menu-item">
+                      <a class="rd-nav-link" href="../../contact/index.html">LIÊN HỆ</a>
+                    </li>
+
+                  </ul>
+                </div>
+              </nav>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+<section class="recruit">
+
+  <div class="recruit-avatar-vi">
+
+
+      <div class="service-bg"></div>
+
+
+
+    <div class="overlay-recruit">
+    <div class="container-recruit-text-vi">
+      <div class="recruit-left-text-vi">
+
+          <h2 class="recruit-left-subtitle">Bạn có muốn cùng chúng tôi tạo nên <br>một tương lai vượt xa mọi tưởng tượng?<br></h2>
+
+
+      </div>
+
+      <div class="recruit-right-text-vi">
+
+        <span class="recruit-company-info-vi">Tuyển dụng</span>
+        <h1 class="recruit-heading-vi">TUYỂN DỤNG</h1>
+
+      </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+
+
+
+<section class="recruit-heading">
+    <video class="recruit-bg-video" autoplay muted loop playsinline preload="auto">
+    <source src="../../../assets/共通_00_最下層レイヤー_背景動画.mp4" type="video/mp4">
+  </video>
+
+<div class="section-job-heading" id="producer-video-director">
+ <div class="container">
+       <div class="job-open-tab-menu">
+
+
+        <button
+          class="job-open-detail-btn "
+           data-url="../effect-designer-compositor/index.html"         >Thiết kế hiệu ứng / Compositing</button>
+
+
+        <button
+          class="job-open-detail-btn "
+           data-url="../2d-cg-designer/index.html"
+                  >Nhà thiết kế 2D CG</button>
+
+
+        <button
+          class="job-open-detail-btn "
+           data-url="../3d-cg-designer/index.html"         >Nhà thiết kế 3D CG</button>
+
+
+        <button
+          class="job-open-detail-btn "
+           data-url="../programmer/index.html"         >Lập trình viên</button>
+
+
+        <button
+          class="job-open-detail-btn "
+           data-url="../planning-designer/index.html"         >Thiết kế kế hoạch</button>
+
+
+        <button
+          class="job-open-detail-btn "
+           data-url="../payout-designer/index.html"         >Thiết kế phần thưởng</button>
+
+
+        <button
+          class="job-open-detail-btn active"
+           data-url="../producer-video-director/index.html"         >Nhà sản xuất / Đạo diễn hình ảnh</button>
+
+          </div>
+   <div class="job-block-wrapper">
+
+
+      <div class="job-image-wrapper">
+         <div class="job-bg-light">
+          <img src="../../../image/-160.webp" width="1408" height="286" class="avatar-job-001">
+        </div>
+        <div class="job-bg-dark">
+          <img src="../../../image/画像-19.webp" width="807" height="167" class="avatar-job-002">
+        </div>
+        <div class="job-bg-table">
+          <img src="../../../image/画像-46.webp" width="1131 " height="286" class="avatar-job-003">
+        </div>
+        <div class="job-title">Nhà sản xuất / Đạo diễn hình ảnh</div>
+      </div>
+
+
+
+              <div class="job-box"><p class="job-head">■Nội dung công việc</p><p class="job-sub">【Producer】</p><p class="job-text">Phụ trách sản xuất: quản lý ngân sách/tiến độ cho dự án bên ngoài, điều phối nguồn lực trong/ngoài công ty.</p><p class="job-sub">【Director】</p><p class="job-text">Định hướng sản xuất video cho game, TVC, pachinko/pachislo.</p><p class="job-item">Điều phối team sản xuất, quản lý tiến độ.</p><p class="job-item">Chỉ đạo đối tác/nhà thầu.</p><p class="job-item">Quản lý chất lượng hình ảnh.</p>
+</div>
+
+
+              <div class="job-table-wrapper"><table class="job-table"><tbody><tr><th>Thời gian làm việc</th><td>10:00 – 19:00<br>※ Có thể làm từ xa</td></tr><tr><th>Kỹ năng/Kinh nghiệm bắt buộc</th><td>• Thành thạo cơ bản Word/Excel/PowerPoint.</td></tr><tr><th>Tố chất mong đợi</th><td>• Teamwork tốt.<br>• Giao tiếp tốt.<br>• Chủ động học hỏi công nghệ/thông tin mới.<br>• Điều phối được nhiều thành viên để đạt chất lượng khách hàng yêu cầu.</td></tr><tr><th>Ưu tiên</th><td>• Có kinh nghiệm Producer/Director.<br>• Là người chơi pachinko/pachislo.<br>• Biết Photoshop/Illustrator/After Effects/Maya/3ds Max/C4D/ZBrush…</td></tr><tr><th>Lương</th><td>Theo năng lực/kinh nghiệm.</td></tr><tr><th>Chế độ nghỉ </th><td>Nghỉ T7 &amp; CN, nghỉ lễ, hè/đông, phép năm, hiếu hỉ… (&gt;125 ngày/năm).</td></tr><tr><th>Phúc lợi</th><td>Thử việc 6 tháng (chế độ như chính thức). Thưởng/tăng lương (theo hiệu quả). BH đầy đủ. Trợ cấp đi lại (giới hạn). Life-plan. Hưu trí DC. Du lịch/sự kiện công ty.</td></tr><tr><th>Địa điểm</th><td>Trụ sở Tokyo / Chi nhánh Shimane / Studio Hà Nội (như trong JA).</td></tr><tr><th>Hồ sơ</th><td>• CV • Kinh nghiệm • (Nếu có) Đề án/Portfolio.</td></tr></tbody></table>
+</div>
+                <div class="job-header">
+       <img class="job-bg" src="../../../image/グループ 19.webp" width="1558" height="663" alt="帯背景">
+      </div>
+
+
+
+
+      <div class="subtitle-frame-wrapper-job en">
+        <img src="../../../image/グループ 27.webp" width="495" height="145" class="subtitle-frame-job">
+        <span class="subtitle-text-job">Quy trình tuyển dụng</span>
+      </div>
+
+
+
+
+
+        <div class="job-process-flow">
+
+
+          <div class="process-step">
+            <div class="step-header">
+              <img src="../../../image/-1140.webp" width="164" height="49" class="step-bg">
+              <span class="step-title">Bước 1</span>
+            </div>
+
+            <div class="step-content">
+                              <p class="step-main">Ứng tuyển</p>
+
+                              <div class="step-sub"><p>Đọc kỹ JD & điều kiện rồi gửi hồ sơ.
+</p>
+</div>
+                          </div>
+          </div>
+
+                      <div class="triangle-play"></div>
+            <div class="triangle-play-01"></div>
+
+
+   <div class="process-step">
+            <div class="step-header">
+              <img src="../../../image/-1140.webp" width="164" height="49" class="step-bg">
+              <span class="step-title">Bước 2</span>
+            </div>
+
+            <div class="step-content">
+                              <p class="step-main">Xét tác phẩm</p>
+
+                              <div class="step-sub"><p>Phản hồi trong 3–5 ngày làm việc</p>
+</div>
+                          </div>
+          </div>
+
+                      <div class="triangle-play"></div>
+            <div class="triangle-play-01"></div>
+
+
+
+             <div class="process-step">
+            <div class="step-header">
+              <img src="../../../image/-1140.webp" width="164" height="49" class="step-bg">
+              <span class="step-title">Bước 3</span>
+            </div>
+
+            <div class="step-content">
+                              <p class="step-main">Phỏng vấn</p>
+
+                              <div class="step-sub"><p>Trung cấp 1 vòng / Mới tốt nghiệp tối đa 2 vòng.</p>
+</div>
+                          </div>
+          </div>
+
+                      <div class="triangle-play"></div>
+            <div class="triangle-play-01"></div>
+
+
+
+   <div class="process-step">
+            <div class="step-header">
+              <img src="../../../image/-1140.webp" width="164" height="49" class="step-bg">
+              <span class="step-title">Bước 4</span>
+            </div>
+
+            <div class="step-content">
+                              <p class="step-main">Lời đề nghị</p>
+
+                              <div class="step-sub"><p>Gửi thư mời chính thức.</p>
+</div>
+                          </div>
+          </div>
+
+
+                </div>
+
+
+    </div>
+  </div>
+  </div>
+</section>
+
+
+      <div class="footer-main">
+<footer class="site-footer" role="contentinfo">
+<div class="site-footer__inner">
+<small class="site-footer__copy">
+  Copyright © <span id="footerYear"></span> ALEX CO., LTD. All Rights Reserved
+</small>
+</div>
+</footer>
+</div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="../../../js/script.js"></script>
+    <script src="../../../js/lang.js"></script>
+    <script src="../../../js/job-openings-page.js"></script>
+    <script src="../../../js/background-intro.js"></script>
+    <script src="../../../js/footer-year.js" defer></script>
+  </body>
+</html>
+

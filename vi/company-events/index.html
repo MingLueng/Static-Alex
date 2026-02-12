@@ -1,0 +1,467 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Security-Policy" content="
+          default-src 'self';
+          base-uri 'self';
+          object-src 'none';
+          form-action 'self';
+          upgrade-insecure-requests;
+
+          script-src 'self' https://code.jquery.com https://www.googletagmanager.com;
+          style-src  'self' https://fonts.googleapis.com;
+          font-src   'self' https://fonts.gstatic.com data:;
+          img-src    'self' data: blob:;
+          connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com;
+          frame-src https://www.googletagmanager.com;
+        ">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>社内イベント</title>
+      
+
+        <!-- ✅ GTM: dùng file local để không bị CSP chặn inline -->
+        <script src="../../js/gtm.js"></script>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="../../css/site-CmZlzcU5.css">
+        <link rel="stylesheet" href="../../css/fonts.css">
+        <link rel="stylesheet" href="../../assets/fontawesome/css/all.min.css">
+        <link rel="stylesheet" href="../../css/bootstrap.css">
+        <link rel="stylesheet" href="../../css/site.css">
+        <link rel="stylesheet" href="../../css/company-events-page.css">
+
+    </head>
+    <body class="bg-slate-100 dark:bg-gray-800 font-sans leading-normal text-slate-800 dark:text-gray-400">
+        <div id="page" class="site">
+<nav id="mobilenav">
+  <div class="mobilenav__inner">
+    <div class="toplg">
+      <div class="logo">
+        <a class="logo-link" href="../index.html">
+          <img src="../../image/_01__01_alex.webp" width="194" height="68" alt="Logo">
+        </a>
+      </div>
+    </div>
+
+    <div class="menu-primary-menu-ja-container">
+      <ul id="menu-main" class="mobile-menu">
+
+        <li class="menu-item">
+          <a class="rd-nav-link" href="../index.html">TRANG CHỦ</a>
+        </li>
+
+        <li class="menu-item menu-item-has-children">
+          <a class="rd-nav-link" href="../about/index.html">GIỚI THIỆU</a>
+          <ul class="sub-menu">
+            <li><a href="../about/index.html#message">Thông điệp CEO</a></li>
+            <li><a href="../about/index.html#company">Giới thiệu công ty</a></li>
+            <li><a href="../about/index.html#history">Lịch sử</a></li>
+            <li><a href="../about/index.html#org">Sơ đồ tổ chức</a></li>
+            <li><a href="../about/index.html#clients">Khách hàng tiêu biểu</a></li>
+          </ul>
+        </li>
+
+        <li class="menu-item menu-item-has-children">
+          <a class="rd-nav-link" href="../service/index.html">DỊCH VỤ</a>
+          <ul class="sub-menu">
+            <li><a href="../service/index.html#movie">Sản xuất video</a></li>
+            <li><a href="../service/index.html#dev">Lập trình &amp; triển khai</a></li>
+            <li><a href="../service/index.html#system">Phát triển hệ thống &amp; công cụ</a></li>
+            <li><a href="../service/index.html#plan">Lên ý tưởng</a></li>
+          </ul>
+        </li>
+
+        <li class="menu-item">
+          <a class="rd-nav-link" href="../works/index.html">SẢN PHẨM</a>
+        </li>
+
+        <li class="menu-item menu-item-has-children">
+          <a class="rd-nav-link" href="../recruit/index.html">TUYỂN DỤNG</a>
+          <ul class="sub-menu">
+            <li><a href="../recruit/index.html">Cơ hội việc làm</a></li>
+            <li><a href="../comments-top/index.html">Ý kiến đánh giá của nhân viên</a></li>
+          </ul>
+        </li>
+
+        <li class="menu-item">
+          <a class="rd-nav-link" href="../access/index.html">ĐỊA CHỈ</a>
+        </li>
+
+        <li class="menu-item">
+          <a class="rd-nav-link" href="../contact/index.html">LIÊN HỆ</a>
+        </li>
+
+      </ul>
+    </div>
+
+    <a class="menu_close"><i class="fas fa-angle-left"></i></a>
+  </div>
+</nav>
+
+<header id="masthead" role="banner" itemscope itemtype="http://schema.org/WPHeader">
+  <div class="header-main">
+    <div class="container">
+      <div class="header-content">
+        <a id="showmenu" class="d-dropdown">
+          <span class="hamburger hamburger--collapse">
+            <span class="hamburger-box"><span class="hamburger-inner"></span></span>
+          </span>
+        </a>
+
+        <div class="row align-items-center">
+          <div class="col-xl-2 col-lg-2 col-4">
+            <div class="logo">
+              <a class="logo-link" href="../index.html">
+                <img src="../../image/_01__01_alex.webp" width="194" height="68" alt="Logo">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-xl-10 col-lg-9 col-7">
+            <div class="top-menu">
+              <div class="top-language">
+                <section id="polylang-2" class="widget widget_polylang">
+                  <ul>
+                    <!-- đang ở /vi/... -->
+                        <li class="lang-item lang-item-ja">
+                        <a class="lang-btn" data-lang="ja" href="../../company-events/index.html">
+                          <img src="../../image/jp-image.webp" alt="日本語" width="16" height="11">
+                        </a>
+                      </li>
+                      <li class="lang-item lang-item-vi">
+                        <a class="lang-btn" data-lang="vi" href="./index.html">
+                          <img src="../../image/vn-image.webp" alt="Tiếng Việt" width="16" height="11">
+                        </a>
+                      </li>
+                      <li class="lang-item lang-item-en">
+                        <a class="lang-btn" data-lang="en" href="../../en/company-events/">
+                          <img src="../../image/en-image.webp" alt="English" width="16" height="11">
+                        </a>
+                      </li>
+
+
+
+            
+                  </ul>
+                </section>
+              </div>
+
+              <nav id="site-navigation" class="main-navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
+                <div class="menu-primary-menu-ja-container">
+                  <ul id="primary-menu" class="menu clearfix">
+
+                    <li class="menu-item">
+                      <a class="rd-nav-link" href="../index.html">TRANG CHỦ</a>
+                    </li>
+
+                    <li class="menu-item menu-item-has-children">
+                      <a class="rd-nav-link" href="../about/index.html">GIỚI THIỆU</a>
+                      <ul class="sub-menu">
+                        <li><a href="../about/index.html#message">Thông điệp CEO</a></li>
+                        <li><a href="../about/index.html#company">Giới thiệu công ty</a></li>
+                        <li><a href="../about/index.html#history">Lịch sử</a></li>
+                        <li><a href="../about/index.html#org">Sơ đồ tổ chức</a></li>
+                        <li><a href="../about/index.html#clients">Khách hàng tiêu biểu</a></li>
+                      </ul>
+                    </li>
+
+                    <li class="menu-item menu-item-has-children">
+                      <a class="rd-nav-link" href="../service/index.html">DỊCH VỤ</a>
+                      <ul class="sub-menu">
+                        <li><a href="../service/index.html#movie">Sản xuất video</a></li>
+                        <li><a href="../service/index.html#dev">Lập trình &amp; triển khai</a></li>
+                        <li><a href="../service/index.html#system">Phát triển hệ thống &amp; công cụ</a></li>
+                        <li><a href="../service/index.html#plan">Lên ý tưởng</a></li>
+                      </ul>
+                    </li>
+
+                    <li class="menu-item">
+                      <a class="rd-nav-link" href="../works/index.html">SẢN PHẨM</a>
+                    </li>
+
+                    <li class="menu-item menu-item-has-children">
+                      <a class="rd-nav-link" href="../recruit/index.html">TUYỂN DỤNG</a>
+                      <ul class="sub-menu">
+                        <li><a href="../recruit/index.html">Cơ hội việc làm</a></li>
+                        <li><a href="../comments-top/index.html">Ý kiến đánh giá của nhân viên</a></li>
+                      </ul>
+                    </li>
+
+                    <li class="menu-item">
+                      <a class="rd-nav-link" href="../access/index.html">ĐỊA CHỈ</a>
+                    </li>
+
+                    <li class="menu-item">
+                      <a class="rd-nav-link" href="../contact/index.html">LIÊN HỆ</a>
+                    </li>
+
+                  </ul>
+                </div>
+              </nav>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</header>
+
+
+<div class="submenu-tabs-3">
+  <div class="container-2">
+    <span class="main-title-staff">
+     Sự kiện nội bộ
+    </span>
+  </div>
+</div>
+
+<nav class="submenu-tabs-4"></nav>
+<section class="recruit-heading">
+    <video class="recruit-bg-video" autoplay muted loop playsinline preload="auto">
+    <source src="../../assets/共通_00_最下層レイヤー_背景動画.mp4" type="video/mp4">
+  </video>
+<!-- ========= SECTION 1: Company Events ========= -->
+<div class="interview-heading" id="brillant-1" data-anchor-offset="24">
+
+
+  <div class="container">
+      <div class="interview-header">
+    <img class="interview-bg" src="../../image/グループ 19.webp" width="1558"
+     height="663" alt="帯背景">
+  </div>
+
+  <div class="subtitle-frame-wrapper-interview">
+    <img class="subtitle-frame-interview" src="../../image/グループ 27.webp" width="495"
+     height="145" alt="Subtitle Frame">
+    <span class="subtitle-text-interview">
+      Sự kiện nội bộ
+
+    </span>
+  </div>
+
+      <div class="creation-interview-box">
+        <div class="creation-interview-left">
+          <div class="image-frame-popper">
+
+
+                <img src="../../image/-608.webp" width="212"
+     height="170" alt="cover_image">
+
+
+          </div>
+        </div>
+
+        <div class="creation-interview-right">
+          <h4 class="creation-interview-title">
+            Tháng 12/2024 – Tiệc cuối năm
+
+          </h4>
+
+          <div class="creation-interview-content">
+            <p>Năm nay chúng tôi lại tổ chức tiệc tổng kết cuối năm!</p>
+<p>Từ khâu nội dung đến triển khai đều do tập thể cùng thực hiện.<br />
+Năm nay có pizza, gà rán, sushi và nhiều loại đồ uống—tuyệt vời!</p>
+
+
+          </div>
+
+
+          <div class="interview-overwhole-wrapper">
+            <button class="overwhole-btn prev">&#10094;</button>
+            <div class="interview-overwhole">
+
+                <div class="overwhole-item">
+                  <img src="../../image/-608.webp"  width="	212"
+     height="170" alt="gallery">
+                </div>
+
+                <div class="overwhole-item">
+                  <img src="../../image/_contact.webp" width="500"
+     height="188" alt="gallery">
+                </div>
+
+                <div class="overwhole-item">
+                  <img src="../../image/_access.webp" width="500"
+     height="188" alt="gallery">
+                </div>
+
+                <div class="overwhole-item">
+                  <img src="../../image/_service.webp" width="500"
+     height="188" alt="gallery">
+                </div>
+
+            </div>
+            <button class="overwhole-btn next">&#10095;</button>
+          </div>
+
+        </div>
+      </div>
+
+
+
+      <div class="creation-interview-box">
+        <div class="creation-interview-left">
+          <div class="image-frame-popper">
+
+
+                <img src="../../image/-608.webp" width="212"
+     height="170" alt="cover_image">
+
+
+          </div>
+        </div>
+
+        <div class="creation-interview-right">
+          <h4 class="creation-interview-title">
+            Tháng 12/2024 – Tiệc cuối năm
+
+          </h4>
+
+          <div class="creation-interview-content">
+            <p>Năm nay chúng tôi lại tổ chức tiệc tổng kết cuối năm!</p>
+<p>Từ khâu nội dung đến triển khai đều do tập thể cùng thực hiện.<br />
+Năm nay có pizza, gà rán, sushi và nhiều loại đồ uống—tuyệt vời!</p>
+
+
+          </div>
+
+
+          <div class="interview-overwhole-wrapper">
+            <button class="overwhole-btn prev">&#10094;</button>
+            <div class="interview-overwhole">
+
+                <div class="overwhole-item">
+                  <img src="../../image/-856.webp" width="500"
+     height="188" alt="gallery">
+                </div>
+
+                <div class="overwhole-item">
+                  <img src="../../image/-854.webp" width="500"
+     height="188" alt="gallery">
+                </div>
+
+                <div class="overwhole-item">
+                  <img src="../../image/-608.webp" width="500"
+     height="188" alt="gallery">
+                </div>
+
+                <div class="overwhole-item">
+                  <img src="../../image/-301.webp" width="500"
+     height="188" alt="gallery">
+                </div>
+
+            </div>
+            <button class="overwhole-btn next">&#10095;</button>
+          </div>
+
+        </div>
+      </div>
+
+
+  </div>
+</div>
+
+<!-- ========= SECTION 2: Trainings ========= -->
+<div class="interview-heading" id="brillant-2" data-anchor-offset="24">
+
+
+  <div class="container">
+      <div class="interview-header">
+    <img class="interview-bg" src="../../image/グループ 19.webp" width="1558"
+     height="663" alt="帯背景">
+  </div>
+
+  <div class="subtitle-frame-wrapper-interview">
+    <img class="subtitle-frame-interview" src="../../image/グループ 27.webp"  width="495"
+     height="145" alt="Subtitle Frame">
+    <span class="subtitle-text-interview">
+      Đào tạo nội bộ
+
+    </span>
+  </div>
+
+      <div class="creation-interview-box">
+        <div class="creation-interview-left">
+          <div class="image-frame-popper">
+
+
+                <img src="../../image/-608.webp" width="212"
+     height="170" alt="cover_image">
+
+
+          </div>
+        </div>
+
+        <div class="creation-interview-right">
+          <h4 class="creation-interview-title">
+            Tháng 7/2024 – Đào tạo ở nước ngoài
+
+          </h4>
+
+          <div class="creation-interview-content">
+            <p>6 thành viên được chọn đã tới Philippines!</p>
+<p>Casino (ở Nhật chưa có) thật choáng ngợp!<br />
+Những máy slot cổ điển được “độ” trông rất… exciting (cười).</p>
+
+
+          </div>
+
+
+          <div class="interview-overwhole-wrapper">
+            <button class="overwhole-btn prev">&#10094;</button>
+            <div class="interview-overwhole">
+
+                <div class="overwhole-item">
+                  <img src="../../image/-608.webp" width="500"
+     height="188" alt="gallery">
+                </div>
+
+                <div class="overwhole-item">
+                  <img src="../../image/-735.webp" width="500"
+     height="188" alt="gallery">
+                </div>
+
+                <div class="overwhole-item">
+                  <img src="../../image/-851.webp" width="500"
+     height="188" alt="gallery">
+                </div>
+
+                <div class="overwhole-item">
+                  <img src="../../image/-852.webp" width="500"
+     height="188" alt="gallery">
+                </div>
+
+            </div>
+            <button class="overwhole-btn next">&#10095;</button>
+          </div>
+
+        </div>
+      </div>
+  </div>
+</div>
+</section>
+
+
+            <div class="footer-main">
+<footer class="site-footer" role="contentinfo">
+<div class="site-footer__inner">
+<small class="site-footer__copy">
+  Copyright © <span id="footerYear"></span> ALEX CO., LTD. All Rights Reserved
+</small>
+</div>
+</footer>
+</div>
+
+        </div>
+       <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="../../js/script.js"></script>
+        <script src="../../js/lang.js"></script>
+        <script src="../../js/company-events-page.js"></script>
+        <script src="../../js/background-intro.js"></script>
+        <script src="../../js/footer-year.js" defer></script>
+    </body>
+</html>

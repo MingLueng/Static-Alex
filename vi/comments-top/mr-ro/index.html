@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+
+        <!-- CSP: đặt sớm -->
+        <meta http-equiv="Content-Security-Policy" content="
+          default-src 'self';
+          base-uri 'self';
+          object-src 'none';
+          form-action 'self';
+          upgrade-insecure-requests;
+
+          script-src 'self' https://code.jquery.com https://www.googletagmanager.com;
+          style-src  'self' https://fonts.googleapis.com;
+          font-src   'self' https://fonts.gstatic.com data:;
+          img-src    'self' data: blob:;
+          connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com;
+          frame-src https://www.googletagmanager.com;
+        ">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>会社案内</title>
+        
+        <!-- ✅ GTM: dùng file local để không bị CSP chặn inline -->
+        <script src="../../../js/gtm.js"></script>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="../../../css/site-CmZlzcU5.css">
+        <link rel="stylesheet" href="../../../css/fonts.css">
+        <link rel="stylesheet" href="../../../assets/fontawesome/css/all.min.css">
+        <link rel="stylesheet" href="../../../css/bootstrap.css">
+        <link rel="stylesheet" href="../../../css/site.css">    
+        <link rel="stylesheet" href="../../../css/voices-page.css">
+      
+    </head>
+  <body class="bg-slate-100 dark:bg-gray-800 font-sans leading-normal text-slate-800 dark:text-gray-400">
+    <div id="page" class="site">
+<nav id="mobilenav">
+  <div class="mobilenav__inner">
+    <div class="toplg">
+      <div class="logo">
+        <a class="logo-link" href="../../index.html">
+          <img src="../../../image/_01__01_alex.webp" width="194" height="68" alt="Logo">
+        </a>
+      </div>
+    </div>
+
+    <div class="menu-primary-menu-ja-container">
+      <ul id="menu-main" class="mobile-menu">
+
+        <li class="menu-item">
+          <a class="rd-nav-link" href="../../index.html">TRANG CHỦ</a>
+        </li>
+
+        <li class="menu-item menu-item-has-children">
+          <a class="rd-nav-link" href="../../about/index.html">GIỚI THIỆU</a>
+          <ul class="sub-menu">
+            <li><a href="../../about/index.html#message">Thông điệp CEO</a></li>
+            <li><a href="../../about/index.html#company">Giới thiệu công ty</a></li>
+            <li><a href="../../about/index.html#history">Lịch sử</a></li>
+            <li><a href="../../about/index.html#org">Sơ đồ tổ chức</a></li>
+            <li><a href="../../about/index.html#clients">Khách hàng tiêu biểu</a></li>
+          </ul>
+        </li>
+
+        <li class="menu-item menu-item-has-children">
+          <a class="rd-nav-link" href="../../service/index.html">DỊCH VỤ</a>
+          <ul class="sub-menu">
+            <li><a href="../../service/index.html#movie">Sản xuất video</a></li>
+            <li><a href="../../service/index.html#dev">Lập trình &amp; triển khai</a></li>
+            <li><a href="../../service/index.html#system">Phát triển hệ thống &amp; công cụ</a></li>
+            <li><a href="../../service/index.html#plan">Lên ý tưởng</a></li>
+          </ul>
+        </li>
+
+        <li class="menu-item">
+          <a class="rd-nav-link" href="../../work/index.html">SẢN PHẨM</a>
+        </li>
+
+        <li class="menu-item menu-item-has-children">
+          <a class="rd-nav-link" href="../../recruit/index.html">TUYỂN DỤNG</a>
+          <ul class="sub-menu">
+            <li><a href="../../recruit/index.html">Cơ hội việc làm</a></li>
+            <li><a href="../../comments-top/index.html">Ý kiến đánh giá của nhân viên</a></li>
+          </ul>
+        </li>
+
+        <li class="menu-item">
+          <a class="rd-nav-link" href="../../access/index.html">ĐỊA CHỈ</a>
+        </li>
+
+        <li class="menu-item">
+          <a class="rd-nav-link" href="../../contact/index.html">LIÊN HỆ</a>
+        </li>
+
+      </ul>
+    </div>
+
+    <a class="menu_close"><i class="fas fa-angle-left"></i></a>
+  </div>
+</nav>
+
+<header id="masthead" role="banner" itemscope itemtype="http://schema.org/WPHeader">
+  <div class="header-main">
+    <div class="container">
+      <div class="header-content">
+        <a id="showmenu" class="d-dropdown">
+          <span class="hamburger hamburger--collapse">
+            <span class="hamburger-box"><span class="hamburger-inner"></span></span>
+          </span>
+        </a>
+
+        <div class="row align-items-center">
+          <div class="col-xl-2 col-lg-2 col-4">
+            <div class="logo">
+              <a class="logo-link" href="../../index.html">
+                <img src="../../../image/_01__01_alex.webp" width="194" height="68" alt="Logo">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-xl-10 col-lg-9 col-7">
+            <div class="top-menu">
+              <div class="top-language">
+                <section id="polylang-2" class="widget widget_polylang">
+                  <ul>
+                    <!-- đang ở /vi/... -->
+
+                      <li class="lang-item lang-item-ja">
+                        <a class="lang-btn" data-lang="ja" href="./index.html">
+                          <img src="../../../image/jp-image.webp" alt="日本語" width="16" height="11">
+                        </a>
+                      </li>
+
+                      <li class="lang-item lang-item-vi">
+                        <a class="lang-btn" data-lang="vi" href="../../vi/comments-top/mr-ro/index.html">
+                          <img src="../../../image/vn-image.webp" alt="Tiếng Việt" width="16" height="11">
+                        </a>
+                      </li>
+
+                      <li class="lang-item lang-item-en">
+                        <a class="lang-btn" data-lang="en" href="../../en/comments-top/mr-ro/index.html">
+                          <img src="../../../image/en-image.webp" alt="English" width="16" height="11">
+                        </a>
+                      </li>
+
+
+            
+                  </ul>
+                </section>
+              </div>
+
+              <nav id="site-navigation" class="main-navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
+                <div class="menu-primary-menu-ja-container">
+                  <ul id="primary-menu" class="menu clearfix">
+
+                    <li class="menu-item">
+                      <a class="rd-nav-link" href="../../index.html">TRANG CHỦ</a>
+                    </li>
+
+                    <li class="menu-item menu-item-has-children">
+                      <a class="rd-nav-link" href="../../about/index.html">GIỚI THIỆU</a>
+                      <ul class="sub-menu">
+                        <li><a href="../../about/index.html#message">Thông điệp CEO</a></li>
+                        <li><a href="../../about/index.html#company">Giới thiệu công ty</a></li>
+                        <li><a href="../../about/index.html#history">Lịch sử</a></li>
+                        <li><a href="../../about/index.html#org">Sơ đồ tổ chức</a></li>
+                        <li><a href="../../about/index.html#clients">Khách hàng tiêu biểu</a></li>
+                      </ul>
+                    </li>
+
+                    <li class="menu-item menu-item-has-children">
+                      <a class="rd-nav-link" href="../../service/index.html">DỊCH VỤ</a>
+                      <ul class="sub-menu">
+                        <li><a href="../../service/index.html#movie">Sản xuất video</a></li>
+                        <li><a href="../../service/index.html#dev">Lập trình &amp; triển khai</a></li>
+                        <li><a href="../../service/index.html#system">Phát triển hệ thống &amp; công cụ</a></li>
+                        <li><a href="../../service/index.html#plan">Lên ý tưởng</a></li>
+                      </ul>
+                    </li>
+
+                    <li class="menu-item">
+                      <a class="rd-nav-link" href="../../works/index.html">SẢN PHẨM</a>
+                    </li>
+
+                    <li class="menu-item menu-item-has-children">
+                      <a class="rd-nav-link" href="../../recruit/index.html">TUYỂN DỤNG</a>
+                      <ul class="sub-menu">
+                        <li><a href="../../recruit/index.html">Cơ hội việc làm</a></li>
+                        <li><a href="../../comments-top/index.html">Ý kiến đánh giá của nhân viên</a></li>
+                      </ul>
+                    </li>
+
+                    <li class="menu-item">
+                      <a class="rd-nav-link" href="../../access/index.html">ĐỊA CHỈ</a>
+                    </li>
+
+                    <li class="menu-item">
+                      <a class="rd-nav-link" href="../../contact/index.html">LIÊN HỆ</a>
+                    </li>
+
+                  </ul>
+                </div>
+              </nav>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</header>
+
+
+                <div class="submenu-tabs-3">
+  <div class="container-2">
+
+      <span class="main-title-staff">INTERVIEW</span>
+
+
+
+      <span class="subtitle-staff">Ý kiến của nhân viên</span>
+
+  </div>
+</div>
+
+<nav class="submenu-tabs-1">
+  <div class="container">
+    <ul>
+          <li>
+            <a href="../../recruit/index.html
+                     ">
+
+                Vị trí tuyển dụng
+
+            </a>
+          </li>
+
+
+
+
+
+          <li>
+            <a href="../../comments-top/index.html
+                     ">
+
+                Góc nhìn nhân viên
+
+            </a>
+          </li>
+
+
+    </ul>
+  </div>
+</nav>
+
+<section class="recruit-heading" data-voice="">
+      <video class="recruit-bg-video" autoplay muted loop playsinline preload="auto">
+    <source src="../../../assets/共通_00_最下層レイヤー_背景動画.mp4" type="video/mp4">
+  </video>
+  <div class="container">
+            <div class="staff-comment-detail">
+                 <div class="sf-header">
+          <img class="sf-bg" src="../../../image/グループ 293.webp" width="2895" height="816"  alt="Green Diagonal BG">
+        </div>
+          <div class="staff-block">
+            <div class="staff-image">
+              <div class="staff-frame">
+                                  <img src="../../../image/-103.webp"  width="289" height="423" class="staff-frame-bg" alt="Green BG">
+                                <img src="../../../image/長方形 455.webp" width="467" height="895" class="staff-frame-middle" alt="Middle Frame">
+                <img src="../../../image/べた塗り 4.webp" width="346" height="654" class="staff-frame-top" alt="Top Frame">
+              </div>
+
+              <div class="staff-name-box">
+                <img src="../../../image/長方形 478.webp" width="351" height="172" class="name-bg-white" alt="">
+                <img src="../../../image/長方形 629.webp" width="351" height="171" class="name-bg-green" alt="">
+                <div class="name-text">
+                    <p class="staff-department">Lập trình viên phòng sản<br> xuất video</p>
+                    <p class="staff-name">Anh I.G</p>                 </div>
+              </div>
+            </div>
+
+            <div class="staff-text">
+              <div class="staff-section-box">
+                <img src="../../../image/長方形 1200.webp" width="999" height="447" alt="" class="staff-avatar-bg">
+                 <span class="staff-subtile">Sức hấp dẫn của ALEX là gì?</span>                  <div class="staff-desc"><p>Điểm thu hút lớn nhất của ALEX chính là văn hóa doanh nghiệp cởi mở và thân thiện.</p>
+<p>Chúng tôi hoàn toàn ủng hộ những thách thức và sự phát triển của mỗi nhân viên. Đồng thời, tôi cảm thấy đây là một môi trường làm việc mang lại sự tự do cao độ và tôn trọng sự tự do cá nhân.</p>
+<p>Khi mới vào công ty, tôi gặp khó khăn trong việc bày tỏ ý kiến, nhưng nhờ môi trường làm việc cởi mở, nơi mọi người có thể chia sẻ ý kiến ​​bất kể vị trí hay độ tuổi, tôi đã trở nên tự tin hơn, và giờ đây tôi được giao phó những công việc quan trọng, thậm chí còn được hướng dẫn bởi các nhân viên cấp dưới.</p>
+<p>Cấp trên và cấp dưới luôn lắng nghe ý kiến ​​của tôi và cùng tôi tìm ra cách cải thiện. Tôi cảm thấy rất tự hào và biết ơn khi được tiếp tục học hỏi trong một môi trường như vậy.</p>
+<p>Đây cũng là một môi trường làm việc vô cùng kích thích cho những người yêu thích sự thay đổi.</p>
+<p>Có rất nhiều cơ hội để nhanh chóng hiện thực hóa ý tưởng của bạn, và bạn càng đón nhận thử thách, bạn càng gặt hái được nhiều thành quả.</p>
+<p>Khả năng liên tục đón nhận những thử thách mới và cùng nhau phát triển với công ty là một điểm thu hút độc đáo khác của ALEX.</p>
+</div>               </div>
+
+              <div class="staff-section-box">
+                <img src="../../../image/長方形 1200.webp" width="999" height="447" alt="" class="staff-avatar-bg">
+                 <span class="staff-subtile">Mục tiêu và thách thức trong tương lai của bạn là gì?</span>                   <div class="staff-desc"><p>Mục tiêu của tôi là tiếp tục trau dồi kinh nghiệm và kỹ năng đã tích lũy được, đồng thời trở thành một nhà sáng tạo có thể linh hoạt thích ứng với nhu cầu biểu đạt hình ảnh luôn thay đổi của ngành công nghiệp giải trí.</p>
+<p>Để đạt được điều này, trước tiên tôi muốn tích lũy kinh nghiệm và trau dồi kỹ năng thiết kế, đồng thời cải thiện kỹ năng giao tiếp, vốn là một vấn đề đối với tôi. Trước đây, tôi không thể truyền tải hiệu quả ý tưởng và cách diễn đạt của mình đến người khác, điều này ảnh hưởng đến chất lượng video và tôi cảm thấy rất thất vọng. Tôi muốn tận dụng kinh nghiệm này để củng cố kỹ năng giao tiếp và tạo ra những tác phẩm tốt hơn nữa.</p>
+<p>Trong tương lai, tôi đặt mục tiêu trở thành một &quot;tiêu chuẩn&quot; hỗ trợ chất lượng video của ALEX.</p>
+<p>Vì vậy, mục tiêu chính hiện tại của tôi là tập trung vào công việc trước mắt, tiếp tục tạo ra những kết quả đáng tin cậy và xây dựng niềm tin.</p>
+</div>               </div>
+            </div>
+          </div>
+
+      </div>
+
+
+    <div class="staff-comment-detail">
+
+
+          <div class="sf-header">
+          <img class="sf-bg" src="../../../image/グループ 293.webp" width="2895" height="816" alt="Green Diagonal BG">
+        </div>
+          <div class="staff-block reverse">
+            <div class="staff-image-reverse">
+              <div class="staff-frame">
+                                  <img src="../../../image/-120.webp" width="428" height="626" class="staff-frame-brigde" alt="Green BG">
+                                <img src="../../../image/長方形 455.webp" width="467" height="895" class="staff-frame-braved" alt="Middle Frame">
+                <img src="../../../image/べた塗り 4.webp" width="346" height="654" class="staff-frame-bottom" alt="Top Frame">
+              </div>
+            </div>
+
+            <div class="staff-text">
+              <div class="staff-section-box">
+                <img src="../../../image/長方形 1200.webp" width="999" height="447" alt="" class="staff-avatar-bg">
+                 <span class="staff-subtile">Xin hãy cho chúng tôi biết về công việc hiện tại của bạn.</span>                  <div class="staff-desc"><p>Là một nhà thiết kế đồ họa máy tính (CG), tôi phụ trách việc ghép hình trong sản xuất video.</p>
+<p>Tôi chủ yếu sử dụng After Effects để tạo hiệu ứng cho hình ảnh pachinko và pachislot, cũng như ghép hình để làm cho tổng thể trở nên hấp dẫn hơn.</p>
+<p>Cụ thể, tôi sử dụng After Effects để tạo sóng xung kích, hiệu ứng nền, hoạt ảnh logo, đồ họa chuyển động, v.v., và kết hợp chúng để tạo ra những màn trình diễn hào nhoáng, ấn tượng và biểu cảm phong cách, tinh tế.</p>
+<p>Tôi cũng thêm hiệu ứng hào quang và ngọn lửa vào hình minh họa nhân vật và văn bản do các nhà thiết kế 2D và 3D cung cấp, đồng thời kết hợp ngọn lửa hành động thực tế và ánh sáng môi trường với dữ liệu quay phim, nhằm tạo ra những biểu cảm trực quan mà nhiều người có thể đắm chìm vào.</p>
+</div>               </div>
+
+              <div class="staff-section-box">
+                <img src="../../../image/長方形 1200.webp" width="999" height="447" alt="" class="staff-avatar-bg">
+                 <span class="staff-subtile">Công việc của bạn có gì hấp dẫn và bổ ích?</span>                   <div class="staff-desc"><p>Điều tôi thấy bổ ích nhất là cảm giác thành tựu và viên mãn khi được làm việc cùng toàn bộ đội ngũ để tạo ra từng video và thiết kế, biến những ý tưởng thú vị mà không ai khác có thể nghĩ ra thành hiện thực, rồi được phản ánh trên toàn thế giới và được nhiều người yêu thích. Đó là một trải nghiệm vô giá.</p>
+<p>Đặc biệt là trong ngành công nghiệp giải trí, cách trình bày video luôn thay đổi, đòi hỏi cả khả năng biểu đạt lẫn kỹ thuật. Điều này có nghĩa là luôn có điều gì đó để học hỏi, và cơ hội tiếp tục phát triển là một điểm thu hút và phần thưởng to lớn khác của công việc này.</p>
+<p>Tôi cũng tìm thấy niềm vui khi truyền đạt những kỹ năng, ý tưởng và sự nhạy bén mà tôi đã trau dồi cho các đàn em của mình, điều này không chỉ giúp tôi trưởng thành hơn mà còn nâng cao trình độ của toàn đội, và kinh nghiệm tích lũy này đã củng cố sức mạnh của ALEX nói chung.</p>
+</div>               </div>
+            </div>
+          </div>
+
+      </div>
+
+
+
+       <div class="staff-comment-detail">
+
+          <div class="staff-block reverse-bg">
+            <div class="staff-image-reverse-bg">
+              <div class="staff-frame">
+                                  <img src="../../../image/-01.webp" width="1507" height="563" class="staff-frame-wrapper" alt="Green BG">
+                                <img src="../../../image/長方形 479.webp" width="1398" height="735" class="staff-frame-scrapper" alt="Middle Frame">
+                <img src="../../../image/長方形 999.webp" width="1394" height="733" class="staff-frame-underground" alt="Top Frame">
+              </div>
+            </div>
+            <div class="staff-text-bg">
+              <div class="staff-section-box">
+                <img src="../../../image/長方形 1200.webp" width="999" height="447" alt="" class="staff-avatar-bg">
+                 <span class="staff-subtile">Một thông điệp gửi đến những người hiện đang tìm việc và những người sắp gia nhập công ty</span>                  <div class="staff-desc"><p>&quot;Tôi thích sáng tạo.&quot; &quot;Tôi thích ngắm nhìn các thiết kế.&quot; Những cảm xúc này chính là động lực lớn nhất cho một nhà thiết kế.</p>
+<p>Những ý tưởng và cảm xúc độc đáo chính là vũ khí lợi hại của tôi, vì vậy tôi cảm thấy niềm vui thực sự của một nhà sáng tạo nằm ở việc tìm ra cách vận dụng chúng.</p>
+<p>Ngành công nghiệp giải trí sử dụng nhiều phương pháp thể hiện khác nhau, bao gồm 2D, 3D và ghép hình, và đòi hỏi sự liên tục đặt câu hỏi &quot;làm thế nào để cải thiện mọi thứ?&quot; và &quot;thiết kế nào thực sự lay động trái tim?&quot; Tôi tin rằng ngành công nghiệp này là một môi trường đầy thách thức.</p>
+<p>Hãy cùng nhau truyền niềm đam mê thiết kế của bạn vào video và tạo ra những tác phẩm sáng tạo tuyệt vời và cảm động hơn.</p>
+</div>               </div>
+            </div>
+          </div>
+
+      </div>
+    </div>
+        </section>
+
+
+      <div class="footer-main">
+<footer class="site-footer" role="contentinfo">
+<div class="site-footer__inner">
+<small class="site-footer__copy">
+  Copyright © <span id="footerYear"></span> ALEX CO., LTD. All Rights Reserved
+</small>
+</div>
+</footer>
+</div>
+    </div>
+
+     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="../../../js/script.js"></script>
+        <script src="../../../js/lang.js"></script>
+        <script src="../../../js/background-intro.js"></script>
+        <script src="../../../js/footer-year.js" defer></script>
+  </body>
+</html>
+

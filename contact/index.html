@@ -1,0 +1,467 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Security-Policy" content="
+          default-src 'self';
+          base-uri 'self';
+          object-src 'none';
+          form-action 'self';
+          upgrade-insecure-requests;
+
+          script-src 'self' https://code.jquery.com https://www.googletagmanager.com;
+          style-src  'self' https://fonts.googleapis.com;
+          font-src   'self' https://fonts.gstatic.com data:;
+          img-src    'self' data: blob:;
+          connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com;
+
+          frame-src https://www.googletagmanager.com;
+        ">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>お問い合わせ</title>
+              
+        <script src="../js/gtm.js"></script>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="../css/site-CmZlzcU5.css">
+        <link rel="stylesheet" href="../css/fonts.css">
+        <link rel="stylesheet" href="../assets/fontawesome/css/all.min.css">
+        <link rel="stylesheet" href="../css/bootstrap.css">
+        <link rel="stylesheet" href="../css/site.css">    
+        <link rel="stylesheet" href="../css/contact-page.css">
+
+
+    </head>
+    <body class="bg-slate-100 dark:bg-gray-800 font-sans leading-normal text-slate-800 dark:text-gray-400">
+
+        <div id="page" class="site">
+  <nav id="mobilenav">
+    <div class="mobilenav__inner">
+      <div class="toplg">
+        <div class="logo">
+     
+          <a class="logo-link" href="../index.html">
+            <img src="../image/_01__01_alex.webp" width="194" height="68" alt="Logo">
+          </a>
+        </div>
+      </div>
+
+      <div class="menu-primary-menu-ja-container">
+        <ul id="menu-main" class="mobile-menu">
+          <li class="menu-item"><a class="rd-nav-link" href="../index.html">TOP</a></li>
+
+          <li class="menu-item menu-item-has-children">
+            <a class="rd-nav-link" href="../about/index.html">ABOUT</a>
+            <ul class="sub-menu">
+              <li><a href="../about/index.html#message">代表メッセージ</a></li>
+              <li><a href="../about/index.html#company">会社概要</a></li>
+              <li><a href="../about/index.html#history">沿革</a></li>
+              <li><a href="../about/index.html#org">組織図</a></li>
+              <li><a href="../about/index.html#clients">主要取引先</a></li>
+            </ul>
+          </li>
+
+          <li class="menu-item menu-item-has-children">
+            <a class="rd-nav-link" href="../service/index.html">SERVICE</a>
+            <ul class="sub-menu">
+              <li><a href="../service/index.html#movie">映像制作</a></li>
+              <li><a href="../service/index.html#dev">実装・プログラミング</a></li>
+              <li><a href="../service/index.html#system">システム・ツール開発</a></li>
+              <li><a href="../service/index.html#plan">企画</a></li>
+            </ul>
+          </li>
+
+          <li class="menu-item"><a class="rd-nav-link" href="../works/index.html">WORKS</a></li>
+
+          <li class="menu-item menu-item-has-children">
+            <a class="rd-nav-link" href="../recruit/index.html">RECRUIT</a>
+            <ul class="sub-menu">
+              <li><a href="../recruit/index.html">募集職種</a></li>
+              <li><a href="../comments-top/index.html">スタッフの声</a></li>
+            </ul>
+          </li>
+
+          <li class="menu-item"><a class="rd-nav-link" href="../access/index.html">ACCESS</a></li>
+          <li class="menu-item"><a class="rd-nav-link" href="../contact/index.html">CONTACT</a></li>
+        </ul>
+      </div>
+
+      <a class="menu_close"><i class="fas fa-angle-left"></i></a>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <header id="masthead" role="banner" itemscope itemtype="http://schema.org/WPHeader">
+    <div class="header-main">
+      <div class="container">
+        <div class="header-content">
+          <a id="showmenu" class="d-dropdown">
+            <span class="hamburger hamburger--collapse">
+              <span class="hamburger-box"><span class="hamburger-inner"></span></span>
+            </span>
+          </a>
+
+          <div class="row align-items-center">
+            <div class="col-xl-2 col-lg-3 col-4">
+              <div class="logo">
+                <a class="logo-link" href="../index.html">
+                  <img src="../image/_01__01_alex.webp" width="194" height="68" alt="Logo">
+                </a>
+              </div>
+            </div>
+
+            <div class="col-xl-10 col-lg-9 col-8">
+              <div class="top-menu">
+                <div class="top-language">
+                  <section id="polylang-2" class="widget widget_polylang">
+                    <ul>
+                      
+           <li class="lang-item lang-item-ja">
+  <a class="lang-btn" data-lang="ja" href="/contact_form.php?lang=ja">
+    <img src="../../image/jp-image.webp" alt="日本語">
+  </a>
+</li>
+
+<li class="lang-item lang-item-vi">
+  <a class="lang-btn" data-lang="vi" href="/contact_form.php?lang=vi">
+    <img src="../../image/vn-image.webp" alt="Tiếng Việt">
+  </a>
+</li>
+
+<li class="lang-item lang-item-en">
+  <a class="lang-btn" data-lang="en" href="/contact_form.php?lang=en">
+    <img src="../../image/en-image.webp" alt="English">
+  </a>
+</li>
+                    </ul>
+                  </section>
+                </div>
+
+                <nav id="site-navigation" class="main-navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
+                  <div class="menu-primary-menu-ja-container">
+                    <ul id="primary-menu" class="menu clearfix">
+                      <li class="menu-item"><a class="rd-nav-link" href="../index.html">TOP</a></li>
+
+                      <li class="menu-item menu-item-has-children">
+                        <a class="rd-nav-link" href="../about/index.html">ABOUT</a>
+                        <ul class="sub-menu">
+                          <li><a href="../about/index.html#message">代表メッセージ</a></li>
+                          <li><a href="../about/index.html#company">会社概要</a></li>
+                          <li><a href="../about/index.html#history">沿革</a></li>
+                          <li><a href="../about/index.html#org">組織図</a></li>
+                          <li><a href="../about/index.html#clients">主要取引先</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="menu-item menu-item-has-children">
+                        <a class="rd-nav-link" href="../service/index.html">SERVICE</a>
+                        <ul class="sub-menu">
+                          <li><a href="../service/index.html#movie">映像制作</a></li>
+                          <li><a href="../service/index.html#dev">実装・プログラミング</a></li>
+                          <li><a href="../service/index.html#system">システム・ツール開発</a></li>
+                          <li><a href="../service/index.html#plan">企画</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="menu-item"><a class="rd-nav-link" href="../works/index.html">WORKS</a></li>
+
+                      <li class="menu-item menu-item-has-children">
+                        <a class="rd-nav-link" href="../recruit/index.html">RECRUIT</a>
+                        <ul class="sub-menu">
+                          <li><a href="../recruit/index.html">募集職種</a></li>
+                          <li><a href="../comments-top/index.html">スタッフの声</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="menu-item"><a class="rd-nav-link" href="../access/index.html">ACCESS</a></li>
+                      <li class="menu-item"><a class="rd-nav-link" href="../contact/index.html">CONTACT</a></li>
+                    </ul>
+                  </div>
+                </nav>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+
+                <section class="about">
+
+
+  <div class="about-avatar">
+
+      <div class="about-bg bg1" ></div>
+
+      <div class="about-bg bg2" ></div>
+
+    <div class="overlay-contact">
+        <div class="container-contact-text">
+     
+          <div class="contact-left-text">
+
+          <h2></h2>
+
+
+          </div>
+
+          <div class="contact-right-text">
+
+            <span class="contact-company-info">お問い合わせ</span>
+            <h1 class="contact-heading-info">CONTACT</h1>
+
+          </div>
+        </div>
+    </div>
+  </div>
+
+
+</section>
+<nav class="submenu-tabs-4">
+</nav>
+
+<section class="recruit-heading">
+    <video class="recruit-bg-video" autoplay muted loop playsinline preload="auto">
+    <source src="../assets/共通_00_最下層レイヤー_背景動画.mp4" type="video/mp4">
+  </video>
+  <div class="container video-inner">
+    <div class="contact-block-wrapper" id="main_contents">
+
+      <!-- intro -->
+      <p class="contact-intro">
+
+          以下のフォームにお問い合わせ内容をご記入いただき、送信してください
+
+      </p>
+
+      <!-- steps -->
+      <div id="position_box">
+        <ul>
+          <li class="active">
+            <span class="step-label-1">
+              STEP1　内容入力
+            </span> →
+          </li>
+          <li>
+            <span class="step-label-2">
+              STEP2　内容確認
+            </span> →
+          </li>
+          <li>
+            <span class="step-label-3">
+              STEP3　受付完了
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <div id="form_box" class="line-contact">
+        <form action="/contact_form.php?lang=ja" method="post" name="applyform" id="applyform">
+          
+          <table>
+            <tbody>
+              <!-- Name -->
+              <tr>
+                <th class="th-name">
+                  <span class="label-name">
+                    お名前
+                  </span>
+                  <span class="required req-name">
+                    ※必須
+                  </span>
+                </th>
+                <td>
+                  <input name="お名前" type="text" size="30"
+                         placeholder="例：山田 太郎">
+                </td>
+              </tr>
+
+              <!-- Kana (optional) -->
+              <tr>
+                <th class="th-kana">
+                  <span class="label-kana">
+                    フリガナ
+                  </span>
+                </th>
+                <td>
+                  <input name="フリガナ" type="text" size="30"
+                         placeholder="例：ヤマダ タロウ">
+                </td>
+              </tr>
+
+              <!-- Phone -->
+              <tr>
+                <th class="th-phone">
+                  <span class="label-phone">
+                    電話番号
+                  </span>
+                </th>
+                <td>
+                  <input name="電話番号"
+       type="text"
+       placeholder="数字のみ（9〜11桁）">
+                </td>
+              </tr>
+
+              <!-- Email -->
+              <tr>
+                <th class="th-email">
+                  <span class="label-email">
+                    メールアドレス
+                  </span>
+                  <span class="required req-email">
+                    ※必須
+                  </span>
+                </th>
+                <td>
+                  <input name="email" type="text" autocomplete="email" placeholder="例：info@example.com">
+
+                </td>
+              </tr>
+
+              <!-- Email confirm -->
+              <tr>
+                <th class="th-email2">
+                  <span class="label-email2">
+                    メールアドレス確認用
+                  </span>
+                  <span class="required req-email2">
+                    ※必須
+                  </span>
+                </th>
+                <td>
+                <input name="email2" type="text" autocomplete="email" placeholder="確認のため再入力">
+                </td>
+              </tr>
+
+              <!-- Message -->
+              <tr>
+                <th class="th-body">
+                  <span class="label-message">
+                    お問い合わせ内容
+                  </span>
+                  <span class="required req-body">
+                    ※必須
+                  </span>
+                </th>
+                <td>
+                  <textarea name="お問い合わせ内容" id="comment"
+                            placeholder="お問い合わせ内容をご記入ください…"></textarea>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p id="sub_btn">
+            <button type="submit" name="submit" class="contact-detail-btn submit" value="">
+              入力内容を確認する
+            </button>
+          </p>
+        </form>
+
+<!--       
+        <div class="errm">
+          <h4 class="err-title">
+            未入力項目があります
+          </h4>
+          <div class="err-lines"></div>
+        </div>
+
+        <div id="confirm_btn">
+          <button type="button" class="h_back contact-detail-btn" value="">
+            入力画面に戻る
+          </button>
+        </div>
+
+
+        <div class="submittable">
+          <p class="confirm-intro">
+
+            以下の内容で間違いがなければ、「送信」ボタンを押してください。
+
+          </p>
+          <form action="/contact_form.php" method="POST">
+            <table cellpadding="0" cellspacing="0" class="confirm_table">
+              <tbody>
+                <tr>
+                  <th class="label-name">
+                    お名前
+                  </th>
+                  <td><input type="hidden" name="お名前" value=""></td>
+                </tr>
+                <tr>
+                  <th class="label-kana">
+                    フリガナ
+                  </th>
+                  <td><input type="hidden" name="フリガナ" value=""></td>
+                </tr>
+                <tr>
+                  <th class="label-phone">
+                    電話番号
+                  </th>
+                  <td><input type="hidden" name="電話番号" value=""></td>
+                </tr>
+                <tr>
+                  <th class="label-email">
+                    メールアドレス
+                  </th>
+                  <td><input type="hidden" name="email" value=""></td>
+                </tr>
+                <tr>
+                  <th class="label-message">
+                    お問い合わせ内容
+                  </th>
+                  <td><input type="hidden" name="お問い合わせ内容" value=""></td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="hide"><input type="hidden" name="email2" value=""></div>
+
+            <div id="confirm_btn">
+              <input type="hidden" name="eweb_set" value="eweb_submit">
+              <button type="button" class="h_back contact-detail-btn" value="">
+                入力画面に戻る
+              </button>
+              <button type="submit" name="submit-a" class="submit-a confirm-detail-btn" value="">
+                送信する
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <p class="thanks-text">
+
+            お問い合わせありがとうございました。<br>送信は無事に完了しました。
+
+        </p> -->
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+            <div class="footer-main">
+<footer class="site-footer" role="contentinfo">
+<div class="site-footer__inner">
+<small class="site-footer__copy">
+  Copyright © <span id="footerYear"></span> ALEX CO., LTD. All Rights Reserved
+</small>
+</div>
+</footer>
+</div>
+
+        </div>
+       <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="../js/script.js"></script>
+        <script src="../js/lang.js"></script>
+        <script src="../js/background-intro.js"></script>
+      
+        <script src="../js/footer-year.js" defer></script>
+    </body>
+</html>

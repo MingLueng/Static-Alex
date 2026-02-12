@@ -1,0 +1,752 @@
+<!doctype html>
+<html lang="en">
+       <head>
+        <meta charset="utf-8">
+
+        <!-- CSP: đặt sớm -->
+        <meta http-equiv="Content-Security-Policy" content="
+          default-src 'self';
+          base-uri 'self';
+          object-src 'none';
+          form-action 'self';
+          upgrade-insecure-requests;
+
+          script-src 'self' https://code.jquery.com https://www.googletagmanager.com;
+          style-src  'self' https://fonts.googleapis.com;
+          font-src   'self' https://fonts.gstatic.com data:;
+          img-src    'self' data: blob:;
+          connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com;
+          frame-src https://www.googletagmanager.com;
+        ">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>会社案内</title>
+        
+        <!-- ✅ GTM: dùng file local để không bị CSP chặn inline -->
+        <script src="../../js/gtm.js"></script>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="../../css/site-CmZlzcU5.css">
+        <link rel="stylesheet" href="../../css/fonts.css">
+        <link rel="stylesheet" href="../../assets/fontawesome/css/all.min.css">
+        <link rel="stylesheet" href="../../css/bootstrap.css">
+        <link rel="stylesheet" href="../../css/site.css">    
+        <link rel="stylesheet" href="../../css/comments-top-page.css">
+      
+    </head>
+    <body class="bg-slate-100 dark:bg-gray-800 font-sans leading-normal text-slate-800 dark:text-gray-400">
+        <div id="page" class="site">
+<nav id="mobilenav">
+  <div class="mobilenav__inner">
+    <div class="toplg">
+      <div class="logo">
+        <a class="logo-link" href="../index.html">
+          <img src="../../image/_01__01_alex.webp" width="194" height="68" alt="Logo">
+        </a>
+      </div>
+    </div>
+
+    <div class="menu-primary-menu-ja-container">
+      <ul id="menu-main" class="mobile-menu">
+
+        <li class="menu-item">
+          <a class="rd-nav-link" href="../index.html">TRANG CHỦ</a>
+        </li>
+
+        <li class="menu-item menu-item-has-children">
+          <a class="rd-nav-link" href="../about/index.html">GIỚI THIỆU</a>
+          <ul class="sub-menu">
+            <li><a href="../about/index.html#message">Thông điệp CEO</a></li>
+            <li><a href="../about/index.html#company">Giới thiệu công ty</a></li>
+            <li><a href="../about/index.html#history">Lịch sử</a></li>
+            <li><a href="../about/index.html#org">Sơ đồ tổ chức</a></li>
+            <li><a href="../about/index.html#clients">Khách hàng tiêu biểu</a></li>
+          </ul>
+        </li>
+
+        <li class="menu-item menu-item-has-children">
+          <a class="rd-nav-link" href="../service/index.html">DỊCH VỤ</a>
+          <ul class="sub-menu">
+            <li><a href="../service/index.html#movie">Sản xuất video</a></li>
+            <li><a href="../service/index.html#dev">Lập trình &amp; triển khai</a></li>
+            <li><a href="../service/index.html#system">Phát triển hệ thống &amp; công cụ</a></li>
+            <li><a href="../service/index.html#plan">Lên ý tưởng</a></li>
+          </ul>
+        </li>
+
+        <li class="menu-item">
+          <a class="rd-nav-link" href="../works/index.html">SẢN PHẨM</a>
+        </li>
+
+        <li class="menu-item menu-item-has-children">
+          <a class="rd-nav-link" href="./index.html">TUYỂN DỤNG</a>
+          <ul class="sub-menu">
+            <li><a href="./index.html">Cơ hội việc làm</a></li>
+            <li><a href="../comments-top/index.html">Ý kiến đánh giá của nhân viên</a></li>
+          </ul>
+        </li>
+
+        <li class="menu-item">
+          <a class="rd-nav-link" href="../access/index.html">ĐỊA CHỈ</a>
+        </li>
+
+        <li class="menu-item">
+          <a class="rd-nav-link" href="../contact/index.html">LIÊN HỆ</a>
+        </li>
+
+      </ul>
+    </div>
+
+    <a class="menu_close"><i class="fas fa-angle-left"></i></a>
+  </div>
+</nav>
+
+<header id="masthead" role="banner" itemscope itemtype="http://schema.org/WPHeader">
+  <div class="header-main">
+    <div class="container">
+      <div class="header-content">
+        <a id="showmenu" class="d-dropdown">
+          <span class="hamburger hamburger--collapse">
+            <span class="hamburger-box"><span class="hamburger-inner"></span></span>
+          </span>
+        </a>
+
+        <div class="row align-items-center">
+          <div class="col-xl-2 col-lg-2 col-4">
+            <div class="logo">
+              <a class="logo-link" href="../index.html">
+                <img src="../../image/_01__01_alex.webp" width="194" height="68" alt="Logo">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-xl-10 col-lg-9 col-7">
+            <div class="top-menu">
+              <div class="top-language">
+                <section id="polylang-2" class="widget widget_polylang">
+                  <ul>
+                    <!-- đang ở /vi/... -->
+                        <li class="lang-item lang-item-ja">
+                        <a class="lang-btn" data-lang="ja" href="../../recruit/index.html">
+                          <img src="../../image/jp-image.webp" alt="日本語" width="16" height="11">
+                        </a>
+                      </li>
+                      <li class="lang-item lang-item-vi">
+                        <a class="lang-btn" data-lang="vi" href="../vi/recruit/index.html">
+                          <img src="../../image/vn-image.webp" alt="Tiếng Việt" width="16" height="11">
+                        </a>
+                      </li>
+                      <li class="lang-item lang-item-en">
+                        <a class="lang-btn" data-lang="en" href="../en/recruit/index.html">
+                          <img src="../../image/en-image.webp" alt="English" width="16" height="11">
+                        </a>
+                      </li>
+
+
+
+            
+                  </ul>
+                </section>
+              </div>
+
+              <nav id="site-navigation" class="main-navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
+                <div class="menu-primary-menu-ja-container">
+                  <ul id="primary-menu" class="menu clearfix">
+
+                    <li class="menu-item">
+                      <a class="rd-nav-link" href="../index.html">TRANG CHỦ</a>
+                    </li>
+
+                    <li class="menu-item menu-item-has-children">
+                      <a class="rd-nav-link" href="../about/index.html">GIỚI THIỆU</a>
+                      <ul class="sub-menu">
+                        <li><a href="../about/index.html#message">Thông điệp CEO</a></li>
+                        <li><a href="../about/index.html#company">Giới thiệu công ty</a></li>
+                        <li><a href="../about/index.html#history">Lịch sử</a></li>
+                        <li><a href="../about/index.html#org">Sơ đồ tổ chức</a></li>
+                        <li><a href="../about/index.html#clients">Khách hàng tiêu biểu</a></li>
+                      </ul>
+                    </li>
+
+                    <li class="menu-item menu-item-has-children">
+                      <a class="rd-nav-link" href="../service/index.html">DỊCH VỤ</a>
+                      <ul class="sub-menu">
+                        <li><a href="../service/index.html#movie">Sản xuất video</a></li>
+                        <li><a href="../service/index.html#dev">Lập trình &amp; triển khai</a></li>
+                        <li><a href="../service/index.html#system">Phát triển hệ thống &amp; công cụ</a></li>
+                        <li><a href="../service/index.html#plan">Lên ý tưởng</a></li>
+                      </ul>
+                    </li>
+
+                    <li class="menu-item">
+                      <a class="rd-nav-link" href="../works/index.html">SẢN PHẨM</a>
+                    </li>
+
+                    <li class="menu-item menu-item-has-children">
+                      <a class="rd-nav-link" href="../recruit/index.html">TUYỂN DỤNG</a>
+                      <ul class="sub-menu">
+                        <li><a href="../recruit/index.html">Cơ hội việc làm</a></li>
+                        <li><a href="../comments-top/index.html">Ý kiến đánh giá của nhân viên</a></li>
+                      </ul>
+                    </li>
+
+                    <li class="menu-item">
+                      <a class="rd-nav-link" href="../access/index.html">ĐỊA CHỈ</a>
+                    </li>
+
+                    <li class="menu-item">
+                      <a class="rd-nav-link" href="../contact/index.html">LIÊN HỆ</a>
+                    </li>
+
+                  </ul>
+                </div>
+              </nav>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</header>
+
+                <div class="submenu-tabs-3">
+  <div class="container-2">
+
+      <span class="main-title-staff">INTERVIEW</span>
+
+
+
+      <span class="subtitle-staff">Ý kiến của nhân viên</span>
+
+  </div>
+</div>
+
+<nav class="submenu-tabs-1">
+  <div class="container">
+    <ul>
+
+
+          <li>
+            <a href="../recruit/index.html
+                     ">
+
+                Vị trí tuyển dụng
+
+            </a>
+          </li>
+
+
+
+
+
+          <li>
+            <a href="../comments-top/index.html
+                     ">
+
+                Góc nhìn nhân viên
+
+            </a>
+          </li>
+
+
+    </ul>
+  </div>
+</nav>
+<section class="recruit-heading">
+                  <video class="recruit-bg-video" autoplay muted loop playsinline preload="auto">
+    <source src="../../assets/共通_00_最下層レイヤー_背景動画.mp4" type="video/mp4">
+  </video>
+  <div class="creation-interview-section">
+  <div class="container">
+    <div class="interview-slider">
+      <button class="slide-interview-btn prev" type="button">&#10094;</button>
+       <div class="interview-viewport">
+      <div class="interview-stack">
+
+          <div class="stack-item" data-popup="#interviewPopup-b93b4137-6403-4f13-af59-0c5bf861852b">
+            <div class="stack-name">
+
+                Anh I.G
+
+            </div>
+
+
+
+                <img src="../../image/-9.webp" width="289" height="423" alt="
+
+                    Anh I.G
+
+                ">
+
+
+          </div>
+
+          <div class="stack-item" data-popup="#interviewPopup-3ba65d4d-a578-430a-a5e1-66661227c566">
+            <div class="stack-name">
+
+                Anh K.N
+
+            </div>
+
+
+
+                <img src="../../image/-9.webp" width="289" height="423" alt="
+
+                    Anh K.N
+
+                ">
+
+
+          </div>
+
+          <div class="stack-item" data-popup="#interviewPopup-ae68f9c4-a910-4ab8-9592-a44cd4c97c72">
+            <div class="stack-name">
+
+                Anh O.A
+
+            </div>
+
+
+
+                <img src="../../image/-9.webp" width="289" height="423" alt="
+
+                    Anh O.A
+
+                ">
+
+
+          </div>
+
+          <div class="stack-item" data-popup="#interviewPopup-211fd162-e286-4a23-9719-49aa1c8f03bc">
+            <div class="stack-name">
+
+                Anh R.O
+
+            </div>
+
+
+
+                <img src="../../image/-15.webp"  width="289" height="423"alt="
+
+                    Anh R.O
+
+                ">
+
+
+          </div>
+
+          <div class="stack-item" data-popup="#interviewPopup-d4c06a64-95fd-41bc-9420-407a4000e6b5">
+            <div class="stack-name">
+
+                Anh S.T
+
+            </div>
+
+
+
+                <img src="../../image/-9.webp" width="289" height="423" alt="
+
+                    Anh S.T
+
+                ">
+
+
+          </div>
+
+          <div class="stack-item" data-popup="#interviewPopup-91509c82-83c5-4455-a98a-09dd5b6cdbc1">
+            <div class="stack-name">
+
+                Anh T.M
+
+            </div>
+
+
+
+                <img src="../../image/-9.webp"  width="289" height="423"alt="
+
+                    Anh T.M
+
+                ">
+
+
+          </div>
+
+          <div class="stack-item" data-popup="#interviewPopup-da96cc18-6696-48ad-8452-7b1e5ccf468a">
+            <div class="stack-name">
+
+                Anh Y.G
+
+            </div>
+
+
+
+                <img src="../../image/-9.webp" width="289" height="423" alt="
+
+                    Anh Y.G
+
+                ">
+
+
+          </div>
+
+          <div class="stack-item" data-popup="#interviewPopup-57a01a37-ad9c-4ed7-9def-f72b56e85940">
+            <div class="stack-name">
+
+                Anh K.K
+
+            </div>
+
+
+
+                <img src="../../image/-9.webp" width="289" height="423" alt="
+
+                    Anh K.K
+
+                ">
+
+
+          </div>
+
+      </div>
+      </div>
+      <button class="slide-interview-btn next" type="button">&#10095;</button>
+    </div>
+  </div>
+
+
+    <div class="interview-popup-overlay" id="interviewPopup-b93b4137-6403-4f13-af59-0c5bf861852b">
+      <div class="popup-content">
+        <div class="popup-frame">
+          <div class="popup-title">
+            <a class="popup-name" href="./mr-ig/index.html
+       ">
+
+                Anh I.G
+
+            </a>
+
+            <p class="popup-producer">
+
+                Lập trình viên phòng sản xuất video
+
+            </p>
+
+            <p class="popup-date">
+
+                Gia nhập 2011
+
+            </p>
+          </div>
+
+<img src="../../image/長方形 437.webp" width="182" height="355" class="popup-frame-top" alt="Top Frame">
+          <img src="../../image/長方形 438.webp" width="182" height="355" class="popup-frame-bottom" alt="Bottom Frame">
+          <img src="../../image/長方形 439.webp" width="182" height="355" class="popup-frame-left" alt="Left Frame">
+
+                  <a class="popup-name" href="./mr-ig/index.html
+       ">
+
+              <img src="../../image/-120.webp" width="214" height="313" class="popup-frame-bg" alt="Popup BG">
+
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="interview-popup-overlay" id="interviewPopup-3ba65d4d-a578-430a-a5e1-66661227c566">
+      <div class="popup-content">
+        <div class="popup-frame">
+          <div class="popup-title">
+            <a class="popup-name" href="./mr-kn/index.html
+       ">
+
+                Anh K.N
+
+            </a>
+
+            <p class="popup-producer">
+
+                Nhà sản xuất của Phòng Kế hoạch và Phát triển
+
+            </p>
+
+            <p class="popup-date">
+
+                Gia nhập 2011
+
+            </p>
+          </div>
+
+  <img src="../../image/長方形 437.webp" width="182" height="355" class="popup-frame-top" alt="Top Frame">
+          <img src="../../image/長方形 438.webp" width="182" height="355" class="popup-frame-bottom" alt="Bottom Frame">
+          <img src="../../image/長方形 439.webp" width="182" height="355" class="popup-frame-left" alt="Left Frame">
+
+
+                    <a class="popup-name" href="./mr-kn/index.html
+       ">
+              <img src="../../image/-120.webp" width="214" height="313" class="popup-frame-bg" alt="Popup BG">
+            </a>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="interview-popup-overlay" id="interviewPopup-ae68f9c4-a910-4ab8-9592-a44cd4c97c72">
+      <div class="popup-content">
+        <div class="popup-frame">
+          <div class="popup-title">
+            <a class="popup-name" href="./mr-oa/index.html
+       ">
+
+                Anh O.A
+
+            </a>
+
+            <p class="popup-producer">
+
+                Phòng Sản xuất Video Thiết kế 3D
+
+            </p>
+
+            <p class="popup-date">
+
+                Gia nhập 2011
+
+            </p>
+          </div>
+
+<img src="../../image/長方形 437.webp" width="182" height="355" class="popup-frame-top" alt="Top Frame">
+          <img src="../../image/長方形 438.webp" width="182" height="355" class="popup-frame-bottom" alt="Bottom Frame">
+          <img src="../../image/長方形 439.webp" width="182" height="355" class="popup-frame-left" alt="Left Frame">
+
+
+                  <a class="popup-name" href="./mr-oa/index.html
+       ">
+              <img src="../../image/-120.webp" width="214" height="313" class="popup-frame-bg" alt="Popup BG">
+            </a>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="interview-popup-overlay" id="interviewPopup-211fd162-e286-4a23-9719-49aa1c8f03bc">
+      <div class="popup-content">
+        <div class="popup-frame">
+          <div class="popup-title">
+            <a class="popup-name" href="./mr-ro/index.html
+       ">
+
+                Anh R.O
+
+            </a>
+
+            <p class="popup-producer">
+
+                Phòng Sản xuất Video
+
+            </p>
+
+            <p class="popup-date">
+
+                Gia nhập 2011
+
+            </p>
+          </div>
+
+   <img src="../../image/長方形 437.webp" width="182" height="355" class="popup-frame-top" alt="Top Frame">
+          <img src="../../image/長方形 438.webp" width="182" height="355" class="popup-frame-bottom" alt="Bottom Frame">
+          <img src="../../image/長方形 439.webp" width="182" height="355" class="popup-frame-left" alt="Left Frame">
+
+
+                  <a class="popup-name" href="./mr-ro/index.html
+       ">
+              <img src="../../image/-15.webp" width="214" height="313" class="popup-frame-bg" alt="Popup BG">
+            </a>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="interview-popup-overlay" id="interviewPopup-d4c06a64-95fd-41bc-9420-407a4000e6b5">
+      <div class="popup-content">
+        <div class="popup-frame">
+          <div class="popup-title">
+            <a class="popup-name" href="./mr-st/index.html
+       ">
+
+                Anh S.T
+
+            </a>
+
+            <p class="popup-producer">
+
+                Phòng Sản xuất Video Thiết kế 2D
+
+            </p>
+
+            <p class="popup-date">
+
+                Gia nhập 2011
+
+            </p>
+          </div>
+
+        <img src="../../image/長方形 437.webp" width="182" height="355" class="popup-frame-top" alt="Top Frame">
+          <img src="../../image/長方形 438.webp" width="182" height="355" class="popup-frame-bottom" alt="Bottom Frame">
+          <img src="../../image/長方形 439.webp" width="182" height="355" class="popup-frame-left" alt="Left Frame">
+
+
+                   <a class="popup-name" href="./mr-st/index.html
+       ">
+              <img src="../../image/-120.webp" width="214" height="313" class="popup-frame-bg" alt="Popup BG">
+            </a>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="interview-popup-overlay" id="interviewPopup-91509c82-83c5-4455-a98a-09dd5b6cdbc1">
+      <div class="popup-content">
+        <div class="popup-frame">
+          <div class="popup-title">
+            <a class="popup-name" href="./mr-tm/index.html
+       ">
+
+                Anh T.M
+
+            </a>
+
+            <p class="popup-producer">
+
+                Lập trình viên phòng phát triển
+
+            </p>
+
+            <p class="popup-date">
+
+                Gia nhập 2011
+
+            </p>
+          </div>
+
+     <img src="../../image/長方形 437.webp" width="182" height="355" class="popup-frame-top" alt="Top Frame">
+          <img src="../../image/長方形 438.webp" width="182" height="355" class="popup-frame-bottom" alt="Bottom Frame">
+          <img src="../../image/長方形 439.webp" width="182" height="355" class="popup-frame-left" alt="Left Frame">
+
+                <a class="popup-name" href="./mr-tm/index.html
+       ">
+
+              <img src="../../image/-120.webp" width="214" height="313" class="popup-frame-bg" alt="Popup BG">
+            </a>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="interview-popup-overlay" id="interviewPopup-da96cc18-6696-48ad-8452-7b1e5ccf468a">
+      <div class="popup-content">
+        <div class="popup-frame">
+          <div class="popup-title">
+            <a class="popup-name" href="./mr-yg/index.html
+       ">
+
+                Anh Y.G
+
+            </a>
+
+            <p class="popup-producer">
+
+                Phòng Sản xuất Video Thiết kế CG
+
+            </p>
+
+            <p class="popup-date">
+
+                Gia nhập 2011
+
+            </p>
+          </div>
+
+   <img src="../../image/長方形 437.webp" width="182" height="355" class="popup-frame-top" alt="Top Frame">
+          <img src="../../image/長方形 438.webp" width="182" height="355" class="popup-frame-bottom" alt="Bottom Frame">
+          <img src="../../image/長方形 439.webp" width="182" height="355" class="popup-frame-left" alt="Left Frame">
+
+                   <a class="popup-name" href="./mr-yg/index.html
+       ">
+
+              <img src="../../image/-120.webp" width="214" height="313" class="popup-frame-bg" alt="Popup BG">
+                   </a>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="interview-popup-overlay" id="interviewPopup-57a01a37-ad9c-4ed7-9def-f72b56e85940">
+      <div class="popup-content">
+        <div class="popup-frame">
+          <div class="popup-title">
+            <a class="popup-name" href="./mr-kk/index.html
+       ">
+
+                Anh K.K
+
+            </a>
+
+            <p class="popup-producer">
+
+                Nhà sản xuất của Phòng Kế hoạch và Phát triển
+
+            </p>
+
+            <p class="popup-date">
+
+                Gia nhập 2011
+
+            </p>
+          </div>
+
+      <img src="../../image/長方形 437.webp" width="182" height="355" class="popup-frame-top" alt="Top Frame">
+          <img src="../../image/長方形 438.webp" width="182" height="355" class="popup-frame-bottom" alt="Bottom Frame">
+          <img src="../../image/長方形 439.webp" width="182" height="355" class="popup-frame-left" alt="Left Frame">
+
+                <a class="popup-name" href="./mr-kk/index.html
+       ">
+
+              <img src="../../image/-120.webp" width="214" height="313" class="popup-frame-bg" alt="Popup BG">
+
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+            <div class="footer-main">
+<footer class="site-footer" role="contentinfo">
+<div class="site-footer__inner">
+<small class="site-footer__copy">
+  Copyright © <span id="footerYear"></span> ALEX CO., LTD. All Rights Reserved
+</small>
+</div>
+</footer>
+</div>
+
+        </div>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="https://code.jquery.com/jquery-migrate-3.4.1.min.js"></script>
+        <script src="../../js/script.js"></script>
+        <script src="../../js/lang.js"></script>
+        <script src="../../js/top-page.js"></script>
+        <script src="../../js/about-page.js"></script>
+        <script src="../../js/company-events-page.js"></script>
+        <script src="../../js/production-library-page.js"></script>
+        <script src="../../js/job-openings-page.js"></script>
+        <script src="../../js/comments-top-page.js"></script>
+        <script src="../../js/access-page.js"></script>
+        <script src="../../js/contact-page.js"></script>
+        <script src="../../js/submenu-tabs-active.js"></script>
+        <script src="../../js/background-intro.js"></script>
+    </body>
+</html>

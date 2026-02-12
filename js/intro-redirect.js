@@ -1,0 +1,1 @@
+!function(){"use strict";function t(){try{return!sessionStorage.getItem("alex_intro_seen_session")}catch(t){return!0}}function n(){if(!/\/intro\/index\.html$/i.test(String(location.pathname||"").replace(/\\/g,"/"))){var t=new URL("./intro/index.html",location.href).toString();location.href=t}}t()&&n(),window.addEventListener("pageshow",(function(){t()&&n()}))}();

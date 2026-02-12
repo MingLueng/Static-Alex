@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+
+        <!-- CSP: đặt sớm -->
+        <meta http-equiv="Content-Security-Policy" content="
+          default-src 'self';
+          base-uri 'self';
+          object-src 'none';
+          form-action 'self';
+          upgrade-insecure-requests;
+
+          script-src 'self' https://code.jquery.com https://www.googletagmanager.com;
+          style-src  'self' https://fonts.googleapis.com;
+          font-src   'self' https://fonts.gstatic.com data:;
+          img-src    'self' data: blob:;
+          connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com;
+          frame-src https://www.googletagmanager.com;
+        ">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>会社案内</title>
+        
+        <!-- ✅ GTM: dùng file local để không bị CSP chặn inline -->
+        <script src="../../../js/gtm.js"></script>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="../../../css/site-CmZlzcU5.css">
+        <link rel="stylesheet" href="../../../css/fonts.css">
+        <link rel="stylesheet" href="../../../assets/fontawesome/css/all.min.css">
+        <link rel="stylesheet" href="../../../css/bootstrap.css">
+        <link rel="stylesheet" href="../../../css/site.css">    
+        <link rel="stylesheet" href="../../../css/voices-page.css">
+      
+    </head>
+
+  <body class="bg-slate-100 dark:bg-gray-800 font-sans leading-normal text-slate-800 dark:text-gray-400">
+    <div id="page" class="site">
+<nav id="mobilenav">
+  <div class="mobilenav__inner">
+    <div class="toplg">
+      <div class="logo">
+        <a class="logo-link" href="../../index.html">
+          <img src="../../../image/_01__01_alex.webp" width="194" height="68" alt="Logo">
+        </a>
+      </div>
+    </div>
+
+    <div class="menu-primary-menu-ja-container">
+      <ul id="menu-main" class="mobile-menu">
+
+        <li class="menu-item">
+          <a class="rd-nav-link" href="../../index.html">TRANG CHỦ</a>
+        </li>
+
+        <li class="menu-item menu-item-has-children">
+          <a class="rd-nav-link" href="../../about/index.html">GIỚI THIỆU</a>
+          <ul class="sub-menu">
+            <li><a href="../../about/index.html#message">Thông điệp CEO</a></li>
+            <li><a href="../../about/index.html#company">Giới thiệu công ty</a></li>
+            <li><a href="../../about/index.html#history">Lịch sử</a></li>
+            <li><a href="../../about/index.html#org">Sơ đồ tổ chức</a></li>
+            <li><a href="../../about/index.html#clients">Khách hàng tiêu biểu</a></li>
+          </ul>
+        </li>
+
+        <li class="menu-item menu-item-has-children">
+          <a class="rd-nav-link" href="../../service/index.html">DỊCH VỤ</a>
+          <ul class="sub-menu">
+            <li><a href="../../service/index.html#movie">Sản xuất video</a></li>
+            <li><a href="../../service/index.html#dev">Lập trình &amp; triển khai</a></li>
+            <li><a href="../../service/index.html#system">Phát triển hệ thống &amp; công cụ</a></li>
+            <li><a href="../../service/index.html#plan">Lên ý tưởng</a></li>
+          </ul>
+        </li>
+
+        <li class="menu-item">
+          <a class="rd-nav-link" href="../../work/index.html">SẢN PHẨM</a>
+        </li>
+
+        <li class="menu-item menu-item-has-children">
+          <a class="rd-nav-link" href="../../recruit/index.html">TUYỂN DỤNG</a>
+          <ul class="sub-menu">
+            <li><a href="../../recruit/index.html">Cơ hội việc làm</a></li>
+            <li><a href="../../comments-top/index.html">Ý kiến đánh giá của nhân viên</a></li>
+          </ul>
+        </li>
+
+        <li class="menu-item">
+          <a class="rd-nav-link" href="../../access/index.html">ĐỊA CHỈ</a>
+        </li>
+
+        <li class="menu-item">
+          <a class="rd-nav-link" href="../../contact/index.html">LIÊN HỆ</a>
+        </li>
+
+      </ul>
+    </div>
+
+    <a class="menu_close"><i class="fas fa-angle-left"></i></a>
+  </div>
+</nav>
+
+<header id="masthead" role="banner" itemscope itemtype="http://schema.org/WPHeader">
+  <div class="header-main">
+    <div class="container">
+      <div class="header-content">
+        <a id="showmenu" class="d-dropdown">
+          <span class="hamburger hamburger--collapse">
+            <span class="hamburger-box"><span class="hamburger-inner"></span></span>
+          </span>
+        </a>
+
+        <div class="row align-items-center">
+          <div class="col-xl-2 col-lg-2 col-4">
+            <div class="logo">
+              <a class="logo-link" href="../../index.html">
+                <img src="../../../image/_01__01_alex.webp" width="194" height="68" alt="Logo">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-xl-10 col-lg-9 col-7">
+            <div class="top-menu">
+              <div class="top-language">
+                <section id="polylang-2" class="widget widget_polylang">
+                  <ul>
+                    <!-- đang ở /vi/... -->
+
+                      <li class="lang-item lang-item-ja">
+                        <a class="lang-btn" data-lang="ja" href="./index.html">
+                          <img src="../../../image/jp-image.webp" alt="日本語" width="16" height="11">
+                        </a>
+                      </li>
+
+                      <li class="lang-item lang-item-vi">
+                        <a class="lang-btn" data-lang="vi" href="../../vi/comments-top/mr-tm/index.html">
+                          <img src="../../../image/vn-image.webp" alt="Tiếng Việt" width="16" height="11">
+                        </a>
+                      </li>
+
+                      <li class="lang-item lang-item-en">
+                        <a class="lang-btn" data-lang="en" href="../../en/comments-top/mr-tm/index.html">
+                          <img src="../../../image/en-image.webp" alt="English" width="16" height="11">
+                        </a>
+                      </li>
+
+
+            
+                  </ul>
+                </section>
+              </div>
+
+              <nav id="site-navigation" class="main-navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
+                <div class="menu-primary-menu-ja-container">
+                  <ul id="primary-menu" class="menu clearfix">
+
+                    <li class="menu-item">
+                      <a class="rd-nav-link" href="../../index.html">TRANG CHỦ</a>
+                    </li>
+
+                    <li class="menu-item menu-item-has-children">
+                      <a class="rd-nav-link" href="../../about/index.html">GIỚI THIỆU</a>
+                      <ul class="sub-menu">
+                        <li><a href="../../about/index.html#message">Thông điệp CEO</a></li>
+                        <li><a href="../../about/index.html#company">Giới thiệu công ty</a></li>
+                        <li><a href="../../about/index.html#history">Lịch sử</a></li>
+                        <li><a href="../../about/index.html#org">Sơ đồ tổ chức</a></li>
+                        <li><a href="../../about/index.html#clients">Khách hàng tiêu biểu</a></li>
+                      </ul>
+                    </li>
+
+                    <li class="menu-item menu-item-has-children">
+                      <a class="rd-nav-link" href="../../service/index.html">DỊCH VỤ</a>
+                      <ul class="sub-menu">
+                        <li><a href="../../service/index.html#movie">Sản xuất video</a></li>
+                        <li><a href="../../service/index.html#dev">Lập trình &amp; triển khai</a></li>
+                        <li><a href="../../service/index.html#system">Phát triển hệ thống &amp; công cụ</a></li>
+                        <li><a href="../../service/index.html#plan">Lên ý tưởng</a></li>
+                      </ul>
+                    </li>
+
+                    <li class="menu-item">
+                      <a class="rd-nav-link" href="../../works/index.html">SẢN PHẨM</a>
+                    </li>
+
+                    <li class="menu-item menu-item-has-children">
+                      <a class="rd-nav-link" href="../../recruit/index.html">TUYỂN DỤNG</a>
+                      <ul class="sub-menu">
+                        <li><a href="../../recruit/index.html">Cơ hội việc làm</a></li>
+                        <li><a href="../../comments-top/index.html">Ý kiến đánh giá của nhân viên</a></li>
+                      </ul>
+                    </li>
+
+                    <li class="menu-item">
+                      <a class="rd-nav-link" href="../../access/index.html">ĐỊA CHỈ</a>
+                    </li>
+
+                    <li class="menu-item">
+                      <a class="rd-nav-link" href="../../contact/index.html">LIÊN HỆ</a>
+                    </li>
+
+                  </ul>
+                </div>
+              </nav>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+                <div class="submenu-tabs-3">
+  <div class="container-2">
+
+      <span class="main-title-staff">INTERVIEW</span>
+
+
+
+      <span class="subtitle-staff">Ý kiến của nhân viên</span>
+
+  </div>
+</div>
+
+<nav class="submenu-tabs-1">
+  <div class="container">
+    <ul>
+
+
+
+          <li>
+            <a href="../../recruit/index.html
+                     ">
+
+                Vị trí tuyển dụng
+
+            </a>
+          </li>
+
+
+
+
+
+          <li>
+            <a href="../../comments-top/index.html
+                     ">
+
+                Góc nhìn nhân viên
+
+            </a>
+          </li>
+
+
+    </ul>
+  </div>
+</nav>
+
+<section class="recruit-heading" data-voice="">
+      <video class="recruit-bg-video" autoplay muted loop playsinline preload="auto">
+    <source src="../../../assets/共通_00_最下層レイヤー_背景動画.mp4" type="video/mp4">
+  </video>
+  <div class="container">
+            <div class="staff-comment-detail">
+                 <div class="sf-header">
+          <img class="sf-bg" src="../../../image/グループ 293.webp" width="2895" height="816"  alt="Green Diagonal BG">
+        </div>
+          <div class="staff-block">
+            <div class="staff-image">
+              <div class="staff-frame">
+                                  <img src="../../../image/-10.webp"  width="289" height="423" class="staff-frame-bg" alt="Green BG">
+                                <img src="../../../image/長方形 455.webp" width="467" height="895" class="staff-frame-middle" alt="Middle Frame">
+                <img src="../../../image/べた塗り 4.webp" width="346" height="654" class="staff-frame-top" alt="Top Frame">
+              </div>
+
+              <div class="staff-name-box">
+                <img src="../../../image/長方形 478.webp" width="351" height="172" class="name-bg-white" alt="">
+                <img src="../../../image/長方形 629.webp" width="351" height="171" class="name-bg-green" alt="">
+                <div class="name-text">
+                    <p class="staff-department">Lập trình viên phòng<br> phát triển</p>                    <p class="staff-name">Anh T.M</p>                 </div>
+              </div>
+            </div>
+
+            <div class="staff-text">
+              <div class="staff-section-box">
+                <img src="../../../image/長方形 1200.webp" width="999" height="447" alt="" class="staff-avatar-bg">
+                 <span class="staff-subtile">Vui lòng cho chúng tôi biết về công việc hiện tại của bạn.</span>                  <div class="staff-desc"><p>Là một lập trình viên, tôi tạo ra các chương trình liên quan đến hiệu ứng pachislot.</p>
+<p>Cụ thể, tôi tạo ra các chương trình điều khiển hiệu ứng pachislot, giao diện người dùng (UI) và các nút liên quan đến hiệu ứng.</p>
+<p>Tôi làm việc với ngôn ngữ C, sử dụng phần mềm phát triển như Visual Studio.</p>
+<p>Thỉnh thoảng tôi tạo các macro trong VBA để cải thiện hiệu quả công việc hoặc đề xuất các hiệu ứng mới cho nhóm lập kế hoạch.</p>
+</div>               </div>
+
+              <div class="staff-section-box">
+                <img src="../../../image/長方形 1200.webp" width="999" height="447" alt="" class="staff-avatar-bg">
+                 <span class="staff-subtile">Công việc của bạn có gì hấp dẫn và bổ ích?</span>                   <div class="staff-desc"><p>Phần bổ ích nhất là viết chương trình.</p>
+<p>Trong số đó, tôi thấy việc suy nghĩ về cách thiết kế các quy trình có thể phát hiện lỗi và hành vi bất ngờ thật bổ ích.</p>
+<p>Và sau đó triển khai chúng.</p>
+<p>Ví dụ, có rất nhiều điều cần cân nhắc, chẳng hạn như sự khác biệt về giao diện người dùng (UI) cho từng mô hình, và thời gian nhập liệu của các nút bấm.</p>
+<p>Do đó, những lỗi bất ngờ chắc chắn sẽ xảy ra. Khi tôi có thể phát hiện trước những lỗi này, tôi cảm thấy hài lòng rằng chương trình đang hoạt động tốt.</p>
+<p>Tôi cũng thường phải sửa đổi chương trình do thay đổi thông số kỹ thuật. Trong những trường hợp như vậy, việc sửa đổi sẽ dễ dàng hơn nếu các chương trình tôi đã viết trước đó được sắp xếp hợp lý, và tôi cảm thấy tự hào khi biết mình đã viết được một chương trình tốt.</p>
+</div>               </div>
+            </div>
+          </div>
+
+      </div>
+
+
+
+          <div class="staff-comment-detail">
+
+
+          <div class="sf-header">
+          <img class="sf-bg" src="../../../image/グループ 293.webp" alt="Green Diagonal BG">
+        </div>
+          <div class="staff-block reverse">
+            <div class="staff-image-reverse">
+              <div class="staff-frame">
+                                  <img src="../../../image/-120.webp" class="staff-frame-brigde" alt="Green BG">
+                                <img src="../../../image/長方形 455.webp" class="staff-frame-braved" alt="Middle Frame">
+                <img src="../../../image/べた塗り 4.webp" class="staff-frame-bottom" alt="Top Frame">
+              </div>
+            </div>
+
+            <div class="staff-text">
+              <div class="staff-section-box">
+                <img src="../../../image/長方形 1200.webp" width="999" height="447" alt="" class="staff-avatar-bg">
+                 <span class="staff-subtile">Điểm thu hút của ALEX là gì?</span>                  <div class="staff-desc"><p>Tôi nghĩ sức hấp dẫn của ALEX nằm ở chỗ có rất nhiều người hâm mộ pachislot.</p>
+<p>Vì có rất nhiều người hâm mộ pachislot, tất cả nhân viên của chúng tôi đều suy nghĩ mỗi ngày về cách tạo ra những máy đánh bạc thú vị.</p>
+<p>Chúng tôi cũng có những người đến từ nhiều ngành nghề khác nhau trong công ty, bao gồm lập kế hoạch, video và phát triển, và chúng tôi có một hệ thống cho phép sự hợp tác giữa những người đến từ các ngành nghề khác nhau.</p>
+<p>Vì lý do đó, tôi thấy rất hấp dẫn khi chúng tôi có thể đưa ra những ý tưởng hay từ góc nhìn riêng của mình và cùng nhau hướng tới mục tiêu chung là tạo ra những máy đánh bạc pachislot thú vị.</p>
+</div>               </div>
+
+              <div class="staff-section-box">
+                <img src="../../../image/長方形 1200.webp" width="999" height="447" alt="" class="staff-avatar-bg">
+                 <span class="staff-subtile">Mục tiêu và thách thức trong tương lai của bạn là gì?</span>                   <div class="staff-desc"><p>Mục tiêu tương lai của tôi là phát triển đến mức có thể được giao phó toàn bộ dự án với tư cách là người phụ trách chính.</p>
+<p>ALEX là lần đầu tiên tôi làm việc trong ngành pachislot, và tôi mới chỉ làm việc tại công ty trong một thời gian ngắn, nên vẫn còn rất nhiều điều tôi chưa biết.</p>
+<p>Mặc dù thiếu kinh nghiệm, tôi đã được trao nhiều cơ hội để phát triển, chẳng hạn như được giao lập trình một số chức năng và tham gia các cuộc họp.</p>
+<p>Công ty cũng đã xây dựng được bí quyết phát triển pachislot, và có rất nhiều đồng nghiệp cấp cao mà tôi có thể tham khảo ý kiến ​​về lập trình, vì vậy tôi luôn có thể tiếp cận thông tin mình cần.</p>
+<p>Môi trường này hoàn hảo cho sự phát triển hàng ngày, vì vậy tôi sẽ nỗ lực hết mình để đạt được mục tiêu và thử thách bản thân để tạo ra những máy pachislot thú vị.</p>
+</div>               </div>
+            </div>
+          </div>
+
+      </div>
+
+
+
+         <div class="staff-comment-detail">
+
+          <div class="staff-block reverse-bg">
+            <div class="staff-image-reverse-bg">
+              <div class="staff-frame">
+                                  <img src="../../../image/-01.webp" width="1507" height="563" class="staff-frame-wrapper" alt="Green BG">
+                                <img src="../../../image/長方形 479.webp" width="1398" height="735" class="staff-frame-scrapper" alt="Middle Frame">
+                <img src="../../../image/長方形 999.webp" width="1394" height="733" class="staff-frame-underground" alt="Top Frame">
+              </div>
+            </div>
+            <div class="staff-text-bg">
+              <div class="staff-section-box">
+                <img src="../../../image/長方形 1200.webp" width="999" height="447" alt="" class="staff-avatar-bg">
+                 <span class="staff-subtile">Thông điệp dành cho những người đang tìm kiếm việc làm và những người dự định gia nhập công ty</span>                  <div class="staff-desc"><p>Chúng tôi chào đón những người hâm mộ pachislot và những người yêu thích sáng tạo.</p>
+<p>Tại ALEX, ngay cả các lập trình viên cũng có một môi trường nơi họ có thể đóng góp ý kiến ​​cho bộ phận lập kế hoạch và sản xuất, và được phản hồi.</p>
+<p>Chúng tôi rất mong được làm việc với những người yêu thích pachislot và muốn tạo ra pachislot trong mơ của họ.</p>
+<p>Chúng tôi mong muốn có thêm nhiều người hâm mộ pachislot tham gia cùng chúng tôi. Hãy cùng nhau tạo ra những pachislot tuyệt vời nhất.</p>
+</div>               </div>
+            </div>
+          </div>
+       </div>
+      </div>
+        </section>
+
+
+      <div class="footer-main">
+<footer class="site-footer" role="contentinfo">
+<div class="site-footer__inner">
+<small class="site-footer__copy">
+  Copyright © <span id="footerYear"></span> ALEX CO., LTD. All Rights Reserved
+</small>
+</div>
+</footer>
+</div>
+    </div>
+
+   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="../../../js/script.js"></script>
+        <script src="../../../js/lang.js"></script>
+        <script src="../../../js/background-intro.js"></script>
+        <script src="../../../js/footer-year.js" defer></script>
+  </body>
+</html>
+

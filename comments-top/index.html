@@ -1,0 +1,719 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+
+        <meta http-equiv="Content-Security-Policy" content="
+          default-src 'self';
+          base-uri 'self';
+          object-src 'none';
+          form-action 'self';
+          upgrade-insecure-requests;
+
+          script-src 'self' https://code.jquery.com https://www.googletagmanager.com;
+          style-src  'self' https://fonts.googleapis.com;
+          font-src   'self' https://fonts.gstatic.com data:;
+          img-src    'self' data: blob:;
+          connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com;
+          frame-src https://www.googletagmanager.com;
+        ">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>会社案内</title>
+        
+
+        <script src="../js/gtm.js"></script>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="../css/site-CmZlzcU5.css">
+        <link rel="stylesheet" href="../css/fonts.css">
+        <link rel="stylesheet" href="../assets/fontawesome/css/all.min.css">
+        <link rel="stylesheet" href="../css/bootstrap.css">
+        <link rel="stylesheet" href="../css/site.css">    
+        <link rel="stylesheet" href="../css/comments-top-page.css">
+      
+    </head>
+    <body class="bg-slate-100 dark:bg-gray-800 font-sans leading-normal text-slate-800 dark:text-gray-400">
+
+        <div id="page" class="site">
+  <nav id="mobilenav">
+    <div class="mobilenav__inner">
+      <div class="toplg">
+        <div class="logo">
+          
+          <a class="logo-link" href="../index.html">
+            <img src="../image/_01__01_alex.webp" width="194" height="68" alt="Logo">
+          </a>
+        </div>
+      </div>
+
+      <div class="menu-primary-menu-ja-container">
+        <ul id="menu-main" class="mobile-menu">
+          <li class="menu-item"><a class="rd-nav-link" href="../index.html">TOP</a></li>
+
+          <li class="menu-item menu-item-has-children">
+            <a class="rd-nav-link" href="../about/index.html">ABOUT</a>
+            <ul class="sub-menu">
+              <li><a href="../about/index.html#message">代表メッセージ</a></li>
+              <li><a href="../about/index.html#company">会社概要</a></li>
+              <li><a href="../about/index.html#history">沿革</a></li>
+              <li><a href="../about/index.html#org">組織図</a></li>
+              <li><a href="../about/index.html#clients">主要取引先</a></li>
+            </ul>
+          </li>
+
+          <li class="menu-item menu-item-has-children">
+            <a class="rd-nav-link" href="../service/index.html">SERVICE</a>
+            <ul class="sub-menu">
+              <li><a href="../service/index.html#movie">映像制作</a></li>
+              <li><a href="../service/index.html#dev">実装・プログラミング</a></li>
+              <li><a href="../service/index.html#system">システム・ツール開発</a></li>
+              <li><a href="../service/index.html#plan">企画</a></li>
+            </ul>
+          </li>
+
+          <li class="menu-item"><a class="rd-nav-link" href="../works/index.html">WORKS</a></li>
+
+          <li class="menu-item menu-item-has-children">
+            <a class="rd-nav-link" href="../recruit/index.html">RECRUIT</a>
+            <ul class="sub-menu">
+              <li><a href="../recruit/index.html#recruit-jobs">募集職種</a></li>
+              <li><a href="../comments-top/index.html">スタッフの声</a></li>
+            </ul>
+          </li>
+
+          <li class="menu-item"><a class="rd-nav-link" href="../access/index.html">ACCESS</a></li>
+          <li class="menu-item"><a class="rd-nav-link" href="../contact/index.html">CONTACT</a></li>
+        </ul>
+      </div>
+
+      <a class="menu_close"><i class="fas fa-angle-left"></i></a>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <header id="masthead" role="banner" itemscope itemtype="http://schema.org/WPHeader">
+    <div class="header-main">
+      <div class="container">
+        <div class="header-content">
+          <a id="showmenu" class="d-dropdown">
+            <span class="hamburger hamburger--collapse">
+              <span class="hamburger-box"><span class="hamburger-inner"></span></span>
+            </span>
+          </a>
+
+          <div class="row align-items-center">
+            <div class="col-xl-2 col-lg-3 col-4">
+              <div class="logo">
+                <a class="logo-link" href="../index.html">
+                  <img src="../image/_01__01_alex.webp" width="194" height="68" alt="Logo">
+                </a>
+              </div>
+            </div>
+
+            <div class="col-xl-10 col-lg-9 col-8">
+              <div class="top-menu">
+                <div class="top-language">
+                  <section id="polylang-2" class="widget widget_polylang">
+                    <ul>
+                      
+                      <li class="lang-item lang-item-ja">
+                        <a class="lang-btn" data-lang="ja" href="../recruit/index.html">
+                          <img src="../image/jp-image.webp" alt="日本語" width="16" height="11">
+                        </a>
+                      </li>
+                      <li class="lang-item lang-item-vi">
+                        <a class="lang-btn" data-lang="vi" href="../vi/recruit/index.html">
+                          <img src="../image/vn-image.webp" alt="Tiếng Việt" width="16" height="11">
+                        </a>
+                      </li>
+                      <li class="lang-item lang-item-en">
+                        <a class="lang-btn" data-lang="en" href="../en/recruit/index.html">
+                          <img src="../image/en-image.webp" alt="English" width="16" height="11">
+                        </a>
+                      </li>
+                    </ul>
+                  </section>
+                </div>
+
+                <nav id="site-navigation" class="main-navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
+                  <div class="menu-primary-menu-ja-container">
+                    <ul id="primary-menu" class="menu clearfix">
+                      <li class="menu-item"><a class="rd-nav-link" href="../index.html">TOP</a></li>
+
+                      <li class="menu-item menu-item-has-children">
+                        <a class="rd-nav-link" href="../about/index.html">ABOUT</a>
+                        <ul class="sub-menu">
+                          <li><a href="../about/index.html#message">代表メッセージ</a></li>
+                          <li><a href="../about/index.html#company">会社概要</a></li>
+                          <li><a href="../about/index.html#history">沿革</a></li>
+                          <li><a href="../about/index.html#org">組織図</a></li>
+                          <li><a href="../about/index.html#clients">主要取引先</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="menu-item menu-item-has-children">
+                        <a class="rd-nav-link" href="../service/index.html">SERVICE</a>
+                        <ul class="sub-menu">
+                          <li><a href="../service/index.html#movie">映像制作</a></li>
+                          <li><a href="../service/index.html#dev">実装・プログラミング</a></li>
+                          <li><a href="../service/index.html#system">システム・ツール開発</a></li>
+                          <li><a href="../service/index.html#plan">企画</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="menu-item"><a class="rd-nav-link" href="../works/index.html">WORKS</a></li>
+
+                      <li class="menu-item menu-item-has-children">
+                        <a class="rd-nav-link" href="../recruit/index.html">RECRUIT</a>
+                        <ul class="sub-menu">
+                          <li><a href="../recruit/index.html">募集職種</a></li>
+                          <li><a href="../comments-top/index.html">スタッフの声</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="menu-item"><a class="rd-nav-link" href="../access/index.html">ACCESS</a></li>
+                      <li class="menu-item"><a class="rd-nav-link" href="../contact/index.html">CONTACT</a></li>
+                    </ul>
+                  </div>
+                </nav>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+                <div class="submenu-tabs-3">
+  <div class="container-2">
+
+      <span class="main-title-staff">INTERVIEW</span>
+
+
+
+      <span class="subtitle-staff">スタッフの声</span>
+
+  </div>
+</div>
+
+<nav class="submenu-tabs-1">
+  <div class="container">
+    <ul>
+
+
+          <li>
+            <a href="../recruit/index.html">
+
+                募集職種
+
+            </a>
+          </li>
+
+
+
+
+
+          <li>
+            <a href="../comments-top/index.html">
+
+                スタッフの声TOP
+
+            </a>
+          </li>
+
+
+    </ul>
+  </div>
+</nav>
+
+<section class="recruit-heading">
+    <video class="recruit-bg-video" autoplay muted loop playsinline preload="auto">
+    <source src="../assets/共通_00_最下層レイヤー_背景動画.mp4" type="video/mp4">
+  </video>
+  <div class="creation-interview-section">
+  <div class="container">
+    <div class="interview-slider">
+      <button class="slide-interview-btn prev" type="button">&#10094;</button>
+       <div class="interview-viewport">
+      <div class="interview-stack">
+
+          <div class="stack-item" data-popup="#interviewPopup-b93b4137-6403-4f13-af59-0c5bf861852b">
+            <div class="stack-name">
+
+                I.G さん
+
+            </div>
+
+
+
+                <img src="../image/-9.webp" width="289" height="423" alt="
+
+                    -9.webp
+
+                ">
+
+
+          </div>
+
+          <div class="stack-item" data-popup="#interviewPopup-3ba65d4d-a578-430a-a5e1-66661227c566">
+            <div class="stack-name">
+
+                K.N さん
+
+            </div>
+
+
+
+                <img src="../image/-9.webp" width="289" height="423" alt="
+
+                    -9.webp
+
+                ">
+
+
+          </div>
+
+          <div class="stack-item" data-popup="#interviewPopup-ae68f9c4-a910-4ab8-9592-a44cd4c97c72">
+            <div class="stack-name">
+
+                O.A さん
+
+            </div>
+
+
+
+                <img src="../image/-9.webp" width="289" height="423" alt="
+
+                    -9.webp
+
+                ">
+
+
+          </div>
+
+          <div class="stack-item" data-popup="#interviewPopup-211fd162-e286-4a23-9719-49aa1c8f03bc">
+            <div class="stack-name">
+
+                R.O さん
+
+            </div>
+
+
+
+                <img src="../image/-15.webp" width="289" height="423" alt="
+
+                    -15.webp
+
+                ">
+
+
+          </div>
+
+          <div class="stack-item" data-popup="#interviewPopup-d4c06a64-95fd-41bc-9420-407a4000e6b5">
+            <div class="stack-name">
+
+                S.T さん
+
+            </div>
+
+
+
+                <img src="../image/-9.webp" width="289" height="423" alt="
+
+                    -9.webp
+
+                ">
+
+
+          </div>
+
+          <div class="stack-item" data-popup="#interviewPopup-91509c82-83c5-4455-a98a-09dd5b6cdbc1">
+            <div class="stack-name">
+
+                T.M さん
+
+            </div>
+
+
+
+                <img src="../image/-9.webp" width="289" height="423" alt="
+
+                    -9.webp
+
+                ">
+
+
+          </div>
+
+          <div class="stack-item" data-popup="#interviewPopup-da96cc18-6696-48ad-8452-7b1e5ccf468a">
+            <div class="stack-name">
+
+                Y.G さん
+
+            </div>
+
+
+
+                <img src="../image/-9.webp" width="289" height="423" alt="
+
+                    -9.webp
+
+                ">
+
+
+          </div>
+
+          <div class="stack-item" data-popup="#interviewPopup-57a01a37-ad9c-4ed7-9def-f72b56e85940">
+            <div class="stack-name">
+
+                Ｋ.Ｋさん
+
+            </div>
+
+
+
+                <img src="../image/-9.webp" width="289" height="423" alt="
+
+                    -9.webp
+
+                ">
+
+
+          </div>
+      </div>
+      </div>
+      <button class="slide-interview-btn next" type="button">&#10095;</button>
+    </div>
+  </div>
+
+
+    <div class="interview-popup-overlay" id="interviewPopup-b93b4137-6403-4f13-af59-0c5bf861852b">
+      <div class="popup-content">
+        <div class="popup-frame">
+          <div class="popup-title">
+            <a class="popup-name" href="./mr-ig/index.html
+       ">
+
+                I.G さん
+
+            </a>
+
+            <p class="popup-producer">
+
+                映像制作部 プログラマー
+
+            </p>
+
+            <p class="popup-date">
+
+                2011年入社
+
+            </p>
+          </div>
+
+          <img src="../image/長方形 437.webp" width="182" height="355" class="popup-frame-top" alt="Top Frame">
+          <img src="../image/長方形 438.webp" width="182" height="355" class="popup-frame-bottom" alt="Bottom Frame">
+          <img src="../image/長方形 439.webp" width="182" height="355" class="popup-frame-left" alt="Left Frame">
+
+
+            <a class="" href="./mr-ig/index.html">
+              <img src="../image/-120.webp" width="214" height="313" class="popup-frame-bg" alt="Popup BG">
+        </a>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="interview-popup-overlay" id="interviewPopup-3ba65d4d-a578-430a-a5e1-66661227c566">
+      <div class="popup-content">
+        <div class="popup-frame">
+          <div class="popup-title">
+            <a class="popup-name" href="./mr-kn/index.html
+       ">
+
+                K.N さん
+
+            </a>
+
+            <p class="popup-producer">
+
+                企画開発部  プロデューサー
+
+            </p>
+
+            <p class="popup-date">
+
+                2011年入社
+
+            </p>
+          </div>
+
+          <img src="../image/長方形 437.webp" width="182" height="355" class="popup-frame-top" alt="Top Frame">
+          <img src="../image/長方形 438.webp" width="182" height="355" class="popup-frame-bottom" alt="Bottom Frame">
+          <img src="../image/長方形 439.webp" width="182" height="355" class="popup-frame-left" alt="Left Frame">
+
+
+            <a class="" href="./mr-kn/index.html">
+              <img src="../image/-120.webp" width="214" height="313" class="popup-frame-bg" alt="Popup BG">
+            </a>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="interview-popup-overlay" id="interviewPopup-ae68f9c4-a910-4ab8-9592-a44cd4c97c72">
+      <div class="popup-content">
+        <div class="popup-frame">
+          <div class="popup-title">
+            <a class="popup-name" href="./mr-oa/index.html
+       ">
+
+                O.A さん
+
+            </a>
+
+            <p class="popup-producer">
+
+                映像制作部 3Dデザイナー
+
+            </p>
+
+            <p class="popup-date">
+
+                2011年入社
+
+            </p>
+          </div>
+
+          <img src="../image/長方形 437.webp" width="182" height="355" class="popup-frame-top" alt="Top Frame">
+          <img src="../image/長方形 438.webp" width="182" height="355" class="popup-frame-bottom" alt="Bottom Frame">
+          <img src="../image/長方形 439.webp" width="182" height="355" class="popup-frame-left" alt="Left Frame">
+
+
+                 <a class="" href="./mr-oa/index.html
+       ">
+              <img src="../image/-120.webp" width="214" height="313" class="popup-frame-bg" alt="Popup BG">
+        </a>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="interview-popup-overlay" id="interviewPopup-211fd162-e286-4a23-9719-49aa1c8f03bc">
+      <div class="popup-content">
+        <div class="popup-frame">
+          <div class="popup-title">
+            <a class="popup-name" href="./mr-ro/index.html
+       ">
+
+                R.O さん
+
+            </a>
+
+            <p class="popup-producer">
+
+                映像制作部
+
+            </p>
+
+            <p class="popup-date">
+
+                2011年入社
+
+            </p>
+          </div>
+
+          <img src="../image/長方形 437.webp" width="182" height="355" class="popup-frame-top" alt="Top Frame">
+          <img src="../image/長方形 438.webp" width="182" height="355" class="popup-frame-bottom" alt="Bottom Frame">
+          <img src="../image/長方形 439.webp" width="182" height="355" class="popup-frame-left" alt="Left Frame">
+
+
+                   <a class="" href="./mr-ro/index.html
+       ">
+              <img src="../image/-15.webp" width="214" height="313" class="popup-frame-bg" alt="Popup BG">
+        </a>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="interview-popup-overlay" id="interviewPopup-d4c06a64-95fd-41bc-9420-407a4000e6b5">
+      <div class="popup-content">
+        <div class="popup-frame">
+          <div class="popup-title">
+            <a class="popup-name" href="./mr-st/index.html
+       ">
+
+                S.T さん
+
+            </a>
+
+            <p class="popup-producer">
+
+                映像制作部 2Dデザイナー
+
+            </p>
+
+            <p class="popup-date">
+
+                2011年入社
+
+            </p>
+          </div>
+
+          <img src="../image/長方形 437.webp" width="182" height="355" class="popup-frame-top" alt="Top Frame">
+          <img src="../image/長方形 438.webp" width="182" height="355" class="popup-frame-bottom" alt="Bottom Frame">
+          <img src="../image/長方形 439.webp" width="182" height="355" class="popup-frame-left" alt="Left Frame">
+
+
+                     <a class="" href="./mr-st/index.html
+       ">
+              <img src="../image/-120.webp" width="214" height="313" class="popup-frame-bg" alt="Popup BG">
+        </a>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="interview-popup-overlay" id="interviewPopup-91509c82-83c5-4455-a98a-09dd5b6cdbc1">
+      <div class="popup-content">
+        <div class="popup-frame">
+          <div class="popup-title">
+            <a class="popup-name" href="./mr-tm/index.html
+       ">
+
+                T.M さん
+
+            </a>
+
+            <p class="popup-producer">
+
+                開発部 プログラマー
+
+            </p>
+
+            <p class="popup-date">
+
+                2011年入社
+
+            </p>
+          </div>
+
+          <img src="../image/長方形 437.webp" width="182" height="355" class="popup-frame-top" alt="Top Frame">
+          <img src="../image/長方形 438.webp" width="182" height="355" class="popup-frame-bottom" alt="Bottom Frame">
+          <img src="../image/長方形 439.webp" width="182" height="355" class="popup-frame-left" alt="Left Frame">
+
+
+                 <a class="" href="./mr-tm/index.html
+       ">
+              <img src="../image/-120.webp" width="214" height="313" class="popup-frame-bg" alt="Popup BG">
+            </a>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="interview-popup-overlay" id="interviewPopup-da96cc18-6696-48ad-8452-7b1e5ccf468a">
+      <div class="popup-content">
+        <div class="popup-frame">
+          <div class="popup-title">
+            <a class="popup-name" href="./mr-yg/index.html
+       ">
+
+                Y.G さん
+
+            </a>
+
+            <p class="popup-producer">
+
+                映像制作部 CGデザイナー
+
+            </p>
+
+            <p class="popup-date">
+
+                2011年入社
+
+            </p>
+          </div>
+
+          <img src="../image/長方形 437.webp" width="182" height="355" class="popup-frame-top" alt="Top Frame">
+          <img src="../image/長方形 438.webp" width="182" height="355" class="popup-frame-bottom" alt="Bottom Frame">
+          <img src="../image/長方形 439.webp" width="182" height="355" class="popup-frame-left" alt="Left Frame">
+
+
+                    <a class="" href="./mr-yg/index.html
+       ">
+              <img src="../image/-120.webp" width="214" height="313" class="popup-frame-bg" alt="Popup BG">
+            </a>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="interview-popup-overlay" id="interviewPopup-57a01a37-ad9c-4ed7-9def-f72b56e85940">
+      <div class="popup-content">
+        <div class="popup-frame">
+          <div class="popup-title">
+            <a class="popup-name" href="./mr-kk/index.html
+       ">
+
+                Ｋ.Ｋさん
+
+            </a>
+
+            <p class="popup-producer">
+
+                映像制作部 オーサリング
+
+            </p>
+
+            <p class="popup-date">
+
+                2011年入社
+
+            </p>
+          </div>
+
+          <img src="../image/長方形 437.webp" width="182" height="355" class="popup-frame-top" alt="Top Frame">
+          <img src="../image/長方形 438.webp" width="182" height="355" class="popup-frame-bottom" alt="Bottom Frame">
+          <img src="../image/長方形 439.webp" width="182" height="355" class="popup-frame-left" alt="Left Frame">
+
+
+                 <a class="" href="./mr-kk/index.html
+       ">
+              <img src="../image/-120.webp" width="214" height="313" class="popup-frame-bg" alt="Popup BG">
+            </a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+            <div class="footer-main">
+<footer class="site-footer" role="contentinfo">
+<div class="site-footer__inner">
+<small class="site-footer__copy">
+  Copyright © <span id="footerYear"></span> ALEX CO., LTD. All Rights Reserved
+</small>
+</div>
+</footer>
+</div>
+
+        </div>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="../js/script.js"></script>
+        <script src="../js/lang.js"></script>
+        <script src="../js/submenu-tabs-active.js"></script>
+        <script src="../js/background-intro.js"></script>
+        <script src="../js/comments-top-page.js"></script>
+        <script src="../js/footer-year.js" defer></script>
+
+    </body>
+</html>

@@ -1,0 +1,514 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self';
+    base-uri 'self';
+    object-src 'none';
+    form-action 'self';
+    upgrade-insecure-requests;
+
+    script-src 'self' https://code.jquery.com https://www.googletagmanager.com;
+    style-src  'self' https://fonts.googleapis.com;
+    font-src   'self' https://fonts.gstatic.com data:;
+    img-src    'self' data: blob:;
+    connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com;
+    frame-src https://www.googletagmanager.com;
+  ">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>リクルート</title>
+
+    <!-- ✅ GTM: dùng file local để không bị CSP chặn inline -->
+  <script src="../../js/gtm.js"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../../css/site-CmZlzcU5.css">
+  <link rel="stylesheet" href="../../css/fonts.css">
+  <link rel="stylesheet" href="../../assets/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="../../css/bootstrap.css">
+  <link rel="stylesheet" href="../../css/site.css"> 
+  <link rel="stylesheet" href="../../css/recruit-page.css">
+</head>
+    <body class="bg-slate-100 dark:bg-gray-800 font-sans leading-normal text-slate-800 dark:text-gray-400">
+        <div id="page" class="site">
+<nav id="mobilenav">
+  <div class="mobilenav__inner">
+    <div class="toplg">
+      <div class="logo">
+        <a class="logo-link" href="../index.html">
+          <img src="../../image/_01__01_alex.webp" width="194" height="68" alt="Logo">
+        </a>
+      </div>
+    </div>
+
+    <div class="menu-primary-menu-ja-container">
+      <ul id="menu-main" class="mobile-menu">
+
+        <li class="menu-item">
+          <a class="rd-nav-link" href="../index.html">TRANG CHỦ</a>
+        </li>
+
+        <li class="menu-item menu-item-has-children">
+          <a class="rd-nav-link" href="../about/index.html">GIỚI THIỆU</a>
+          <ul class="sub-menu">
+            <li><a href="../about/index.html#message">Thông điệp CEO</a></li>
+            <li><a href="../about/index.html#company">Giới thiệu công ty</a></li>
+            <li><a href="../about/index.html#history">Lịch sử</a></li>
+            <li><a href="../about/index.html#org">Sơ đồ tổ chức</a></li>
+            <li><a href="../about/index.html#clients">Khách hàng tiêu biểu</a></li>
+          </ul>
+        </li>
+
+        <li class="menu-item menu-item-has-children">
+          <a class="rd-nav-link" href="../service/index.html">DỊCH VỤ</a>
+          <ul class="sub-menu">
+            <li><a href="../service/index.html#movie">Sản xuất video</a></li>
+            <li><a href="../service/index.html#dev">Lập trình &amp; triển khai</a></li>
+            <li><a href="../service/index.html#system">Phát triển hệ thống &amp; công cụ</a></li>
+            <li><a href="../service/index.html#plan">Lên ý tưởng</a></li>
+          </ul>
+        </li>
+
+        <li class="menu-item">
+          <a class="rd-nav-link" href="../work/index.html">SẢN PHẨM</a>
+        </li>
+
+        <li class="menu-item menu-item-has-children">
+          <a class="rd-nav-link" href="./index.html">TUYỂN DỤNG</a>
+          <ul class="sub-menu">
+            <li><a href="./index.html">Cơ hội việc làm</a></li>
+            <li><a href="../comments-top/index.html">Ý kiến đánh giá của nhân viên</a></li>
+          </ul>
+        </li>
+
+        <li class="menu-item">
+          <a class="rd-nav-link" href="../access/index.html">ĐỊA CHỈ</a>
+        </li>
+
+        <li class="menu-item">
+          <a class="rd-nav-link" href="../contact/index.html">LIÊN HỆ</a>
+        </li>
+
+      </ul>
+    </div>
+
+    <a class="menu_close"><i class="fas fa-angle-left"></i></a>
+  </div>
+</nav>
+
+<header id="masthead" role="banner" itemscope itemtype="http://schema.org/WPHeader">
+  <div class="header-main">
+    <div class="container">
+      <div class="header-content">
+        <a id="showmenu" class="d-dropdown">
+          <span class="hamburger hamburger--collapse">
+            <span class="hamburger-box"><span class="hamburger-inner"></span></span>
+          </span>
+        </a>
+
+        <div class="row align-items-center">
+          <div class="col-xl-2 col-lg-2 col-4">
+            <div class="logo">
+              <a class="logo-link" href="../index.html">
+                <img src="../../image/_01__01_alex.webp" width="194" height="68" alt="Logo">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-xl-10 col-lg-9 col-7">
+            <div class="top-menu">
+              <div class="top-language">
+                <section id="polylang-2" class="widget widget_polylang">
+                  <ul>
+                    <!-- đang ở /vi/... -->
+                        <li class="lang-item lang-item-ja">
+                        <a class="lang-btn" data-lang="ja" href="../../recruit/index.html">
+                          <img src="../../image/jp-image.webp" alt="日本語" width="16" height="11">
+                        </a>
+                      </li>
+                      <li class="lang-item lang-item-vi">
+                        <a class="lang-btn" data-lang="vi" href="./index.html">
+                          <img src="../../image/vn-image.webp" alt="Tiếng Việt" width="16" height="11">
+                        </a>
+                      </li>
+                      <li class="lang-item lang-item-en">
+                        <a class="lang-btn" data-lang="en" href="../en/recruit/index.html">
+                          <img src="../../image/en-image.webp" alt="English" width="16" height="11">
+                        </a>
+                      </li>
+
+
+
+            
+                  </ul>
+                </section>
+              </div>
+
+              <nav id="site-navigation" class="main-navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
+                <div class="menu-primary-menu-ja-container">
+                  <ul id="primary-menu" class="menu clearfix">
+
+                    <li class="menu-item">
+                      <a class="rd-nav-link" href="../index.html">TRANG CHỦ</a>
+                    </li>
+
+                    <li class="menu-item menu-item-has-children">
+                      <a class="rd-nav-link" href="../about/index.html">GIỚI THIỆU</a>
+                      <ul class="sub-menu">
+                        <li><a href="../about/index.html#message">Thông điệp CEO</a></li>
+                        <li><a href="../about/index.html#company">Giới thiệu công ty</a></li>
+                        <li><a href="../about/index.html#history">Lịch sử</a></li>
+                        <li><a href="../about/index.html#org">Sơ đồ tổ chức</a></li>
+                        <li><a href="../about/index.html#clients">Khách hàng tiêu biểu</a></li>
+                      </ul>
+                    </li>
+
+                    <li class="menu-item menu-item-has-children">
+                      <a class="rd-nav-link" href="../service/index.html">DỊCH VỤ</a>
+                      <ul class="sub-menu">
+                        <li><a href="../service/index.html#movie">Sản xuất video</a></li>
+                        <li><a href="../service/index.html#dev">Lập trình &amp; triển khai</a></li>
+                        <li><a href="../service/index.html#system">Phát triển hệ thống &amp; công cụ</a></li>
+                        <li><a href="../service/index.html#plan">Lên ý tưởng</a></li>
+                      </ul>
+                    </li>
+
+                    <li class="menu-item">
+                      <a class="rd-nav-link" href="../works/index.html">SẢN PHẨM</a>
+                    </li>
+
+                    <li class="menu-item menu-item-has-children">
+                      <a class="rd-nav-link" href="./index.html">TUYỂN DỤNG</a>
+                      <ul class="sub-menu">
+                        <li><a href="./index.html">Cơ hội việc làm</a></li>
+                        <li><a href="../comments-top/index.html">Ý kiến đánh giá của nhân viên</a></li>
+                      </ul>
+                    </li>
+
+                    <li class="menu-item">
+                      <a class="rd-nav-link" href="../access/index.html">ĐỊA CHỈ</a>
+                    </li>
+
+                    <li class="menu-item">
+                      <a class="rd-nav-link" href="../contact/index.html">LIÊN HỆ</a>
+                    </li>
+
+                  </ul>
+                </div>
+              </nav>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="recruit">
+
+  <div class="recruit-avatar-vi">
+
+
+      <div class="service-bg"></div>
+
+
+
+    <div class="overlay-recruit">
+    <div class="container-recruit-text-vi">
+      <div class="recruit-left-text-vi">
+
+          <h2 class="recruit-left-subtitle">Bạn có muốn cùng chúng tôi tạo nên <br>một tương lai vượt xa mọi tưởng tượng?<br></h2>
+
+
+      </div>
+
+      <div class="recruit-right-text-vi">
+
+        <span class="recruit-company-info-vi">Tuyển dụng</span>
+        <h1 class="recruit-heading-vi">TUYỂN DỤNG</h1>
+
+      </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<nav class="submenu-tabs-1">
+  <div class="container">
+    <ul>
+
+
+
+      <li>
+        <a href="../recruit/index.html">
+
+            Vị trí tuyển dụng
+          </a>
+        </li>
+
+
+
+
+
+      <li>
+        <a href="../comments-top/index.html
+       ">
+
+            Góc nhìn nhân viên
+          </a>
+        </li>
+
+
+    </ul>
+  </div>
+</nav>
+
+<section class="recruit-heading" id="代表メッセージ">
+  <video class="recruit-bg-video" autoplay muted loop playsinline preload="auto">
+    <source src="../../assets/共通_00_最下層レイヤー_背景動画.mp4" type="video/mp4">
+  </video>
+
+  <div class="container">
+  <div class="recruit-header">
+    <img class="recruit-bg" src="../../image/グループ 19.webp" width="1558" height="663" alt="帯背景">
+  </div>
+
+  <div class="subtitle-frame-wrapper-recruit-headline">
+    <img class="subtitle-frame-recruit-headline" src="../../image/グループ 27.webp" width="495" height="145" alt="Subtitle Frame">
+    <span class="subtitle-text-recruit-headline">
+            Vị trí tuyển dụng
+    </span>
+  </div>
+        <div class="creation-recruit-box">
+          <div class="creation-recruit-left">
+            <div class="image-frame">
+
+          <img src="../../image/-160.webp" width="550" height="494" alt="-160.webp"/>
+
+            </div>
+          </div>
+          <div class="creation-recruit-right">
+              <h4 class="creation-recruit-title">
+
+            Nhà sản xuất / Đạo diễn hình ảnh
+
+              </h4>
+              <div class="creation-recruit-content">
+
+            <p><strong>Nhà sản xuất (Producer)</strong><br>
+            Phụ trách các công việc sản xuất như quản lý ngân sách, tiến độ dự án bên ngoài, và điều phối nguồn lực trong và ngoài công ty.
+          </p>
+          <p><strong>Đạo diễn hình ảnh (Video Director)</strong><br>
+            Chịu trách nhiệm lên kế hoạch và chỉ đạo phát triển các video cho trò chơi, TVC, hoặc máy pachinko/pachislot.
+          </p>
+          <ul>
+            <li>Quản lý nhóm sản xuất video và tiến độ sản xuất.</li>
+            <li>Chỉ đạo, làm việc với các đối tác hợp tác bên ngoài.</li>
+            <li>Quản lý chất lượng hình ảnh.</li>
+          </ul>
+
+
+              </div>
+              <a href="./producer-video-director/index.html
+       " class="recruit-detail-btn">Xem chi tiết</a>
+          </div>
+        </div>
+
+        <div class="creation-recruit-box">
+          <div class="creation-recruit-left">
+            <div class="image-frame">
+
+          <img src="../../image/-301.webp" width="550" height="494" alt="-301.webp"/>
+
+            </div>
+          </div>
+          <div class="creation-recruit-right">
+              <h4 class="creation-recruit-title">
+
+            Thiết kế hiệu ứng / Compositing
+
+              </h4>
+              <div class="creation-recruit-content">
+
+            <p>Phụ trách sản xuất hình ảnh cho game, quảng cáo và máy pachinko/pachislot.
+          Phối hợp cùng các nhà thiết kế 2D và 3D để tạo hiệu ứng hình ảnh và hoàn thiện phần compositing cuối cùng.</p>
+
+
+              </div>
+              <a href="./effect-designer-compositor/index.html
+       " class="recruit-detail-btn">Xem chi tiết</a>
+          </div>
+        </div>
+
+        <div class="creation-recruit-box">
+          <div class="creation-recruit-left">
+            <div class="image-frame">
+
+          <img src="../../image/-205.webp" width="550" height="494" alt="-205.webp"/>
+
+            </div>
+          </div>
+          <div class="creation-recruit-right">
+              <h4 class="creation-recruit-title">
+
+            Nhà thiết kế 2D CG
+
+              </h4>
+              <div class="creation-recruit-content">
+
+            <p>Phụ trách thiết kế hình ảnh cho game, quảng cáo, hoặc pachinko/pachislot.
+          Tạo ra các tài nguyên 2D như bối cảnh, nhân vật, giao diện, logo... Có thể tham gia storyboard và đề xuất cách thể hiện hình ảnh.
+<br>※Không vấn đề gì nếu bạn chỉ giỏi ở một lĩnh vực nào đó.</p>
+
+
+              </div>
+              <a href="./2d-cg-designer/index.html
+       " class="recruit-detail-btn">Xem chi tiết</a>
+          </div>
+        </div>
+
+        <div class="creation-recruit-box">
+          <div class="creation-recruit-left">
+            <div class="image-frame">
+
+          <img src="../../image/-501.webp" width="550" height="494" alt="-501.webp"/>
+
+            </div>
+          </div>
+          <div class="creation-recruit-right">
+              <h4 class="creation-recruit-title">
+
+            Nhà thiết kế 3D CG
+
+              </h4>
+              <div class="creation-recruit-content">
+
+            <p>Phụ trách sản xuất hình ảnh 3D cho game, quảng cáo, hoặc pachinko/pachislot.
+          <br>Thực hiện mô hình hóa 3D và compositing.
+  <br>Có thể tham gia dựng cảnh và ý tưởng trình diễn từ storyboard.
+<br>※Không vấn đề gì nếu bạn chỉ giỏi ở một lĩnh vực nào đó.
+</p>
+
+
+              </div>
+              <a href="./3d-cg-designer/index.html
+       " class="recruit-detail-btn">Xem chi tiết</a>
+          </div>
+        </div>
+
+        <div class="creation-recruit-box">
+          <div class="creation-recruit-left">
+            <div class="image-frame">
+
+          <img src="../../image/-220.webp" width="550" height="494" alt="-220.webp"/>
+
+            </div>
+          </div>
+          <div class="creation-recruit-right">
+              <h4 class="creation-recruit-title">
+
+            Lập trình viên
+
+              </h4>
+              <div class="creation-recruit-content">
+
+            <p>Phụ trách phát triển chương trình cho các dự án pachinko/pachislot dựa trên yêu cầu trực tiếp
+            <br> từ các hãng sản xuất lớn. Công việc được thực hiện phối hợp chặt chẽ với các bộ phận:
+            <ul>
+            <li>Nhóm lập kế hoạch hiệu ứng</li>
+            <li>Nhóm lập kế hoạch hình ảnh/video</li>
+            <li>Nhóm lập kế hoạch payout / xuất điểm</li>
+          </ul>
+          <br>Mục tiêu là triển khai các chức năng cần thiết và tái hiện chính xác logic của phần hiệu ứng<br>
+           – sản xuất hình ảnh  theo yêu cầu của dự án
+        </p>
+
+
+              </div>
+              <a href="./programmer/index.html
+       " class="recruit-detail-btn">Xem chi tiết</a>
+          </div>
+        </div>
+
+        <div class="creation-recruit-box">
+          <div class="creation-recruit-left">
+            <div class="image-frame">
+
+          <img src="../../image/-491.webp" width="550" height="494" alt="-491.webp"/>
+
+            </div>
+          </div>
+          <div class="creation-recruit-right">
+              <h4 class="creation-recruit-title">
+
+            Thiết kế kế hoạch
+
+              </h4>
+              <div class="creation-recruit-content">
+
+            <p>Tham gia phát triển và quản lý dự án pachinko/pachislot theo hợp đồng từ nhà sản xuất.
+          <br>Đóng vai trò chỉ huy, điều phối các bộ phận từ ý tưởng đến hoàn thiện sản phẩm.</p>
+
+
+              </div>
+              <a href="./planning-designer/index.html
+       " class="recruit-detail-btn">Xem chi tiết</a>
+          </div>
+        </div>
+
+        <div class="creation-recruit-box">
+          <div class="creation-recruit-left">
+            <div class="image-frame">
+
+          <img src="../../image/-500.webp" width="550" height="494" alt="-500.webp"/>
+
+            </div>
+          </div>
+          <div class="creation-recruit-right">
+              <h4 class="creation-recruit-title">
+
+            Thiết kế phần thưởng
+
+              </h4>
+              <div class="creation-recruit-content">
+
+            <p>Tính toán số lượng phần thưởng và tỷ lệ máy cho các máy pachislot.
+          <br>Phù hợp với người có kiến thức tốt về toán học hoặc thống kê.</p>
+
+
+              </div>
+              <a href="./payout-designer/index.html
+       " class="recruit-detail-btn">Xem chi tiết</a>
+          </div>
+        </div>
+
+  </div>
+
+</section>
+
+
+            <div class="footer-main">
+<footer class="site-footer" role="contentinfo">
+<div class="site-footer__inner">
+<small class="site-footer__copy">
+  Copyright © <span id="footerYear"></span> ALEX CO., LTD. All Rights Reserved
+</small>
+</div>
+</footer>
+</div>
+
+        </div>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="../../js/script.js"></script>
+<script src="../../js/lang.js"></script>
+<script src="../../js/submenu-tabs-active.js"></script>
+<script src="../../js/background-intro.js"></script>
+<script src="../../js/recruit-page.js"></script>
+<script src="../../js/footer-year.js" defer></script>
+    </body>
+</html>

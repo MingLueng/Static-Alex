@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self';
+    base-uri 'self';
+    object-src 'none';
+    form-action 'self';
+    upgrade-insecure-requests;
+
+    script-src 'self' https://code.jquery.com https://www.googletagmanager.com;
+    style-src  'self' https://fonts.googleapis.com;
+    font-src   'self' https://fonts.gstatic.com data:;
+    img-src    'self' data: blob:;
+    connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com;
+    frame-src https://www.googletagmanager.com;
+  ">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Statamic</title>
+ 
+    <script src="../../js/gtm.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../../css/site-CmZlzcU5.css">
+    <link rel="stylesheet" href="../../css/fonts.css">
+    <link rel="stylesheet" href="../../assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="../../css/bootstrap.css">
+    <link rel="stylesheet" href="../../css/site.css"> 
+    <link rel="stylesheet" href="../../css/job-openings-page.css">
+  </head>
+
+
+  <body class="bg-slate-100 dark:bg-gray-800 font-sans leading-normal text-slate-800 dark:text-gray-400">
+    <div id="page" class="site">
+  <nav id="mobilenav">
+    <div class="mobilenav__inner">
+      <div class="toplg">
+        <div class="logo">
+      
+          <a class="logo-link" href="../../index.html">
+            <img src="../../image/_01__01_alex.webp" width="194" height="68" alt="Logo">
+          </a>
+        </div>
+      </div>
+
+      <div class="menu-primary-menu-ja-container">
+        <ul id="menu-main" class="mobile-menu">
+          <li class="menu-item"><a class="rd-nav-link" href="../../index.html">TOP</a></li>
+
+          <li class="menu-item menu-item-has-children">
+            <a class="rd-nav-link" href="../about/index.html">ABOUT</a>
+            <ul class="sub-menu">
+              <li><a href="../../about/index.html#message">代表メッセージ</a></li>
+              <li><a href="../../about/index.html#company">会社概要</a></li>
+              <li><a href="../../about/index.html#history">沿革</a></li>
+              <li><a href="../../about/index.html#org">組織図</a></li>
+              <li><a href="../../about/index.html#clients">主要取引先</a></li>
+            </ul>
+          </li>
+
+          <li class="menu-item menu-item-has-children">
+            <a class="rd-nav-link" href="../../service/index.html">SERVICE</a>
+            <ul class="sub-menu">
+              <li><a href="../../service/index.html#movie">映像制作</a></li>
+              <li><a href="../../service/index.html#dev">実装・プログラミング</a></li>
+              <li><a href="../../service/index.html#system">システム・ツール開発</a></li>
+              <li><a href="../../service/index.html#plan">企画</a></li>
+            </ul>
+          </li>
+
+          <li class="menu-item"><a class="rd-nav-link" href="../../works/index.html">WORKS</a></li>
+
+          <li class="menu-item menu-item-has-children">
+            <a class="rd-nav-link" href="../../recruit/index.html">RECRUIT</a>
+            <ul class="sub-menu">
+              <li><a href="../../recruit/index.html">募集職種</a></li>
+              <li><a href="../../comments-top/index.html">スタッフの声</a></li>
+            </ul>
+          </li>
+
+          <li class="menu-item"><a class="rd-nav-link" href="../../access/index.html">ACCESS</a></li>
+          <li class="menu-item"><a class="rd-nav-link" href="../../contact/index.html">CONTACT</a></li>
+        </ul>
+      </div>
+
+      <a class="menu_close"><i class="fas fa-angle-left"></i></a>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <header id="masthead" role="banner" itemscope itemtype="http://schema.org/WPHeader">
+    <div class="header-main">
+      <div class="container">
+        <div class="header-content">
+          <a id="showmenu" class="d-dropdown">
+            <span class="hamburger hamburger--collapse">
+              <span class="hamburger-box"><span class="hamburger-inner"></span></span>
+            </span>
+          </a>
+
+          <div class="row align-items-center">
+            <div class="col-xl-2 col-lg-3 col-4">
+              <div class="logo">
+                <a class="logo-link" href="../../index.html">
+                  <img src="../../image/_01__01_alex.webp" width="194" height="68" alt="Logo">
+                </a>
+              </div>
+            </div>
+
+            <div class="col-xl-10 col-lg-9 col-8">
+              <div class="top-menu">
+                <div class="top-language">
+                  <section id="polylang-2" class="widget widget_polylang">
+                    <ul>
+                      
+                      <li class="lang-item lang-item-ja">
+                        <a class="lang-btn" data-lang="ja" href="./index.html">
+                          <img src="../../image/jp-image.webp" alt="日本語" width="16" height="11">
+                        </a>
+                      </li>
+                      <li class="lang-item lang-item-vi">
+                        <a class="lang-btn" data-lang="vi" href="../vi/recruit/payout-designer/index.html">
+                          <img src="../../image/vn-image.webp" alt="Tiếng Việt" width="16" height="11">
+                        </a>
+                      </li>
+                      <li class="lang-item lang-item-en">
+                        <a class="lang-btn" data-lang="en" href="../en/recruit/payout-designer/index.html">
+                          <img src="../../image/en-image.webp" alt="English" width="16" height="11">
+                        </a>
+                      </li>
+                    </ul>
+                  </section>
+                </div>
+
+                <nav id="site-navigation" class="main-navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
+                  <div class="menu-primary-menu-ja-container">
+                    <ul id="primary-menu" class="menu clearfix">
+                      <li class="menu-item"><a class="rd-nav-link" href="../../index.html">TOP</a></li>
+
+                      <li class="menu-item menu-item-has-children">
+                        <a class="rd-nav-link" href="../../about/index.html">ABOUT</a>
+                        <ul class="sub-menu">
+                          <li><a href="../../about/index.html#message">代表メッセージ</a></li>
+                          <li><a href="../../about/index.html#company">会社概要</a></li>
+                          <li><a href="../../about/index.html#history">沿革</a></li>
+                          <li><a href="../../about/index.html#org">組織図</a></li>
+                          <li><a href="../../about/index.html#clients">主要取引先</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="menu-item menu-item-has-children">
+                        <a class="rd-nav-link" href="../../service/index.html">SERVICE</a>
+                        <ul class="sub-menu">
+                          <li><a href="../../service/index.html#movie">映像制作</a></li>
+                          <li><a href="../../service/index.html#dev">実装・プログラミング</a></li>
+                          <li><a href="../../service/index.html#system">システム・ツール開発</a></li>
+                          <li><a href="../../service/index.html#plan">企画</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="menu-item"><a class="rd-nav-link" href="../../works/index.html">WORKS</a></li>
+
+                      <li class="menu-item menu-item-has-children">
+                        <a class="rd-nav-link" href="../../recruit/index.html">RECRUIT</a>
+                        <ul class="sub-menu">
+                          <li><a href="../../recruit/index.html">募集職種</a></li>
+                          <li><a href="../../comments-top/index.html">スタッフの声</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="menu-item"><a class="rd-nav-link" href="../../access/index.html">ACCESS</a></li>
+                      <li class="menu-item"><a class="rd-nav-link" href="../../contact/index.html">CONTACT</a></li>
+                    </ul>
+                  </div>
+                </nav>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+
+
+<section class="about">
+
+  <div class="about-avatar">
+
+
+      <div class="service-bg"></div>
+
+
+    <div class="overlay-recruit">
+      <div class="container-recruit-text">
+      <div class="recruit-left-text">
+
+          <h2 class="recruit-subtitle">あなたの想像を超える未来を<br>私たちと共に創りませんか？<br></h2>
+
+
+      </div>
+
+      <div class="recruit-right-text">
+
+        <span class="recruit-company-subtitle">事業内容</span>
+        <h1 class="recruit-heading-subtitle">RECRUIT</h1>
+
+      </div>
+    </div>
+    </div>
+  </div>
+
+</section>
+
+
+
+<section class="recruit-heading">
+    <video class="recruit-bg-video" autoplay muted loop playsinline preload="auto">
+    <source src="../../assets/共通_00_最下層レイヤー_背景動画.mp4" type="video/mp4">
+  </video>
+
+<div class="section-job-heading" id="payout-designer">
+  <div class="container">
+      <div class="job-open-tab-menu">
+
+        <button
+          class="job-open-detail-btn "
+           data-url="../producer-video-director/index.html"         >プロデューサー・映像ディレクター</button>
+        <button
+          class="job-open-detail-btn "
+           data-url="../effect-designer-compositor/index.html"         >エフェクトデザイナー・コンポジター</button>
+
+
+        <button
+          class="job-open-detail-btn "
+           data-url="../2d-cg-designer/index.html"         >2DCGデザイナー</button>
+
+
+        <button
+          class="job-open-detail-btn "
+           data-url="../3d-cg-designer/index.html"         >3DCGデザイナー</button>
+
+
+        <button
+          class="job-open-detail-btn "
+           data-url="../programmer/index.html"         >プログラマー</button>
+
+
+        <button
+          class="job-open-detail-btn "
+           data-url="../planning-designer/index.html"         >企画設計</button>
+
+
+        <button
+          class="job-open-detail-btn active"
+          data-url="../payout-designer/index.html"
+                  >出玉設計</button>
+
+
+
+
+          </div>
+    <div class="job-block-wrapper">
+
+
+      <div class="job-image-wrapper">
+        <div class="job-bg-light">
+          <img src="../../image/-277.webp" width="1408" height="286" class="avatar-job-001">
+        </div>
+        <div class="job-bg-dark">
+          <img src="../../image/画像-19.webp" width="807" height="167" class="avatar-job-002">
+        </div>
+        <div class="job-bg-table">
+          <img src="../../image/画像-46.webp" width="1131 " height="286" class="avatar-job-003">
+        </div>
+        <div class="job-title">出玉設計</div>
+      </div>
+
+
+
+              <div class="job-box"><p class="job-head">■業務内容</p><p class="job-text">パチスロ機の出玉数・機械割などの計算。</p><p class="job-text">数学的知識、統計学等の基礎知識のある方（数学に強い方）が最適です。</p>
+</div>
+
+
+              <div class="job-table-wrapper"><table class="job-table"><tbody><tr><th>勤務時間</th><td>10：00 ～ 19：00<br>※リモートワーク可能</td></tr><tr><th>必須スキル・経験</th><td>・Word、Excel、PowerPoint等の基本的なPCスキルをお持ちの方。<br></td></tr><tr><th>求める人物像</th><td>・コミュニケーションがしっかりと取れる方。<br>・チームワークを大切にできる方。<br>・何事にも興味をもって様々な情報や技術を積極的に取り入れられる方。<br></td></tr><tr><th>歓迎するスキル・経験</th><td>・ぱちんこ・パチスロ好きの方。<br>・自分の熱い想いや情熱を相手に伝えられる方。<br>・パチスロ出玉設計経験者の方。<br></td></tr><tr><th>給与</th><td>経験・能力等を考慮の上、規定により優遇いたします。</td></tr><tr><th>休日・休暇</th><td>完全週休2日制（土・日）、祝日<br>夏季・年末年始休暇、有給休暇、慶弔休暇等<br>年間休日125日以上<br></td></tr><tr><th>待遇</th><td>試用期間6ヶ月あり（試用期間中の待遇面：本採用と同条件）<br>賞与/昇給制度あり（業績による）<br>各種社会保険完備<br>交通費支給（上限有）<br>ライフプラン給制度あり<br>確定拠出年金制度あり<br>社員旅行・社内イベント等実施<br></td></tr><tr><th>勤務地</th><td>【本社】<br>東京都北区西ケ原1-46-13 横河駒込ビル1F<br>【島根支社】<br>島根県松江市朝日町字伊勢宮477-17 松江SUNビル2F<br>【ベトナムスタジオ】<br>5F, AC Building, No.3, Lane 78, Duy Tan Str, Dich Vong Hau Ward, Cau Giay Dist, Hanoi, Vietnam</td></tr><tr><th>提出書類</th><td>・履歴書<br>・職務経歴書<br>※企画書は任意でご提出ください。<br></td></tr></tbody></table>
+</div>
+                <div class="job-header">
+        <img class="job-bg" src="../../image/グループ 19.webp" width="1558" height="663" alt="帯背景">
+      </div>
+
+
+
+
+      <div class="subtitle-frame-wrapper-job-plus">
+        <img src="../../image/グループ 27.webp" width="495" height="145" class="subtitle-frame-job">
+        <span class="subtitle-text-job">採用プロセス</span>
+      </div>
+
+
+
+
+
+        <div class="job-process-flow">
+
+
+          <div class="process-step">
+            <div class="step-header">
+              <img src="../../image/-1140.webp" width="164" height="49" class="step-bg">
+              <span class="step-title">Step 1</span>
+            </div>
+
+            <div class="step-content">
+                              <p class="step-main">エントリー</p>
+
+                              <div class="step-sub"><p>募集要項、採用条件をご確認の上、応募してください。</p>
+</div>
+                          </div>
+          </div>
+
+                      <div class="triangle-play"></div>
+            <div class="triangle-play-01"></div>
+
+
+
+          <div class="process-step">
+            <div class="step-header">
+              <img src="../../image/-1140.webp" width="164" height="49" class="step-bg">
+              <span class="step-title">Step 2</span>
+            </div>
+
+            <div class="step-content">
+                              <p class="step-main">面接</p>
+
+                              <div class="step-sub"><p>適性検査あり。</p>
+</div>
+                          </div>
+          </div>
+
+                      <div class="triangle-play"></div>
+            <div class="triangle-play-01"></div>
+
+
+
+          <div class="process-step">
+            <div class="step-header">
+              <img src="../../image/-1140.webp" width="164" height="49" class="step-bg">
+              <span class="step-title">Step 3</span>
+            </div>
+
+            <div class="step-content">
+                              <p class="step-main">内定</p>
+
+                              <div class="step-sub"><p>面接を通過された方には、書面にて内定のご連絡を差し上げます。</p>
+</div>
+                          </div>
+          </div>
+
+
+                </div>
+
+
+    </div>
+  </div>
+</div>
+</section>
+
+      <div class="footer-main">
+<footer class="site-footer" role="contentinfo">
+<div class="site-footer__inner">
+<small class="site-footer__copy">
+  Copyright © <span id="footerYear"></span> ALEX CO., LTD. All Rights Reserved
+</small>
+</div>
+</footer>
+</div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="../../js/script.js"></script>
+    <script src="../../js/lang.js"></script>
+    <script src="../../js/job-openings-page.js"></script>
+    <script src="../../js/background-intro.js"></script>
+    <script src="../../js/footer-year.js" defer></script>
+
+  </body>
+</html>
+

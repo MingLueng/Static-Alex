@@ -1,0 +1,520 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+
+        <!-- CSP: đặt sớm -->
+        <meta http-equiv="Content-Security-Policy" content="
+          default-src 'self';
+          base-uri 'self';
+          object-src 'none';
+          form-action 'self';
+          upgrade-insecure-requests;
+
+          script-src 'self' https://code.jquery.com https://www.googletagmanager.com;
+          style-src  'self' https://fonts.googleapis.com;
+          font-src   'self' https://fonts.gstatic.com data:;
+          img-src    'self' data: blob:;
+          connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com;
+
+          frame-src https://www.googletagmanager.com;
+        ">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>CONTACT</title>
+               <!-- ✅ GTM: dùng file local để không bị CSP chặn inline -->
+        <script src="../../js/gtm.js"></script>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="../../css/site-CmZlzcU5.css">
+        <link rel="stylesheet" href="../../css/fonts.css">
+        <link rel="stylesheet" href="../../assets/fontawesome/css/all.min.css">
+        <link rel="stylesheet" href="../../css/bootstrap.css">
+        <link rel="stylesheet" href="../../css/site.css">    
+        <link rel="stylesheet" href="../../css/contact-page.css">
+
+
+    </head>
+    <body class="bg-slate-100 dark:bg-gray-800 font-sans leading-normal text-slate-800 dark:text-gray-400">
+        <div id="page" class="site">
+<nav id="mobilenav">
+  <div class="mobilenav__inner">
+    <div class="toplg">
+      <div class="logo">
+
+  <a class="logo-link"
+     href="../index.html
+     ">
+
+
+         <img src="../../image/_01__01_alex.webp" width="194" height="68" alt="Logo">
+
+
+  </a>
+
+      </div>
+    </div>
+
+    <div class="menu-primary-menu-ja-container">
+      <ul id="menu-main" class="mobile-menu">
+             <li class="menu-item">
+          <a class="rd-nav-link" href="../index.html">HOME</a>
+        </li>
+             <li class="menu-item menu-item-has-children"><a class="rd-nav-link " href="../about/index.html" >
+              ABOUT</a>
+                <ul class="sub-menu">
+                  <li><a href="../about/index.html#message">CEO Message</a></li>
+                  <li><a href="../about/index.html#company">Company Overview</a></li>
+                  <li><a href="../about/index.html#history">History</a></li>
+                  <li><a href="../about/index.html#org">Organization Chart</a></li>
+                  <li><a href="../about/index.html#clients">Key Clients</a></li>
+                </ul>
+            </li>
+
+            <li class="menu-item menu-item-has-children"><a class="rd-nav-link " href="../service/index.html" >
+                      SERVICE</a>
+                        <ul class="sub-menu">
+                          <li><a href="../service/index.html#movie">Video Production</a></li>
+                          <li><a href="../service/index.html#dev">Implementation & Programming</a></li>
+                          <li><a href="../service/index.html#system">System & Tool<br> Development</a></li>
+                          <li><a href="../service/index.html#plan">Planning</a></li>
+                      </ul>
+                    </li>
+
+        <li class="menu-item"><a class="rd-nav-link " href="../works/index.html" >
+            WORKS</a></li>
+
+        <li class="menu-item menu-item-has-children"><a class="rd-nav-link " href="../recruit/index.html" >
+                      RECRUIT</a>
+                      <ul class="sub-menu">
+                          <li><a href="../recruit/index.html">Open Positions</a></li>
+                          <li><a href="../comments-top/index.html">Staff voices</a></li>
+                      </ul>
+                    </li>
+
+        <li class="menu-item"><a class="rd-nav-link " href="../access/index.html" >
+            ACCESS</a></li>
+
+        <li class="menu-item"><a class="rd-nav-link " href="./index.html" >
+            CONTACT</a></li>
+
+
+      </ul>
+    </div>
+
+    <a class="menu_close"><i class="fas fa-angle-left"></i></a>
+  </div>
+</nav>
+
+<header id="masthead" role="banner" itemscope itemtype="http://schema.org/WPHeader">
+  <div class="header-main">
+    <div class="container">
+      <div class="header-content">
+        <a id="showmenu" class="d-dropdown">
+          <span class="hamburger hamburger--collapse">
+            <span class="hamburger-box"><span class="hamburger-inner"></span></span>
+          </span>
+        </a>
+
+        <div class="row align-items-center">
+          <div class="col-xl-2 col-lg-2 col-4">
+            <div class="logo">
+
+                <a class="logo-link"
+                    href="../index.html">
+
+
+                            <img src="../../image/_01__01_alex.webp"  width="194" height="68" alt="Logo">
+
+
+                </a>
+
+            </div>
+          </div>
+
+          <div class="col-xl-10 col-lg-9 col-7">
+            <div class="top-menu">
+              <div class="top-language">
+                <section id="polylang-2" class="widget widget_polylang">
+                 <ul>
+                                   <li class="lang-item lang-item-ja">
+  <a class="lang-btn" data-lang="ja" href="/contact_form.php?lang=ja">
+    <img src="../../image/jp-image.webp" alt="日本語">
+  </a>
+</li>
+
+<li class="lang-item lang-item-vi">
+  <a class="lang-btn" data-lang="vi" href="/contact_form.php?lang=vi">
+    <img src="../../image/vn-image.webp" alt="Tiếng Việt">
+  </a>
+</li>
+
+<li class="lang-item lang-item-en">
+  <a class="lang-btn" data-lang="en" href="/contact_form.php?lang=en">
+    <img src="../../image/en-image.webp" alt="English">
+  </a>
+</li>
+                </ul>
+                </section>
+              </div>
+
+              <nav id="site-navigation" class="main-navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
+                <div class="menu-primary-menu-ja-container">
+                  <ul id="primary-menu" class="menu clearfix">
+
+                     <li class="menu-item">
+                      <a class="rd-nav-link" href="../index.html">HOME</a>
+                    </li>
+                    <li class="menu-item menu-item-has-children"><a class="rd-nav-link " href="..about/index.html" >
+                      ABOUT</a>
+                        <ul class="sub-menu">
+                          <li><a href="../about/index.html#message">CEO Message</a></li>
+                          <li><a href="../about/index.html#company">Company Overview</a></li>
+                          <li><a href="../about/index.html#history">History</a></li>
+                          <li><a href="../about/index.html#org">Organization Chart</a></li>
+                          <li><a href="../about/index.html#clients">Key Clients</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="menu-item menu-item-has-children"><a class="rd-nav-link " href="../service/index.html" >
+                      SERVICE</a>
+                        <ul class="sub-menu">
+                          <li><a href="../service/index.html#movie">Video Production</a></li>
+                          <li><a href="../service/index.html#dev">Implementation & Programming</a></li>
+                          <li><a href="../service/index.html#system">System & Tool<br> Development</a></li>
+                          <li><a href="../service/index.html#plan">Planning</a></li>
+                      </ul>
+                    </li>
+
+                    <li class="menu-item"><a class="rd-nav-link " href="../works/index.html" >
+                      WORKS</a></li>
+
+                    <li class="menu-item menu-item-has-children"><a class="rd-nav-link " href="../recruit/index.html" >
+                      RECRUIT</a>
+                      <ul class="sub-menu">
+                          <li><a href="../recruit/index.html">Open Positions</a></li>
+                          <li><a href="../comments-top/index.html">Staff voices</a></li>
+                      </ul>
+                    </li>
+
+                    <li class="menu-item"><a class="rd-nav-link " href="../access/index.html" >
+                      ACCESS</a></li>
+
+                    <li class="menu-item"><a class="rd-nav-link " href="./index.html" >
+                      CONTACT</a></li>
+
+
+                  </ul>
+                </div>
+              </nav>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</header>
+
+                <section class="work">
+
+  <div class="work-avatar">
+
+      <div class="about-bg bg1"></div>
+
+      <div class="about-bg bg2"></div>
+
+    <div class="overlay-work">
+       <div class="container-work-text-vi">
+      <!-- Bên trái: câu khẩu hiệu -->
+      <div class="about-left-text">
+
+          <!-- <h2>Design the future with <br>outside-the-box creativity</h2> -->
+
+      </div>
+
+      <!-- Bên phải: ABOUT + 会社情報 -->
+      <div class="about-right-text-vi">
+
+        <span class="company-info-vi">Contact</span>
+        <h1 class="recruit-heading-subtitle">CONTACT</h1>
+
+      </div>
+      </div>
+    </div>
+  </div>
+
+
+</section>
+<nav class="submenu-tabs-4">
+</nav>
+
+<section class="recruit-heading">
+    <video class="recruit-bg-video" autoplay muted loop playsinline preload="auto">
+    <source src="../../assets/共通_00_最下層レイヤー_背景動画.mp4" type="video/mp4">
+  </video>
+  <div class="container video-inner">
+    <div class="contact-block-wrapper" id="main_contents">
+
+      <!-- intro -->
+      <p class="contact-intro">
+
+          Please fill in the form below with your inquiry and submit it.
+
+      </p>
+
+      <!-- steps -->
+      <div id="position_box">
+        <ul>
+          <li class="active">
+            <span class="step-label-1">
+              STEP 1 Input
+
+            </span> →
+          </li>
+          <li>
+            <span class="step-label-2">
+              STEP 2 Confirm
+
+            </span> →
+          </li>
+          <li>
+            <span class="step-label-3">
+              STEP 3 Done
+
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <div id="form_box" class="line-contact">
+        <form action="/contact_form.php?lang=en" method="post" name="applyform" id="applyform">
+          <table>
+            <tbody>
+              <!-- Name -->
+              <tr>
+                <th class="th-name">
+                  <span class="label-name">
+                    Name
+
+                  </span>
+                  <span class="required req-name">
+                    *Required
+
+                  </span>
+                </th>
+                <td>
+                  <input name="お名前" type="text" size="30"
+                         placeholder="e.g. John Smith">
+                </td>
+              </tr>
+
+              <!-- Kana (optional) -->
+              <tr>
+                <th class="th-kana">
+                  <span class="label-kana">
+                    Furigana (optional)
+
+                  </span>
+                </th>
+                <td>
+                  <input name="フリガナ" type="text" size="30"
+                         placeholder="e.g. ヤマダ タロウ">
+                </td>
+              </tr>
+
+              <!-- Phone -->
+              <tr>
+                <th class="th-phone">
+                  <span class="label-phone">
+                    Phone number
+
+                  </span>
+                </th>
+                <td>
+<input name="電話番号"
+       type="text"
+       placeholder="Enter only numbers (9–11 digits)">
+                </td>
+              </tr>
+
+              <!-- Email -->
+              <tr>
+                <th class="th-email">
+                  <span class="label-email">
+                    Email address
+
+                  </span>
+                  <span class="required req-email">
+                    *Required
+
+                  </span>
+                </th>
+                <td>
+                  <input name="email" type="text" autocomplete="email" placeholder="ex：info@example.com">
+                  <div class="plus_txt email-note">
+
+                      If you use domain filters, please allow “alex7.co.jp”.
+
+                  </div>
+                </td>
+              </tr>
+
+              <!-- Email confirm -->
+              <tr>
+                <th class="th-email2">
+                  <span class="label-email2">
+                    Confirm email
+
+                  </span>
+                  <span class="required req-email2">
+                    *Required
+
+                  </span>
+                </th>
+                <td>
+               <input name="email2" type="text" autocomplete="email" placeholder="Re-enter to confirm">
+                </td>
+              </tr>
+
+              <!-- Message -->
+              <tr>
+                <th class="th-body">
+                  <span class="label-message">
+                    Message
+
+                  </span>
+                  <span class="required req-body">
+                    *Required
+
+                  </span>
+                </th>
+                <td>
+                  <textarea name="お問い合わせ内容" id="comment"
+                            placeholder="Please enter your inquiry..."></textarea>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p id="sub_btn">
+            <button type="submit" name="submit" class="contact-detail-btn submit" value="">
+              Confirm details
+
+            </button>
+          </p>
+        </form>
+
+
+        <!-- <div class="errm">
+          <h4 class="err-title">
+            There are missing fields
+
+          </h4>
+          <div class="err-lines"></div>
+        </div>
+
+        <div id="confirm_btn">
+          <button type="button" class="h_back contact-detail-btn" value="">
+            Back to input
+
+          </button>
+        </div>
+
+
+        <div class="submittable">
+          <p class="confirm-intro">
+
+              If everything is correct, click “Send”.
+
+          </p>
+          <form action="#" method="POST">
+            <table cellpadding="0" cellspacing="0" class="confirm_table">
+              <tbody>
+                <tr>
+                  <th class="label-name">
+                    Name
+
+                  </th>
+                  <td><input type="hidden" name="お名前" value=""></td>
+                </tr>
+                <tr>
+                  <th class="label-kana">
+                    Furigana
+
+                  </th>
+                  <td><input type="hidden" name="フリガナ" value=""></td>
+                </tr>
+                <tr>
+                  <th class="label-phone">
+                    Phone number
+
+                  </th>
+                  <td><input type="hidden" name="電話番号" value=""></td>
+                </tr>
+                <tr>
+                  <th class="label-email">
+                    Email address
+
+                  </th>
+                  <td><input type="hidden" name="email" value=""></td>
+                </tr>
+                <tr>
+                  <th class="label-message">
+                    Message
+
+                  </th>
+                  <td><input type="hidden" name="お問い合わせ内容" value=""></td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="hide"><input type="hidden" name="email2" value=""></div>
+
+            <div id="confirm_btn">
+              <input type="hidden" name="eweb_set" value="eweb_submit">
+              <button type="button" class="h_back contact-detail-btn" value="">
+                Back to input
+
+              </button>
+              <button type="submit" name="submit-a" class="submit-a confirm-detail-btn" value="">
+                Send
+
+              </button>
+            </div>
+          </form>
+        </div>
+
+ 
+        <p class="thanks-text">
+
+            Thank you. Your message has been sent.
+
+        </p> -->
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+            <div class="footer-main">
+<footer class="site-footer" role="contentinfo">
+<div class="site-footer__inner">
+<small class="site-footer__copy">
+  Copyright © <span id="footerYear"></span> ALEX CO., LTD. All Rights Reserved
+</small>
+</div>
+</footer>
+</div>
+
+        </div>
+          <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="../../js/script.js"></script>
+        <script src="../../js/lang.js"></script>
+        <script src="../../js/background-intro.js"></script>
+       
+        <script src="../../js/footer-year.js" defer></script>
+    </body>
+</html>
